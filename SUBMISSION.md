@@ -6,8 +6,9 @@ Challenge: *Abandoned but not Forgotten: Storytelling about NASA's Discarded Equ
 |---|---|
 | Final Project Link (live site) | https://islamjaradat01-dev.github.io/robot-stories/ |
 | GitHub repo | https://github.com/islamjaradat01-dev/robot-stories |
-| Project Demo (pitch deck / demo video) | not published yet |
-| PDF | not published yet |
+| Project Demonstration (7-slide deck) | https://islamjaradat01-dev.github.io/robot-stories/pitch/NASA_Project_Presentation.pdf |
+| Pitch page (PDF + PowerPoint download) | https://islamjaradat01-dev.github.io/robot-stories/pitch/ |
+| PowerPoint file | https://islamjaradat01-dev.github.io/robot-stories/pitch/NASA_Project_Presentation.pptx |
 
 Deep links that open directly:
 

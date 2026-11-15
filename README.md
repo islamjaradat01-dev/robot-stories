@@ -10,8 +10,10 @@ Children choose a destination (the Moon, Mars, or Deep Space and Beyond) and pic
 |---|---|
 | Live site | https://islamjaradat01-dev.github.io/robot-stories/ |
 | GitHub repository | https://github.com/islamjaradat01-dev/robot-stories |
-| Pitch deck | not published yet |
-| Demo video | not published yet |
+| Pitch deck (7 slides) | https://islamjaradat01-dev.github.io/robot-stories/pitch/ |
+| Slides as PDF | https://islamjaradat01-dev.github.io/robot-stories/pitch/NASA_Project_Presentation.pdf |
+| Slides as PowerPoint | https://islamjaradat01-dev.github.io/robot-stories/pitch/NASA_Project_Presentation.pptx |
+| Demo video | none |
 
 ## Data status
 

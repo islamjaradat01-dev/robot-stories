@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abandoned but not Forgotten: Pitch Deck</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1026'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%2322d3ee'/%3E%3C/svg%3E">
+<style>
+  :root { --space: #0b1026; --panel: #141b3a; --cyan: #22d3ee; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--space); color: #fff; font-family: system-ui, 'Segoe UI', Tahoma, sans-serif; font-size: 18px; line-height: 1.55; }
+  header { display: flex; align-items: center; gap: 10px; padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,.1); font-weight: 700; }
+  header .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
+  header a { color: #fff; text-decoration: none; }
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 16px 48px; }
+  h1 { margin: 0 0 6px; font-size: clamp(28px, 5vw, 44px); }
+  p.lead { margin: 0 0 22px; color: rgba(255,255,255,.8); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
+  .btn { display: inline-block; border-radius: 999px; background: var(--cyan); color: var(--space); font-weight: 700; padding: 12px 26px; text-decoration: none; }
+  .ghost { display: inline-block; border-radius: 999px; border: 2px solid var(--cyan); color: var(--cyan); font-weight: 600; padding: 10px 22px; text-decoration: none; }
+  .frame { border-radius: 16px; overflow: hidden; background: var(--panel); border: 1px solid rgba(255,255,255,.1); aspect-ratio: 16 / 9.4; }
+  .frame object { width: 100%; height: 100%; display: block; }
+  small { display: block; margin-top: 16px; color: rgba(255,255,255,.6); }
+</style>
+</head>
+<body>
+<header><span class="dot"></span><a href="../">Abandoned but not Forgotten</a></header>
+<main>
+  <h1>Pitch deck (7 slides)</h1>
+  <p class="lead">NASA Space Apps Challenge 2026 · Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars</p>
+  <div class="actions">
+    <a class="btn" href="NASA_Project_Presentation.pdf">Open the slides (PDF)</a>
+    <a class="ghost" href="NASA_Project_Presentation.pptx">Download PowerPoint (.pptx)</a>
+    <a class="ghost" href="../">Visit the live site</a>
+  </div>
+  <div class="frame">
+    <object data="NASA_Project_Presentation.pdf" type="application/pdf" aria-label="Pitch deck slides">
+      <p style="padding:16px">Your browser cannot show the PDF here. <a style="color:#22d3ee" href="NASA_Project_Presentation.pdf">Open the slides (PDF)</a>.</p>
+    </object>
+  </div>
+  <small>Independent team project. Not affiliated with or endorsed by NASA. Images: NASA and partners.</small>
+</main>
+</body>
+</html>
