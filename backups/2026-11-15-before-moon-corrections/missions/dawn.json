@@ -1,0 +1,150 @@
+{
+  "id": "dawn",
+  "destinationId": "deep-space",
+  "name": { "en": "Dawn", "ar": "داون" },
+  "missionType": "orbiter",
+  "card": {
+    "tagline": { "en": "The ion-powered spacecraft that orbited two giants of the asteroid belt.", "ar": "المركبة التي تعمل بمحرك أيوني ودارت حول عملاقين من حزام الكويكبات." },
+    "assetId": "dawn-img-ceres-1", "group": "orbiter", "order": 1
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "Dawn is a spacecraft that used xenon ion thrusters. It carried cameras, a mapping spectrometer, a laser altimeter, a gamma-ray and neutron spectrometer, and a magnetometer.", "ar": "داون مركبة فضائية استخدمت محركات أيونية تعمل بغاز الزينون. حملت كاميرات ومطيافاً للرسم الخرائطي ومقياس ارتفاع بالليزر ومطياف أشعة غاما والنيوترونات ومقياس مغناطيسية." },
+    "whyCreated": { "en": "NASA sent Dawn to study two large bodies in the asteroid belt, Vesta and Ceres.", "ar": "أرسلت ناسا داون لدراسة جسمين كبيرين في حزام الكويكبات هما فيستا وسيريس." },
+    "goal": { "en": "To visit and orbit Vesta, then travel on and orbit Ceres.", "ar": "زيارة فيستا والدوران حوله، ثم مواصلة الرحلة والدوران حول سيريس." },
+    "whereGoing": { "en": "The asteroid belt: first Vesta, then Ceres.", "ar": "حزام الكويكبات: أولاً فيستا ثم سيريس." },
+    "assetId": "dawn-img-ceres-1"
+  },
+  "units": [
+    { "id": "dawn-spacecraft", "name": { "en": "Dawn spacecraft", "ar": "مركبة داون" }, "nssdcaId": "2007-043A", "restingPlace": { "en": "In orbit around Ceres", "ar": "في مدار حول سيريس" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "2007-09-27", "label": { "en": "Launched on a Delta II rocket from Cape Canaveral", "ar": "الإطلاق بصاروخ دلتا 2 من كيب كانافيرال" }, "sourceId": "dawn-src-b", "basis": "nasa-page" },
+    { "id": "t-vesta-arrive", "dateLabel": "2011-07-16", "label": { "en": "Arrives at Vesta", "ar": "الوصول إلى فيستا" }, "sourceId": "dawn-src-b", "basis": "nasa-page" },
+    { "id": "t-vesta-leave", "dateLabel": "2012-09", "label": { "en": "Leaves Vesta (September 2012)", "ar": "مغادرة فيستا (سبتمبر 2012)" }, "sourceId": "dawn-src-b", "basis": "disputed" },
+    { "id": "t-ceres", "dateLabel": "2015-03", "label": { "en": "Arrives at Ceres (March 2015)", "ar": "الوصول إلى سيريس (مارس 2015)" }, "sourceId": "dawn-src-b", "basis": "disputed" },
+    { "id": "t-fuel", "dateLabel": "2018-10-31", "label": { "en": "Hydrazine fuel is depleted", "ar": "نفاد وقود الهيدرازين" }, "sourceId": "dawn-src-c", "basis": "nasa-page" },
+    { "id": "t-end", "dateLabel": "2018-11-01", "label": { "en": "End of the mission", "ar": "نهاية المهمة" }, "sourceId": "dawn-src-c", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "dawn-1", "kind": "origin",
+      "title": { "en": "Meet Dawn", "ar": "تعرّف على داون" },
+      "basicText": { "en": "Dawn was built to visit the asteroid belt. Its targets were two large bodies there: Vesta and Ceres.", "ar": "صُنعت داون لزيارة حزام الكويكبات. وكان هدفها جسمين كبيرين هناك هما فيستا وسيريس." },
+      "exploreMoreText": { "en": "Its instruments: cameras, a mapping spectrometer, a laser altimeter, a gamma-ray and neutron spectrometer, and a magnetometer.", "ar": "أدواتها: كاميرات ومطياف للرسم الخرائطي ومقياس ارتفاع بالليزر ومطياف أشعة غاما والنيوترونات ومقياس مغناطيسية." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }, { "assetId": "dawn-img-ceres-2", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Dawn's targets were Vesta and Ceres.", "ar": "كان هدفا داون فيستا وسيريس." }, "sourceId": "dawn-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dawn-src-a", "dawn-src-b"]
+    },
+    {
+      "id": "dawn-2", "kind": "launch", "dateLabel": "27 Sep 2007",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "On 27 September 2007 a Delta II rocket launched Dawn from Cape Canaveral, Florida, on its way to the asteroid belt.", "ar": "في 27 سبتمبر 2007 أطلق صاروخ دلتا 2 مركبة داون من كيب كانافيرال في فلوريدا في طريقها إلى حزام الكويكبات." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch vehicle: Delta II 7925-H, at 11:34 UT.", "ar": "الصاروخ: دلتا 2 7925-H، الساعة 11:34 بالتوقيت العالمي." }, "sourceId": "dawn-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dawn-src-b", "dawn-src-a"]
+    },
+    {
+      "id": "dawn-3", "kind": "cruise",
+      "title": { "en": "A Gentle Push", "ar": "دفعة لطيفة" },
+      "basicText": { "en": "Dawn moved with three ion thrusters that use xenon gas. Their push is tiny, at most 92 millinewtons, but it can last for a very long time.", "ar": "تحركت داون بثلاثة محركات أيونية تستخدم غاز الزينون. دفعتها صغيرة جداً، 92 ملّي نيوتن على الأكثر، لكنها تستمر زمناً طويلاً." },
+      "exploreMoreText": { "en": "Dawn carried 425 kg of xenon at launch.", "ar": "حملت داون 425 كغ من الزينون عند الإطلاق." },
+      "animationPreset": "cruise",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Three xenon ion thrusters, maximum thrust 92 mN; 425 kg of xenon at launch.", "ar": "ثلاثة محركات أيونية تعمل بالزينون، أقصى دفع 92 ملّي نيوتن، و425 كغ من الزينون عند الإطلاق." }, "sourceId": "dawn-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dawn-src-b"]
+    },
+    {
+      "id": "dawn-4", "kind": "operations", "dateLabel": "Jul 2011 – Sep 2012",
+      "title": { "en": "Visiting Vesta", "ar": "زيارة فيستا" },
+      "basicText": { "en": "Dawn reached Vesta on 16 July 2011 and orbited it. NASA says Vesta has a basin 500 km wide called Rheasilvia. Dawn left Vesta in September 2012.", "ar": "وصلت داون إلى فيستا في 16 يوليو 2011 ودارت حوله. وتقول ناسا إن فيه حوضاً عرضه 500 كم اسمه ريازيلفيا. غادرت داون فيستا في سبتمبر 2012." },
+      "exploreMoreText": { "en": "NASA also lists a 400 km basin called Veneneia, and says Vesta is the parent body of HED meteorites. NSSDCA gives the departure as 5 September 2012. Two NASA timeline pages print 2017, which looks like a typo, so we use 2012.", "ar": "تذكر ناسا أيضاً حوضاً عرضه 400 كم اسمه فينيناي، وتقول إن فيستا هو الجسم الأم لنيازك HED. تذكر NSSDCA أن المغادرة كانت في 5 سبتمبر 2012. وتطبع صفحتان زمنيتان لناسا عام 2017 وهو يبدو خطأ مطبعياً، لذلك نستخدم 2012." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Dawn arrived at Vesta on 16 July 2011.", "ar": "وصلت داون إلى فيستا في 16 يوليو 2011." }, "sourceId": "dawn-src-b", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Dawn left Vesta in September 2012.", "ar": "غادرت داون فيستا في سبتمبر 2012." }, "sourceId": "dawn-src-b", "basis": "disputed", "note": { "en": "NSSDCA says 5 September 2012; two NASA timeline pages print 2017, apparently a typo.", "ar": "تقول NSSDCA إنه 5 سبتمبر 2012، وتطبع صفحتان زمنيتان لناسا عام 2017 وهو على ما يبدو خطأ مطبعي." } }
+      ],
+      "quiz": {
+        "prompt": { "en": "What kind of engine moved Dawn through space?", "ar": "ما نوع المحرك الذي حرّك داون في الفضاء؟" },
+        "options": [
+          { "label": { "en": "Ion thrusters using xenon", "ar": "محركات أيونية تعمل بالزينون" }, "isCorrect": true },
+          { "label": { "en": "Sails pushed by wind", "ar": "أشرعة تدفعها الرياح" }, "isCorrect": false },
+          { "label": { "en": "A single huge rocket burn", "ar": "حرق صاروخي واحد ضخم" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says Dawn had three xenon ion thrusters with a maximum thrust of 92 millinewtons.", "ar": "تقول ناسا إن لداون ثلاثة محركات أيونية تعمل بالزينون بدفع أقصى 92 ملّي نيوتن." }
+      },
+      "sourceIds": ["dawn-src-b", "dawn-src-a"]
+    },
+    {
+      "id": "dawn-5", "kind": "orbit-insertion", "dateLabel": "Mar 2015",
+      "title": { "en": "Arriving at Ceres", "ar": "الوصول إلى سيريس" },
+      "basicText": { "en": "In March 2015 Dawn arrived at Ceres and began to orbit it. It was the second body Dawn orbited.", "ar": "في مارس 2015 وصلت داون إلى سيريس وبدأت تدور حوله. وكان هذا الجسم الثاني الذي تدور حوله." },
+      "exploreMoreText": { "en": "NASA pages give 6 March 2015 and 5 March 2015, so we say March 2015.", "ar": "تذكر صفحات ناسا 6 مارس 2015 و5 مارس 2015، لذلك نقول مارس 2015." },
+      "animationPreset": "orbit-insertion",
+      "assets": [{ "assetId": "dawn-img-ceres-1", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Dawn reached Ceres in March 2015.", "ar": "وصلت داون إلى سيريس في مارس 2015." }, "sourceId": "dawn-src-b", "basis": "disputed", "note": { "en": "One NASA page says 6 March 2015, timeline pages say 5 March.", "ar": "تقول صفحة لناسا 6 مارس 2015 وتقول صفحات زمنية 5 مارس." } }
+      ],
+      "sourceIds": ["dawn-src-b", "dawn-src-a"]
+    },
+    {
+      "id": "dawn-6", "kind": "discovery",
+      "title": { "en": "Bright Spots on Ceres", "ar": "بقع لامعة على سيريس" },
+      "basicText": { "en": "NASA says the bright spots on Ceres are deposits of carbonates and other salts. Occator has the brightest area on Ceres. Dawn also found ammonia, and Ceres is about 25 percent ice by mass.", "ar": "تقول ناسا إن البقع اللامعة على سيريس رواسب من الكربونات وأملاح أخرى. وفي فوهة أوكاتور أشد المناطق لمعاناً. ووجدت داون الأمونيا، وسيريس نحو 25 بالمئة جليد بالكتلة." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "dawn-img-ceres-2", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Bright spots on Ceres are deposits of carbonates and other salts.", "ar": "البقع اللامعة على سيريس رواسب من الكربونات وأملاح أخرى." }, "sourceId": "dawn-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dawn-src-a"]
+    },
+    {
+      "id": "dawn-7", "kind": "ending", "dateLabel": "31 Oct – 1 Nov 2018",
+      "title": { "en": "Out of Fuel", "ar": "نفاد الوقود" },
+      "basicText": { "en": "Dawn's hydrazine ran out on 31 October 2018, so it could no longer point its antenna and instruments. NASA ended the mission on 1 November 2018. Dawn stays in orbit around Ceres.", "ar": "نفد هيدرازين داون في 31 أكتوبر 2018، فلم تعد تستطيع توجيه هوائيها وأدواتها. وأنهت ناسا المهمة في 1 نوفمبر 2018. وتبقى داون في مدار حول سيريس." },
+      "exploreMoreText": { "en": "NASA says the orbit is stable with a lifetime of several hundred years. It calls Dawn an inert celestial monument that will remain in orbit for at least the next couple of decades, and probably much longer.", "ar": "تقول ناسا إن المدار مستقر ويدوم عدة مئات من السنين. وتصف داون بأنها نصب سماوي خامل سيبقى في المدار عقدين على الأقل، وربما أطول بكثير." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "dawn-img-ceres-1", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Hydrazine was depleted on 31 October 2018; the mission ended on 1 November 2018.", "ar": "نفد الهيدرازين في 31 أكتوبر 2018، وانتهت المهمة في 1 نوفمبر 2018." }, "sourceId": "dawn-src-c", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "NASA: the orbit is stable with a lifetime of several hundred years.", "ar": "ناسا: المدار مستقر ويدوم عدة مئات من السنين." }, "sourceId": "dawn-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dawn-src-c", "dawn-src-b"]
+    },
+    {
+      "id": "dawn-8", "kind": "legacy",
+      "title": { "en": "Why We Remember Dawn", "ar": "لماذا نتذكر داون" },
+      "basicText": { "en": "Dawn was not broken or forgotten. It used all its fuel exploring Vesta and Ceres, and it still circles Ceres as an inert monument.", "ar": "لم تتعطل داون ولم تُنسَ. استخدمت كل وقودها في استكشاف فيستا وسيريس، وما زالت تدور حول سيريس كنصب خامل." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "dawn-img-ceres-2", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["dawn-src-a", "dawn-src-c"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "Basins on Vesta", "ar": "أحواض على فيستا" }, "summary": { "en": "Rheasilvia basin is 500 km wide and Veneneia is 400 km. Vesta is the parent body of HED meteorites.", "ar": "حوض ريازيلفيا عرضه 500 كم وحوض فينيناي 400 كم. وفيستا هو الجسم الأم لنيازك HED." }, "sourceId": "dawn-src-a" },
+    { "id": "d2", "title": { "en": "Salt deposits on Ceres", "ar": "رواسب الأملاح على سيريس" }, "summary": { "en": "The bright spots are deposits of carbonates and other salts. Occator has the brightest area on Ceres.", "ar": "البقع اللامعة رواسب من الكربونات وأملاح أخرى، وفي فوهة أوكاتور أشد مناطق سيريس لمعاناً." }, "sourceId": "dawn-src-a" },
+    { "id": "d3", "title": { "en": "Ammonia and ice", "ar": "الأمونيا والجليد" }, "summary": { "en": "Ammonia was discovered on Ceres, which is about 25 percent ice by mass.", "ar": "اكتُشفت الأمونيا على سيريس، وهو نحو 25 بالمئة جليد بالكتلة." }, "sourceId": "dawn-src-a" }
+  ],
+  "ending": {
+    "endCause": "fuel-exhausted",
+    "currentLocation": "in-orbit",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "Dawn's hydrazine was depleted on 31 October 2018, so it could no longer point its antenna or instruments. NASA ended the mission on 1 November 2018. Dawn remains in orbit around Ceres.", "ar": "نفد هيدرازين داون في 31 أكتوبر 2018، فلم تعد تستطيع توجيه هوائيها أو أدواتها. وأنهت ناسا المهمة في 1 نوفمبر 2018. وتبقى داون في مدار حول سيريس." },
+    "legacyText": { "en": "NASA calls Dawn an inert celestial monument that will stay in orbit for at least the next couple of decades, and probably much longer. Its orbit is stable with a lifetime of several hundred years.", "ar": "تصف ناسا داون بأنها نصب سماوي خامل سيبقى في المدار عقدين على الأقل وربما أطول بكثير. ومدارها مستقر ويدوم عدة مئات من السنين." },
+    "notStated": [
+      { "en": "NASA pages we read do not say that the brightest spots are made of brine.", "ar": "لا تقول صفحات ناسا التي قرأناها إن البقع اللامعة مكوّنة من محلول ملحي." }
+    ]
+  }
+}

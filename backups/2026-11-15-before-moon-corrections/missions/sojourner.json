@@ -1,0 +1,143 @@
+{
+  "id": "sojourner",
+  "destinationId": "mars",
+  "name": { "en": "Sojourner Rover (Mars Pathfinder)", "ar": "المركبة الجوّالة سوجورنر (مارس باثفايندر)" },
+  "missionType": "rover",
+  "card": {
+    "tagline": { "en": "The first robotic rover to roll on Mars, in 1997.", "ar": "أول مركبة جوّالة آلية تسير على المريخ، عام 1997." },
+    "assetId": "mars-a-img-sojourner-1", "group": "rover", "order": 1
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "Sojourner is a small Mars rover. It travelled to Mars with a lander, and together they made up the Mars Pathfinder mission. NASA calls it the first-ever robotic rover on the surface of Mars.", "ar": "سوجورنر مركبة جوّالة صغيرة على المريخ. سافرت مع مركبة هبوط، وشكّلتا معاً مهمة مارس باثفايندر. وتصفها ناسا بأنها أول مركبة جوّالة آلية على سطح المريخ." },
+    "whyCreated": { "en": "NASA's goal was to show a low-cost way to land on Mars and explore it.", "ar": "كان هدف ناسا إظهار طريقة منخفضة التكلفة للهبوط على المريخ واستكشافه." },
+    "goal": { "en": "The rover's main goals were set for the first seven Martian days (sols).", "ar": "حُدِّدت أهداف المركبة الأساسية لأول سبعة أيام مريخية." },
+    "whereGoing": { "en": "Ares Vallis, an ancient flood plain on Mars.", "ar": "وادي آريس، سهل فيضي قديم على المريخ." },
+    "assetId": "mars-a-img-sojourner-1"
+  },
+  "units": [
+    { "id": "sojourner-rover", "name": { "en": "Sojourner rover", "ar": "المركبة الجوّالة سوجورنر" }, "parentFlight": "Mars Pathfinder", "featured": true },
+    { "id": "sojourner-lander", "name": { "en": "Carl Sagan Memorial Station (the Pathfinder lander)", "ar": "محطة كارل ساغان التذكارية (مركبة الهبوط باثفايندر)" }, "parentFlight": "Mars Pathfinder", "featured": false }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "4 Dec 1996", "label": { "en": "Launched on a Delta II rocket from Cape Canaveral", "ar": "الإطلاق بصاروخ دلتا 2 من كيب كانافيرال" }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" },
+    { "id": "t-landing", "dateLabel": "4 Jul 1997", "label": { "en": "Landed at Ares Vallis, cushioned by airbags", "ar": "الهبوط في وادي آريس بمساعدة وسائد هوائية" }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" },
+    { "id": "t-exit", "dateLabel": "5-6 Jul 1997", "label": { "en": "The rover drives off the lander", "ar": "المركبة الجوّالة تنزل من مركبة الهبوط" }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" },
+    { "id": "t-last", "dateLabel": "27 Sep 1997", "label": { "en": "Final data transmission", "ar": "آخر إرسال للبيانات" }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "sojourner-1", "kind": "origin",
+      "title": { "en": "Meet Sojourner", "ar": "تعرّف على سوجورنر" },
+      "basicText": { "en": "Sojourner is a tiny rover, about 30 cm tall and 10.6 kg. It was named after Sojourner Truth, a civil-rights crusader. It rode to Mars with a lander.", "ar": "سوجورنر مركبة صغيرة، ارتفاعها نحو 30 سم ووزنها 10.6 كغ. سُمّيت تيمناً بسوجورنر تروث، المدافعة عن الحقوق المدنية. وسافرت إلى المريخ مع مركبة هبوط." },
+      "exploreMoreText": { "en": "Its tools: an alpha proton X-ray spectrometer (APXS) to study rocks, three cameras, and an atmospheric structure and weather package. One NASA page gives the rover's weight as 10.5 kg and length as 63 cm.", "ar": "أدواتها: مطياف أشعة سينية (APXS) لدراسة الصخور، وثلاث كاميرات، وحزمة لقياس بنية الغلاف الجوي والطقس. وتذكر صفحة أخرى لناسا وزنها 10.5 كغ وطولها 63 سم." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "mars-a-img-sojourner-2", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "The rover was named after civil-rights crusader Sojourner Truth.", "ar": "سُمّيت المركبة تيمناً بسوجورنر تروث المدافعة عن الحقوق المدنية." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "The rover weighed 23 lb (10.6 kg) and stood about 30 cm tall.", "ar": "بلغ وزن المركبة 23 رطلاً (10.6 كغ) وارتفاعها نحو 30 سم." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-pf", "mars-a-src-pfn"]
+    },
+    {
+      "id": "sojourner-2", "kind": "launch", "dateLabel": "4 Dec 1996",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "On 4 December 1996 a Delta II rocket launched Mars Pathfinder from Cape Canaveral Air Force Station, carrying Sojourner to Mars.", "ar": "في 4 ديسمبر 1996 أطلق صاروخ دلتا 2 مركبة مارس باثفايندر من محطة كيب كانافيرال التابعة لسلاح الجو، وهي تحمل سوجورنر إلى المريخ." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "core-earth", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch vehicle: Delta II 7925.", "ar": "الصاروخ: دلتا 2 7925." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-pf", "mars-a-src-pfn"]
+    },
+    {
+      "id": "sojourner-3", "kind": "landing", "dateLabel": "4 Jul 1997",
+      "title": { "en": "Bouncing to a Stop", "ar": "ارتدادٌ حتى التوقف" },
+      "basicText": { "en": "A parachute slowed the lander. About 100 m above the ground, airbags inflated. The lander hit Mars at about 14 m/s and bounced about 15 times before it stopped, 2.5 minutes later.", "ar": "أبطأت المظلة مركبة الهبوط. وعلى ارتفاع نحو 100 م انتفخت الوسائد الهوائية. ارتطمت المركبة بالمريخ بسرعة نحو 14 م/ث وارتدّت نحو 15 مرة قبل أن تتوقف بعد 2.5 دقيقة." },
+      "exploreMoreText": { "en": "The airbags were four large bags with six smaller spheres each. The lander came to rest about 1 km from where it first hit. The lander was named Carl Sagan Memorial Station. It landed at 19.33 N, 33.55 W.", "ar": "كانت الوسائد أربع وسائد كبيرة، في كلٍّ منها ست كرات أصغر. وتوقفت مركبة الهبوط على بعد نحو 1 كم من نقطة الارتطام الأولى. وسُمّيت المركبة محطة كارل ساغان التذكارية. هبطت عند 19.33 شمالاً و33.55 غرباً." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "mars-a-img-sojourner-2", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "The lander was named Carl Sagan Memorial Station.", "ar": "سُمّيت مركبة الهبوط محطة كارل ساغان التذكارية." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Airbags inflated about 100 m above the surface; the lander bounced about 15 times, up to 15 m high.", "ar": "انتفخت الوسائد على ارتفاع نحو 100 م، وارتدّت المركبة نحو 15 مرة حتى ارتفاع 15 م." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "How did Mars Pathfinder cushion its landing?", "ar": "كيف خفّفت مارس باثفايندر ارتطامها عند الهبوط؟" },
+        "options": [
+          { "label": { "en": "With airbags that inflated before impact", "ar": "بوسائد هوائية انتفخت قبل الارتطام" }, "isCorrect": true },
+          { "label": { "en": "With a runway like an airplane", "ar": "بمدرج مثل الطائرات" }, "isCorrect": false },
+          { "label": { "en": "With a crane lowering it slowly", "ar": "برافعة أنزلتها ببطء" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "After a parachute, airbags inflated about 100 m above the surface and the lander bounced to a stop.", "ar": "بعد المظلة انتفخت الوسائد الهوائية على ارتفاع نحو 100 م، وارتدّت المركبة حتى توقفت." }
+      },
+      "sourceIds": ["mars-a-src-pf", "mars-a-src-pfn"]
+    },
+    {
+      "id": "sojourner-4", "kind": "operations", "dateLabel": "Jul - Sep 1997",
+      "title": { "en": "First Rover Drive", "ar": "أول جولة لمركبة جوّالة" },
+      "basicText": { "en": "On the night of 5 July (Pacific time) Sojourner rolled off the lander. NASA says the main goals were set for the first seven sols. The mission lasted until late September 1997.", "ar": "في ليلة 5 يوليو (بتوقيت المحيط الهادئ) نزلت سوجورنر من مركبة الهبوط. وتقول ناسا إن الأهداف الأساسية حُدِّدت لأول سبعة أيام مريخية. واستمرت المهمة حتى أواخر سبتمبر 1997." },
+      "exploreMoreText": { "en": "One NASA page puts the exit at about 05:40 UT on 6 July, which is the same event.", "ar": "تذكر صفحة لناسا أن النزول كان نحو الساعة 05:40 بالتوقيت العالمي يوم 6 يوليو، وهو الحدث نفسه." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "mars-a-img-sojourner-1", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Primary objectives were scheduled for the first seven sols.", "ar": "حُدِّدت الأهداف الأساسية لأول سبعة أيام مريخية." }, "sourceId": "mars-a-src-pfn", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-pf", "mars-a-src-pfn"]
+    },
+    {
+      "id": "sojourner-5", "kind": "discovery",
+      "title": { "en": "Clues About Old Mars", "ar": "أدلة عن المريخ القديم" },
+      "basicText": { "en": "The mission sent back 2.3 billion bits of data, over 16,500 lander images and 550 rover images. Rounded pebbles hint at water in a warmer past. Martian dust is magnetic.", "ar": "أرسلت المهمة 2.3 مليار بت من البيانات وأكثر من 16,500 صورة من مركبة الهبوط و550 صورة من المركبة الجوّالة. تدل الحصى المستديرة على وجود ماء في ماضٍ أدفأ. وغبار المريخ مغناطيسي." },
+      "exploreMoreText": { "en": "It also made more than 15 chemical analyses of rocks and soil, observed dust devils and saw water-ice clouds.", "ar": "كما أجرت أكثر من 15 تحليلاً كيميائياً للصخور والتربة، ورصدت دوامات غبار وسحباً من جليد الماء." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Rounded pebbles and cobbles suggest water in a warmer past.", "ar": "تدل الحصى والحجارة المستديرة على وجود ماء في ماضٍ أدفأ." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "The mission returned 2.3 billion bits of data, 16,500+ lander images and 550 rover images.", "ar": "أعادت المهمة 2.3 مليار بت من البيانات وأكثر من 16,500 صورة من مركبة الهبوط و550 صورة من المركبة." }, "sourceId": "mars-a-src-pf", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-pf"]
+    },
+    {
+      "id": "sojourner-6", "kind": "ending", "dateLabel": "27 Sep 1997",
+      "title": { "en": "The Signal Stops", "ar": "توقف الإشارة" },
+      "basicText": { "en": "The final data transmission came on 27 September 1997. NASA's archive says communications were lost for unknown reasons. The sources do not say what happened after that.", "ar": "وصل آخر إرسال للبيانات في 27 سبتمبر 1997. وتقول أرشيفات ناسا إن الاتصال فُقد لأسباب غير معروفة. ولا تذكر المصادر ما حدث بعد ذلك." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Communications were lost for unknown reasons; the final data transmission was on 27 Sep 1997.", "ar": "فُقد الاتصال لأسباب غير معروفة، وكان آخر إرسال للبيانات في 27 سبتمبر 1997." }, "sourceId": "mars-a-src-pfn", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "The challenge page says the rover is now permanently parked; the NASA pages we read do not say this.", "ar": "تقول صفحة التحدي إن المركبة الآن متوقفة نهائياً، لكن صفحات ناسا التي قرأناها لا تذكر ذلك." }, "sourceId": "src-challenge", "basis": "challenge-page" }
+      ],
+      "sourceIds": ["mars-a-src-pf", "mars-a-src-pfn", "src-challenge"]
+    },
+    {
+      "id": "sojourner-7", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "Sojourner was the first robotic rover on Mars. The whole mission cost about $265 million, and the rover about $25 million, to show that low-cost Mars exploration was possible.", "ar": "كانت سوجورنر أول مركبة جوّالة آلية على المريخ. بلغت كلفة المهمة نحو 265 مليون دولار، والمركبة نحو 25 مليوناً، لإثبات إمكان استكشاف المريخ بكلفة منخفضة." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Cost: about $265 million in total, about $25 million for the rover.", "ar": "الكلفة: نحو 265 مليون دولار إجمالاً، ونحو 25 مليوناً للمركبة الجوّالة." }, "sourceId": "mars-a-src-pfn", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-pf", "mars-a-src-pfn"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "Signs of water in a warmer past", "ar": "دلائل على الماء في ماضٍ أدفأ" }, "summary": { "en": "Rounded pebbles and cobbles suggest water in a warmer past.", "ar": "تدل الحصى والحجارة المستديرة على وجود ماء في ماضٍ أدفأ." }, "sourceId": "mars-a-src-pf" },
+    { "id": "d2", "title": { "en": "Magnetic dust", "ar": "غبار مغناطيسي" }, "summary": { "en": "Martian dust is magnetic.", "ar": "غبار المريخ مغناطيسي." }, "sourceId": "mars-a-src-pf" },
+    { "id": "d3", "title": { "en": "Dust devils and ice clouds", "ar": "دوامات غبار وسحب جليدية" }, "summary": { "en": "The mission observed dust devils and water-ice clouds.", "ar": "رصدت المهمة دوامات غبار وسحباً من جليد الماء." }, "sourceId": "mars-a-src-pf" }
+  ],
+  "ending": {
+    "endCause": "communication-lost",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "Sojourner's final data transmission came on 27 September 1997. NASA's archive says communications were lost for unknown reasons. Sojourner stayed on Mars.", "ar": "وصل آخر إرسال للبيانات من سوجورنر في 27 سبتمبر 1997. وتقول أرشيفات ناسا إن الاتصال فُقد لأسباب غير معروفة. وبقيت سوجورنر على المريخ." },
+    "legacyText": { "en": "NASA calls Sojourner the first-ever robotic rover on the surface of Mars. It helped show that a low-cost landing and exploration of Mars was possible.", "ar": "تصف ناسا سوجورنر بأنها أول مركبة جوّالة آلية على سطح المريخ. وساعدت في إثبات إمكان الهبوط على المريخ واستكشافه بكلفة منخفضة." },
+    "notStated": [
+      { "en": "The challenge page says the rover is 'permanently parked'. The NASA pages we read do not say this.", "ar": "تقول صفحة التحدي إن المركبة 'متوقفة نهائياً'، لكن صفحات ناسا التي قرأناها لا تذكر ذلك." },
+      { "en": "NASA pages do not give the rover's final position or the reason communication was lost.", "ar": "لا تذكر صفحات ناسا موقع المركبة الأخير ولا سبب فقدان الاتصال." }
+    ]
+  },
+  "badge": { "name": { "en": "Sojourner Explorer", "ar": "مستكشف سوجورنر" }, "iconAssetId": "mars-a-img-sojourner-1" }
+}

@@ -1,0 +1,5 @@
+[
+  { "id": "moon", "name": { "en": "The Moon", "ar": "القمر" }, "tagline": { "en": "Visit the machines and experiments people left on the Moon.", "ar": "تعرّف على الآلات والتجارب التي تركها البشر على القمر." }, "themeColor": "#cbd5e1", "sceneAssetId": "bg-placeholder", "sortOrder": 1 },
+  { "id": "mars", "name": { "en": "Mars", "ar": "المريخ" }, "tagline": { "en": "Follow the robotic explorers that traveled across the Red Planet.", "ar": "تتبّع المستكشفين الآليين الذين جابوا الكوكب الأحمر." }, "themeColor": "#f97316", "sceneAssetId": "bg-placeholder", "sortOrder": 2 },
+  { "id": "deep-space", "name": { "en": "Deep Space & Beyond", "ar": "الفضاء العميق وما وراءه" }, "tagline": { "en": "Travel with spacecraft that went farther than ever before.", "ar": "سافر مع مركبات ذهبت أبعد من أي وقت مضى." }, "themeColor": "#a855f7", "sceneAssetId": "bg-placeholder", "sortOrder": 3 }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dawn-img-ceres-1", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA21906/PIA21906~medium.jpg", "nasaId": "PIA21906",
+    "altText": { "en": "Black-and-white view of the whole dwarf planet Ceres covered in craters, with a cluster of very bright spots inside Occator Crater near the middle. NASA says it was made from pictures Dawn took from about 385 km (240 miles) above the surface.", "ar": "صورة بالأبيض والأسود للكوكب القزم سيريس كاملاً وعليه فوهات كثيرة، وفي منتصفه تقريباً بقع شديدة اللمعان داخل فوهة أوكاتور. تقول ناسا إنها صُنعت من صور التقطتها المركبة داون من ارتفاع نحو 385 كم (240 ميلاً) فوق السطح." },
+    "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA", "sourceUrl": "https://images.nasa.gov/details/PIA21906", "authenticity": "real"
+  },
+  {
+    "id": "dawn-img-ceres-2", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA19181/PIA19181~small.jpg", "nasaId": "PIA19181",
+    "altText": { "en": "A small, pale disc of Ceres against black space, photographed by Dawn on 4 February 2015 from about 145,000 km (90,000 miles) away, about a month before Dawn arrived.", "ar": "قرص صغير شاحب للكوكب القزم سيريس على خلفية سوداء، التقطته المركبة داون في 4 فبراير 2015 من مسافة نحو 145 ألف كم (90 ألف ميل)، قبل وصولها إليه بنحو شهر." },
+    "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA", "sourceUrl": "https://images.nasa.gov/details/PIA19181", "authenticity": "real"
+  },
+  {
+    "id": "near-img-eros-1", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA02464/PIA02464~small.jpg", "nasaId": "PIA02464",
+    "altText": { "en": "Black-and-white close-up of the cratered surface of the asteroid Eros against black space. NASA titles it the first image NEAR took from orbit around Eros.", "ar": "صورة مقرّبة بالأبيض والأسود لسطح الكويكب إيروس المليء بالفوهات على خلفية سوداء. تصفها ناسا بأنها أول صورة التقطتها المركبة NEAR وهي في مدار حول إيروس." },
+    "credit": "NASA/JPL/JHUAPL", "sourceUrl": "https://images.nasa.gov/details/PIA02464", "authenticity": "real"
+  },
+  {
+    "id": "near-img-eros-2", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA03148/PIA03148~orig.jpg", "nasaId": "PIA03148",
+    "altText": { "en": "Black-and-white close-up of the surface of Eros: a large boulder at the top and many small rocks on smooth ground. The bottom of the picture is blank and striped. NASA titles it the last, closest image of Eros.", "ar": "صورة مقرّبة بالأبيض والأسود لسطح إيروس: صخرة كبيرة في أعلاها وصخور صغيرة كثيرة على أرض ملساء. أسفل الصورة فارغ ومخطّط. تصفها ناسا بأنها آخر وأقرب صورة لإيروس." },
+    "credit": "NASA/JPL/JHUAPL", "sourceUrl": "https://images.nasa.gov/details/PIA03148", "authenticity": "real"
+  },
+  {
+    "id": "kepler-img-pia14446", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA14446/PIA14446~medium.jpg", "nasaId": "PIA14446",
+    "altText": { "en": "Night photo of a rocket lifting off in a burst of bright flame. The word \"Kepler\" and the words \"Search for Earth-size planets\" are written on the rocket and its launch tower. NASA's description says Kepler rocketed into the night sky above Cape Canaveral on 6 March 2009.", "ar": "صورة ليلية لصاروخ ينطلق وسط لهب ساطع، وقد كُتبت على الصاروخ وبرج الإطلاق كلمة «Kepler» وعبارة «Search for Earth-size planets». يقول وصف ناسا إن كبلر انطلق في سماء الليل فوق كيب كانافيرال في 6 مارس 2009." },
+    "credit": "NASA/Ames", "sourceUrl": "https://images.nasa.gov/details/PIA14446", "authenticity": "real"
+  },
+  {
+    "id": "kepler-img-pia11188", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA11188/PIA11188~medium.jpg", "nasaId": "PIA11188",
+    "altText": { "en": "Photo of NASA's Kepler spacecraft standing upright in a clean room, wrapped in gold and copper-colored foil with a white round cover on top, and two workers in white clean-room suits at its base. NASA's caption: Kepler in a clean room at Ball Aerospace & Technologies Corp. in Boulder, Colorado.", "ar": "صورة فوتوغرافية للمركبة الفضائية كبلر التابعة لناسا وهي منتصبة في غرفة نظيفة، ملفوفة برقائق ذهبية ونحاسية اللون وعلى قمتها غطاء أبيض دائري، وعند قاعدتها عاملان يرتديان بدلتين بيضاوين للغرف النظيفة. تقول ناسا في وصفها: كبلر في غرفة نظيفة لدى شركة بول للفضاء والتقنيات في بولدر بولاية كولورادو." },
+    "credit": "NASA/JPL-Caltech/Ball Aerospace", "sourceUrl": "https://images.nasa.gov/details/PIA11188", "authenticity": "real"
+  },
+  {
+    "id": "kepler-img-scale-model", "type": "image", "path": "https://images-assets.nasa.gov/image/201102020008HQ/201102020008HQ~medium.jpg", "nasaId": "201102020008HQ",
+    "altText": { "en": "A scale model of the Kepler spacecraft (not the real spacecraft).", "ar": "نموذج مصغّر لمركبة كبلر (وليس المركبة الحقيقية)." },
+    "credit": "NASA/Paul E. Alers", "sourceUrl": "https://images.nasa.gov/details/201102020008HQ", "authenticity": "reconstruction"
+  }
+]

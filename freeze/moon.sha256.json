@@ -1,0 +1,57 @@
+{
+  "dataset": "moon",
+  "algorithm": "sha256 (CRLF normalised to LF)",
+  "note": "Frozen after the approved Moon corrections (NASA_Moon_Corrections_Report.md). Frozen is NOT verified: all 8 Moon missions stay unverified until human review. Update only via freeze/README.md.",
+  "frozenOn": "2026-11-15",
+  "files": [
+    {
+      "path": "src/data/missions/apollo-11-eagle.json",
+      "sha256": "d5dba4323ad12b656b813891e970a7c7cda54376de3f67e2d08d2a2a46975d7b"
+    },
+    {
+      "path": "src/data/missions/apollo-15-falcon.json",
+      "sha256": "9a6eea1bddf619bafe503e6a8226d204295acdb854e960b077c34a75cdce04b9"
+    },
+    {
+      "path": "src/data/missions/lrv-apollo-15.json",
+      "sha256": "f064ba18cc6177fc6a61d43a96d8c6b2be21cb747d78af8b882c5d898276dc2d"
+    },
+    {
+      "path": "src/data/missions/lrv-apollo-17.json",
+      "sha256": "02ea8d19fad561e7b19acf4b0c3512f8c28546dd54ef37785d86454da62ace79"
+    },
+    {
+      "path": "src/data/missions/alsep-apollo-12.json",
+      "sha256": "441e2c216cba010702c7a69d1e2c479792ea1ca4e74033c0b1375c2477cbe903"
+    },
+    {
+      "path": "src/data/missions/alsep-apollo-15.json",
+      "sha256": "c51b9050ed4a5601cc5ac1a3743cdc1324f4984d29c2a4de021ff1b78c001814"
+    },
+    {
+      "path": "src/data/missions/surveyor-3.json",
+      "sha256": "d6d2d72cfa9d7c161f402d8ddfed62e06774fa169493b8b10f13a0932531aedc"
+    },
+    {
+      "path": "src/data/missions/surveyor-6.json",
+      "sha256": "722e4f4fcdb0fd4df2ba8e997108e3ed8f125c4160de62eb150641e94c89338a"
+    },
+    {
+      "path": "src/data/assets/moon-lm-lrv.json",
+      "sha256": "f264f432493005c051d51f25830d75c3060e8a5e11b1f933c7f7c4971c3419d6"
+    },
+    {
+      "path": "src/data/assets/moon-alsep-surveyor.json",
+      "sha256": "d5802c97258fb4cf066ce7f431b6c6fd4c2aa0a79b525df9ac48a2a8b736e0da"
+    },
+    {
+      "path": "src/data/sources/moon-lm-lrv.json",
+      "sha256": "89cf07906f7b5eb83ba156a26d1b464bd3f6d8b07d3b12f188a4650c9b5c070d"
+    },
+    {
+      "path": "src/data/sources/moon-alsep-surveyor.json",
+      "sha256": "9f9bd3bc3ad2146daf51f0dfdd6f2802bcd583c6804a1adf4f226fad00cab72b"
+    }
+  ],
+  "updates": []
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mars-a-img-sojourner-1",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA00623/PIA00623~orig.jpg",
+    "nasaId": "PIA00623",
+    "altText": { "en": "Black-and-white picture from the Pathfinder lander's camera showing the Sojourner rover on the surface of Mars after it drove off the lander, with part of a ramp at the lower left.", "ar": "صورة بالأبيض والأسود من كاميرا المركبة الهابطة باثفايندر تُظهر المركبة الجوّالة سوجورنر على سطح المريخ بعد أن نزلت عن المركبة الهابطة، ويظهر جزء من المنحدر في أسفل اليسار." },
+    "credit": "NASA/JPL",
+    "sourceUrl": "https://images.nasa.gov/details/PIA00623",
+    "authenticity": "real"
+  },
+  {
+    "id": "mars-a-img-sojourner-2",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA00621/PIA00621~small.jpg",
+    "nasaId": "PIA00621",
+    "altText": { "en": "Colour picture from the Pathfinder lander's camera on 4 July 1997 (the first Martian day): the Sojourner rover still latched to the lander, its ramps not yet unfolded, with pale fabric from the lander's deflated airbags around it.", "ar": "صورة ملوّنة من كاميرا المركبة الهابطة باثفايندر في 4 يوليو 1997 (اليوم المريخي الأول): المركبة الجوّالة سوجورنر ما زالت مثبّتة على المركبة الهابطة ومنحدراتها لم تُفتح بعد، وحولها قماش شاحب من الوسائد الهوائية المفرّغة." },
+    "credit": "NASA/JPL",
+    "sourceUrl": "https://images.nasa.gov/details/PIA00621",
+    "authenticity": "real"
+  },
+  {
+    "id": "mars-a-img-spirit-1",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA05040/PIA05040~small.jpg",
+    "nasaId": "PIA05040",
+    "altText": { "en": "Black-and-white view from Spirit's hazard-avoidance camera across the rover's deck, with a JPL plate, toward the Martian horizon. NASA says it is one frame of an animation comparing the view before and after the rover extended its wheelbase.", "ar": "منظر بالأبيض والأسود من كاميرا تجنّب المخاطر في سبيريت يعبر سطح المركبة وفيه لوحة JPL نحو أفق المريخ. تقول ناسا إنه إطار واحد من رسم متحرك يقارن المشهد قبل أن تمدّ المركبة قاعدة عجلاتها وبعده." },
+    "credit": "NASA/JPL-Caltech",
+    "sourceUrl": "https://images.nasa.gov/details/PIA05040",
+    "authenticity": "real"
+  },
+  {
+    "id": "mars-a-img-spirit-husband-hill",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA17760/PIA17760~medium.jpg",
+    "nasaId": "PIA17760",
+    "altText": {
+      "en": "View toward the south from the top of Husband Hill on Mars: dark rocks and sandy ground in front, low hills beyond and a hazy orange-tan sky. NASA says it is a section of a panorama Spirit took in October 2005.",
+      "ar": "منظر نحو الجنوب من قمة تلّ هازبند (Husband Hill) على المريخ: صخور داكنة وأرض رملية في المقدمة وتلال منخفضة خلفها وسماء ضبابية برتقالية مائلة إلى الأصفر. تقول ناسا إنه جزء من بانوراما التقطها سبيريت في أكتوبر 2005."
+    },
+    "credit": "NASA/JPL-Caltech/Cornell Univ.",
+    "sourceUrl": "https://images.nasa.gov/details/PIA17760",
+    "authenticity": "real"
+  },
+  {
+    "id": "mars-a-img-viking1-first",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA00381/PIA00381~orig.jpg",
+    "nasaId": "PIA00381",
+    "altText": {
+      "en": "Black-and-white photo of rocks and fine sand or dust on Mars, with part of the lander at the lower right. NASA calls it the first photograph ever taken on the surface of Mars, taken by Viking 1 minutes after landing on 20 July 1976.",
+      "ar": "صورة بالأبيض والأسود لصخور ورمال أو غبار ناعم على المريخ، ويظهر جزء من المركبة الهابطة في أسفل اليمين. تصفها ناسا بأنها أول صورة تُلتقط على سطح المريخ، التقطتها فايكنغ 1 بعد دقائق من هبوطها في 20 يوليو 1976."
+    },
+    "credit": "NASA/JPL",
+    "sourceUrl": "https://images.nasa.gov/details/PIA00381",
+    "authenticity": "real"
+  },
+  {
+    "id": "mars-a-img-viking1-pano",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA00382/PIA00382~small.jpg",
+    "nasaId": "PIA00382",
+    "altText": {
+      "en": "Two black-and-white strips from Viking 1's first panoramic view of the Martian surface: rocky ground stretching to the horizon, with parts of the lander in the foreground.",
+      "ar": "شريطان بالأبيض والأسود من أول منظر بانورامي التقطته فايكنغ 1 لسطح المريخ: أرض صخرية تمتد إلى الأفق، وتظهر أجزاء من المركبة الهابطة في المقدمة."
+    },
+    "credit": "NASA/JPL",
+    "sourceUrl": "https://images.nasa.gov/details/PIA00382",
+    "authenticity": "real"
+  }
+]

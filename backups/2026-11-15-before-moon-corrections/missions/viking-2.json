@@ -1,0 +1,125 @@
+{
+  "id": "viking-2",
+  "destinationId": "mars",
+  "name": { "en": "Viking 2 Lander", "ar": "مركبة الهبوط فايكنغ 2" },
+  "missionType": "lander",
+  "card": {
+    "tagline": { "en": "The second Viking lander, far to the north of Mars, worked until its batteries failed.", "ar": "مركبة فايكنغ الثانية، في شمال المريخ البعيد، عملت حتى فشلت بطارياتها." },
+    "assetId": "core-mars", "group": "lander", "order": 5
+  },
+  "unverified": true,
+  "relatedMissionIds": ["viking-1"],
+  "intro": {
+    "whatItIs": { "en": "The Viking 2 Lander is the second Viking Mars lander. It was named Viking 2 after a battery problem changed the launch order.", "ar": "مركبة الهبوط فايكنغ 2 هي الثانية في برنامج فايكنغ. حملت هذا الاسم بعد أن غيّرت مشكلة في البطارية ترتيب الإطلاق." },
+    "whyCreated": { "en": "It was one of two landers sent to study Mars from the ground, including tests for life.", "ar": "كانت إحدى مركبتي هبوط أُرسلتا لدراسة المريخ من سطحه، ومنها اختبارات البحث عن الحياة." },
+    "goal": { "en": "NASA's pages do not state a planned lifetime for this lander.", "ar": "لا تذكر صفحات ناسا عمراً مخطَّطاً لهذه المركبة." },
+    "whereGoing": { "en": "Utopia Planitia, near the edge of the polar ice cap.", "ar": "سهل يوتوبيا، قرب حافة القلنسوة الجليدية القطبية." },
+    "assetId": "core-mars"
+  },
+  "units": [
+    { "id": "viking-2-lander", "name": { "en": "Viking 2 Lander", "ar": "مركبة الهبوط فايكنغ 2" }, "nssdcaId": "1975-083C", "parentFlight": "Viking 2", "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "9 Sep 1975", "label": { "en": "Launched on a Titan IIIE-Centaur rocket", "ar": "الإطلاق بصاروخ تيتان 3E-سنتور" }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" },
+    { "id": "t-orbit", "dateLabel": "7 Aug 1976", "label": { "en": "Enters orbit around Mars", "ar": "الدخول في مدار حول المريخ" }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" },
+    { "id": "t-landing", "dateLabel": "3 Sep 1976", "label": { "en": "Lands in Utopia Planitia", "ar": "الهبوط في سهل يوتوبيا" }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" },
+    { "id": "t-end", "dateLabel": "Apr 1980", "label": { "en": "Lander turned off when its batteries failed (11 or 12 Apr, depending on the page)", "ar": "إيقاف المركبة بعد فشل بطارياتها (11 أو 12 أبريل بحسب الصفحة)" }, "sourceId": "mars-a-src-v2n", "basis": "disputed" },
+    { "id": "t-rename", "dateLabel": "Jul 2001", "label": { "en": "Renamed Gerald Soffen Memorial Station", "ar": "إعادة تسميتها محطة جيرالد سوفين التذكارية" }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "viking-2-1", "kind": "origin",
+      "title": { "en": "Meet Viking 2", "ar": "تعرّف على فايكنغ 2" },
+      "basicText": { "en": "Viking 2 was the second of two Viking missions to Mars. Each had an orbiter and a lander. This journey follows the lander. It was first called Viking-A.", "ar": "كانت فايكنغ 2 الثانية من مهمتي فايكنغ إلى المريخ. في كلٍّ منهما مركبة مدارية ومركبة هبوط. تتبع هذه الرحلة مركبة الهبوط. وقد سُمّيت أولاً فايكنغ-A." },
+      "exploreMoreText": { "en": "NASA says 'Viking-A' was renamed Viking 2 after a battery problem changed the launch order.", "ar": "تقول ناسا إن 'فايكنغ-A' أُعيدت تسميتها فايكنغ 2 بعد أن غيّرت مشكلة في البطارية ترتيب الإطلاق." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Viking-A was renamed Viking 2 after a battery problem changed the launch order.", "ar": "أُعيدت تسمية فايكنغ-A إلى فايكنغ 2 بعد أن غيّرت مشكلة في البطارية ترتيب الإطلاق." }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-v2", "mars-a-src-v2n"]
+    },
+    {
+      "id": "viking-2-2", "kind": "launch", "dateLabel": "9 Sep 1975",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "On 9 September 1975 a Titan IIIE-Centaur rocket launched Viking 2 from launch complex LC-41. On 7 August 1976 it entered orbit around Mars.", "ar": "في 9 سبتمبر 1975 أطلق صاروخ تيتان 3E-سنتور المركبة فايكنغ 2 من المنصة LC-41. وفي 7 أغسطس 1976 دخلت في مدار حول المريخ." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "core-earth", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launched 9 Sep 1975 at 18:39 UT on a Titan IIIE-Centaur from LC-41.", "ar": "أُطلقت في 9 سبتمبر 1975 الساعة 18:39 بالتوقيت العالمي بصاروخ تيتان 3E-سنتور من LC-41." }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-v2", "mars-a-src-v2n"]
+    },
+    {
+      "id": "viking-2-3", "kind": "landing", "dateLabel": "3 Sep 1976",
+      "title": { "en": "Landing Near the Ice", "ar": "الهبوط قرب الجليد" },
+      "basicText": { "en": "Viking 2 landed on 3 September 1976 in Utopia Planitia, near the edge of the polar ice cap, about 6,460 km from the Viking 1 site.", "ar": "هبطت فايكنغ 2 في 3 سبتمبر 1976 في سهل يوتوبيا، قرب حافة القلنسوة الجليدية القطبية، على بعد نحو 6,460 كم من موقع فايكنغ 1." },
+      "exploreMoreText": { "en": "It was tilted about 8.5 degrees (8.2 on another page), with one leg on a rock. Its thrusters fired once more just before touchdown, cracking the surface and raising dust. The latitude is about 48 N; NASA pages differ slightly in the numbers.", "ar": "كانت مائلة نحو 8.5 درجة (8.2 في صفحة أخرى) وإحدى أرجلها على صخرة. وأطلقت محركاتها دفعة إضافية قبل اللمس مباشرة فشقّت السطح وأثارت الغبار. خط العرض نحو 48 شمالاً، وتختلف الأرقام قليلاً بين صفحات ناسا." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Landing site: Utopia Planitia, about 6,460 km from the Viking 1 site.", "ar": "موقع الهبوط: سهل يوتوبيا، على بعد نحو 6,460 كم من موقع فايكنغ 1." }, "sourceId": "mars-a-src-v2n", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-v2", "mars-a-src-v2n"]
+    },
+    {
+      "id": "viking-2-4", "kind": "discovery", "dateLabel": "1976",
+      "title": { "en": "Inconclusive on Life", "ar": "نتائج غير حاسمة عن الحياة" },
+      "basicText": { "en": "Samples were scooped from 12 September 1976. NASA says the biology results were inconclusive on whether life exists or ever has existed on Mars.", "ar": "جُمعت العيّنات اعتباراً من 12 سبتمبر 1976. وتقول ناسا إن نتائج الأحياء كانت غير حاسمة بشأن وجود حياة على المريخ أو وجودها يوماً ما." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Biology results were inconclusive on whether life exists or ever has existed on Mars.", "ar": "كانت نتائج الأحياء غير حاسمة بشأن وجود حياة على المريخ أو وجودها يوماً ما." }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "What did NASA say about Viking 2's biology results?", "ar": "ماذا قالت ناسا عن نتائج الأحياء في فايكنغ 2؟" },
+        "options": [
+          { "label": { "en": "They were inconclusive on whether life exists or ever has existed", "ar": "كانت غير حاسمة بشأن وجود الحياة أو وجودها يوماً" }, "isCorrect": true },
+          { "label": { "en": "They proved there are Martians", "ar": "أثبتت وجود مخلوقات مريخية" }, "isCorrect": false },
+          { "label": { "en": "They were never collected", "ar": "لم تُجمع أبداً" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA calls the results inconclusive.", "ar": "تصف ناسا النتائج بأنها غير حاسمة." }
+      },
+      "sourceIds": ["mars-a-src-v2"]
+    },
+    {
+      "id": "viking-2-5", "kind": "ending", "dateLabel": "Apr 1980",
+      "title": { "en": "When the Batteries Failed", "ar": "حين فشلت البطاريات" },
+      "basicText": { "en": "Viking 2 worked on the surface for 1,281 Mars days. In April 1980 it was turned off when its batteries failed, according to NASA's archive.", "ar": "عملت فايكنغ 2 على السطح 1,281 يوماً مريخياً. وفي أبريل 1980 أُوقفت بعد فشل بطارياتها بحسب أرشيف ناسا." },
+      "exploreMoreText": { "en": "The archive says 11 April 1980; the mission page says the lander mission ended on 12 April 1980. In July 2001 the lander was renamed Gerald Soffen Memorial Station.", "ar": "يذكر الأرشيف 11 أبريل 1980، وتذكر صفحة المهمة أن مهمة المركبة انتهت في 12 أبريل 1980. وفي يوليو 2001 أُعيدت تسميتها محطة جيرالد سوفين التذكارية." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "It operated for 1,281 Mars days and was turned off in April 1980 when its batteries failed.", "ar": "عملت 1,281 يوماً مريخياً وأُوقفت في أبريل 1980 حين فشلت بطارياتها." }, "sourceId": "mars-a-src-v2n", "basis": "disputed", "note": { "en": "The end date is 11 or 12 April 1980, depending on the NASA page.", "ar": "تاريخ النهاية 11 أو 12 أبريل 1980 بحسب صفحة ناسا." } }
+      ],
+      "sourceIds": ["mars-a-src-v2", "mars-a-src-v2n"]
+    },
+    {
+      "id": "viking-2-6", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "NASA announced on 16 November 1976 that both Viking missions had successfully accomplished their goals. Together the orbiters returned 52,663 images and the landers about 4,500 photos.", "ar": "أعلنت ناسا في 16 نوفمبر 1976 أن مهمتي فايكنغ حققتا أهدافهما بنجاح. وأعاد المداريان معاً 52,663 صورة، وأعادت المركبتان الهابطتان نحو 4,500 صورة." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "On 16 Nov 1976 NASA announced both Vikings had successfully accomplished their mission goals.", "ar": "في 16 نوفمبر 1976 أعلنت ناسا أن المهمتين حققتا أهدافهما بنجاح." }, "sourceId": "mars-a-src-v2", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["mars-a-src-v2"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "Inconclusive biology results", "ar": "نتائج أحياء غير حاسمة" }, "summary": { "en": "Results were inconclusive on whether life exists or ever has existed on Mars.", "ar": "كانت النتائج غير حاسمة بشأن وجود حياة على المريخ أو وجودها يوماً ما." }, "sourceId": "mars-a-src-v2" }
+  ],
+  "ending": {
+    "endCause": "stopped-operating",
+    "currentLocation": "not-stated",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "Viking 2 operated on the surface for 1,281 Mars days. NASA's archive says it was turned off in April 1980 when its batteries failed. In July 2001 it was renamed Gerald Soffen Memorial Station.", "ar": "عملت فايكنغ 2 على السطح 1,281 يوماً مريخياً. ويقول أرشيف ناسا إنها أُوقفت في أبريل 1980 حين فشلت بطارياتها. وفي يوليو 2001 أُعيدت تسميتها محطة جيرالد سوفين التذكارية." },
+    "legacyText": { "en": "Along with Viking 1, Viking 2 helped the Viking program return about 4,500 lander photos and map about 97% of Mars.", "ar": "مع فايكنغ 1 ساعدت فايكنغ 2 برنامج فايكنغ على إعادة نحو 4,500 صورة من المركبتين الهابطتين وتخريط نحو 97% من المريخ." },
+    "notStated": [
+      { "en": "The challenge page says the Viking landers remain exactly where they touched down. The NASA pages we read do not say this.", "ar": "تقول صفحة التحدي إن مركبتي فايكنغ باقيتان في مكان هبوطهما تماماً. لكن صفحات ناسا التي قرأناها لا تذكر ذلك." },
+      { "en": "The pages we read do not state a planned lifetime for Viking 2 or give its soil chemistry, weather or seismometer results.", "ar": "لا تذكر الصفحات التي قرأناها عمراً مخطَّطاً لفايكنغ 2 ولا نتائج كيمياء التربة أو الطقس أو الزلازل لها." }
+    ]
+  },
+  "badge": { "name": { "en": "Viking 2 Explorer", "ar": "مستكشف فايكنغ 2" }, "iconAssetId": "core-mars" }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "kepler",
+  "destinationId": "deep-space",
+  "name": { "en": "Kepler Space Telescope", "ar": "تلسكوب كبلر الفضائي" },
+  "missionType": "space-telescope",
+  "card": {
+    "tagline": { "en": "The planet hunter that watched stars for tiny dips in light.", "ar": "صائد الكواكب الذي راقب النجوم بحثاً عن انخفاضات طفيفة في ضوئها." },
+    "assetId": "kepler-img-pia11188", "group": "telescope", "order": 5
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "Kepler is a space telescope that looked for planets around other stars. It found them with the transit method: tiny dips in the brightness of a star.", "ar": "كبلر تلسكوب فضائي بحث عن كواكب حول نجوم أخرى. وكان يجدها بطريقة العبور، أي انخفاضات صغيرة في سطوع النجم." },
+    "whyCreated": { "en": "NASA calls it the agency's first mission to detect Earth-size planets in the habitable zones of their stars.", "ar": "تصفها ناسا بأنها أول مهمة للوكالة لرصد كواكب بحجم الأرض في المناطق الصالحة للحياة حول نجومها." },
+    "goal": { "en": "To search for Earth-size planets around other stars.", "ar": "البحث عن كواكب بحجم الأرض حول نجوم أخرى." },
+    "whereGoing": { "en": "An Earth-trailing orbit around the Sun.", "ar": "مدار حول الشمس يتخلف عن الأرض." },
+    "assetId": "kepler-img-pia11188"
+  },
+  "units": [
+    { "id": "kepler-telescope", "name": { "en": "Kepler Space Telescope", "ar": "تلسكوب كبلر الفضائي" }, "nssdcaId": "2009-011A", "restingPlace": { "en": "In orbit around the Sun, away from Earth", "ar": "في مدار حول الشمس بعيداً عن الأرض" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "2009-03-06", "label": { "en": "Launched on a Delta II from Cape Canaveral (6 March US date)", "ar": "الإطلاق بصاروخ دلتا 2 من كيب كانافيرال (6 مارس بالتوقيت الأمريكي)" }, "sourceId": "kepler-src-a", "basis": "disputed" },
+    { "id": "t-wheel", "dateLabel": "2013-05", "label": { "en": "Second of four reaction wheels fails", "ar": "تعطل ثاني عجلة من عجلات التفاعل الأربع" }, "sourceId": "kepler-src-a", "basis": "nasa-page" },
+    { "id": "t-end", "dateLabel": "2018-10-30", "label": { "en": "Retired after running out of fuel", "ar": "التقاعد بعد نفاد الوقود" }, "sourceId": "kepler-src-a", "basis": "nasa-page" },
+    { "id": "t-orbit", "dateLabel": "2018-10-30", "label": { "en": "Left in a safe orbit away from Earth", "ar": "تُرك في مدار آمن بعيداً عن الأرض" }, "sourceId": "kepler-src-a", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "kepler-1", "kind": "origin",
+      "title": { "en": "Meet Kepler", "ar": "تعرّف على كبلر" },
+      "basicText": { "en": "Kepler watched stars and looked for tiny dips in their brightness. A dip can mean a planet passed in front of the star.", "ar": "راقب كبلر النجوم وبحث عن انخفاضات صغيرة في سطوعها. وقد يعني الانخفاض أن كوكباً مرّ أمام النجم." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }, { "assetId": "kepler-img-pia11188", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Method: transits, tiny dips in the brightness of a star.", "ar": "الطريقة: العبور، أي انخفاضات صغيرة في سطوع النجم." }, "sourceId": "kepler-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["kepler-src-a"]
+    },
+    {
+      "id": "kepler-2", "kind": "launch", "dateLabel": "6 Mar 2009 (US date)",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "Kepler launched on a Delta II rocket from Cape Canaveral, Florida, on 6 March 2009 by the US date.", "ar": "أُطلق كبلر بصاروخ دلتا 2 من كيب كانافيرال في فلوريدا في 6 مارس 2009 بالتاريخ الأمريكي." },
+      "exploreMoreText": { "en": "NSSDCA gives the launch time as 03:50 UT on 7 March 2009. The picture shown here is a scale model, not the real spacecraft.", "ar": "تذكر NSSDCA وقت الإطلاق 03:50 بالتوقيت العالمي في 7 مارس 2009. والصورة المعروضة هنا نموذج مصغّر وليست المركبة الحقيقية." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }, { "assetId": "kepler-img-pia14446", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch date: 6 March 2009 (NASA Science) or 7 March 2009, 03:50 UT (NSSDCA).", "ar": "تاريخ الإطلاق: 6 مارس 2009 (ناسا) أو 7 مارس 2009 الساعة 03:50 بالتوقيت العالمي (NSSDCA)." }, "sourceId": "kepler-src-a", "basis": "disputed", "note": { "en": "The two NASA pages give different dates.", "ar": "تذكر صفحتا ناسا تاريخين مختلفين." } }
+      ],
+      "sourceIds": ["kepler-src-a", "kepler-src-b"]
+    },
+    {
+      "id": "kepler-3", "kind": "operations",
+      "title": { "en": "Trailing Behind Earth", "ar": "خلف الأرض" },
+      "basicText": { "en": "Kepler orbited the Sun in an Earth-trailing orbit that takes 372.5 days. From there it stared at stars to find planets.", "ar": "دار كبلر حول الشمس في مدار يتخلف عن الأرض ويستغرق 372.5 يوماً. ومن هناك راقب النجوم بحثاً عن كواكب." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Earth-trailing heliocentric orbit, period 372.5 days.", "ar": "مدار شمسي متخلف عن الأرض، مدته 372.5 يوماً." }, "sourceId": "kepler-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["kepler-src-b", "kepler-src-a"]
+    },
+    {
+      "id": "kepler-4", "kind": "operations", "dateLabel": "May 2013",
+      "title": { "en": "A Clever Fix: K2", "ar": "حل ذكي: مهمة K2" },
+      "basicText": { "en": "In May 2013 Kepler lost its second reaction wheel. It needed three of four. The team used pressure from sunlight to hold it steady, and the new mission was called K2.", "ar": "في مايو 2013 فقد كبلر عجلة التفاعل الثانية، وكان يحتاج ثلاثاً من أربع. استخدم الفريق ضغط ضوء الشمس لتثبيته، وسُمّيت المهمة الجديدة K2." },
+      "exploreMoreText": { "en": "NASA planned 10 K2 campaigns and it reached 19, observing over 500,000 stars.", "ar": "خططت ناسا لـ10 حملات في K2 وبلغت 19 حملة، وراقبت أكثر من 500,000 نجم." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "K2 used sunlight pressure to hold pointing after the loss of a second reaction wheel.", "ar": "استخدمت K2 ضغط ضوء الشمس للتوجيه بعد فقدان عجلة التفاعل الثانية." }, "sourceId": "kepler-src-a", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "How does Kepler find planets?", "ar": "كيف يجد كبلر الكواكب؟" },
+        "options": [
+          { "label": { "en": "By tiny dips in the brightness of a star", "ar": "عبر انخفاضات صغيرة في سطوع النجم" }, "isCorrect": true },
+          { "label": { "en": "By landing on them", "ar": "بالهبوط عليها" }, "isCorrect": false },
+          { "label": { "en": "By listening for radio calls", "ar": "بالإصغاء إلى نداءات لاسلكية" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says Kepler used the transit method: tiny dips in the brightness of a star.", "ar": "تقول ناسا إن كبلر استخدم طريقة العبور: انخفاضات صغيرة في سطوع النجم." }
+      },
+      "sourceIds": ["kepler-src-a"]
+    },
+    {
+      "id": "kepler-5", "kind": "discovery",
+      "title": { "en": "A Sky Full of Planets", "ar": "سماء مليئة بالكواكب" },
+      "basicText": { "en": "NASA says Kepler made more than 2,600 planet discoveries. An estimate says 20 to 50 percent of visible stars may have small, possibly rocky planets in the habitable zone.", "ar": "تقول ناسا إن كبلر حقق أكثر من 2,600 اكتشاف لكواكب. وتقدّر أن 20 إلى 50 بالمئة من النجوم المرئية قد يكون لها كواكب صغيرة، ربما صخرية، في المنطقة الصالحة للحياة." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "More than 2,600 planet discoveries.", "ar": "أكثر من 2,600 اكتشاف لكواكب." }, "sourceId": "kepler-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["kepler-src-a"]
+    },
+    {
+      "id": "kepler-6", "kind": "ending", "dateLabel": "30 Oct 2018",
+      "title": { "en": "Out of Fuel", "ar": "نفاد الوقود" },
+      "basicText": { "en": "Kepler ran out of fuel needed for further science operations. NASA retired it on 30 October 2018, leaving it within its current, safe orbit, away from Earth.", "ar": "نفد وقود كبلر اللازم لمواصلة العمليات العلمية. وأحالته ناسا إلى التقاعد في 30 أكتوبر 2018 وتركته في مداره الآمن الحالي بعيداً عن الأرض." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Retired 30 October 2018 after running out of fuel; left in a safe orbit away from Earth.", "ar": "تقاعد في 30 أكتوبر 2018 بعد نفاد الوقود وتُرك في مدار آمن بعيداً عن الأرض." }, "sourceId": "kepler-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["kepler-src-a"]
+    },
+    {
+      "id": "kepler-7", "kind": "legacy",
+      "title": { "en": "Why We Remember Kepler", "ar": "لماذا نتذكر كبلر" },
+      "basicText": { "en": "Kepler was not broken or forgotten. It used its fuel to find thousands of planets and now stays in a safe orbit around the Sun.", "ar": "لم يتعطل كبلر ولم يُنسَ. استخدم وقوده لاكتشاف آلاف الكواكب، ويبقى الآن في مدار آمن حول الشمس." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["kepler-src-a"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "More than 2,600 planets", "ar": "أكثر من 2,600 كوكب" }, "summary": { "en": "NASA states more than 2,600 planet discoveries.", "ar": "تذكر ناسا أكثر من 2,600 اكتشاف لكواكب." }, "sourceId": "kepler-src-a" },
+    { "id": "d2", "title": { "en": "Small planets may be common", "ar": "قد تكون الكواكب الصغيرة شائعة" }, "summary": { "en": "An estimate says 20 to 50 percent of visible stars have small, possibly rocky planets in the habitable zone.", "ar": "تقدير يقول إن 20 إلى 50 بالمئة من النجوم المرئية لها كواكب صغيرة، ربما صخرية، في المنطقة الصالحة للحياة." }, "sourceId": "kepler-src-a" }
+  ],
+  "ending": {
+    "endCause": "fuel-exhausted",
+    "currentLocation": "solar-orbit",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "Kepler ran out of fuel needed for further science operations. NASA retired it on 30 October 2018 and left it within its current, safe orbit, away from Earth.", "ar": "نفد وقود كبلر اللازم لمواصلة العمليات العلمية. وأحالته ناسا إلى التقاعد في 30 أكتوبر 2018 وتركته في مداره الآمن الحالي بعيداً عن الأرض." },
+    "legacyText": { "en": "NASA credits Kepler with more than 2,600 planet discoveries.", "ar": "تنسب ناسا إلى كبلر أكثر من 2,600 اكتشاف لكواكب." },
+    "notStated": [
+      { "en": "NASA pages we read do not give a Kepler-only count of planet candidates.", "ar": "لا تذكر صفحات ناسا التي قرأناها عدداً للكواكب المرشحة يخص كبلر وحده." }
+    ]
+  }
+}

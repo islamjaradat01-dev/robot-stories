@@ -1,0 +1,132 @@
+{
+  "id": "alsep-apollo-12",
+  "destinationId": "moon",
+  "name": { "en": "Apollo 12 Science Station (ALSEP)", "ar": "محطة علوم أبولو 12 (ALSEP)" },
+  "missionType": "instrument-package",
+  "card": {
+    "tagline": { "en": "A set of instruments the Apollo 12 astronauts left on the Moon, powered by a nuclear generator.", "ar": "مجموعة أجهزة تركها روّاد أبولو 12 على القمر، تعمل بمولّد نووي." },
+    "assetId": "core-moon", "group": "alsep", "order": 5
+  },
+  "unverified": true,
+  "relatedMissionIds": ["surveyor-3"],
+  "intro": {
+    "whatItIs": { "en": "ALSEP is a set of scientific instruments placed at the landing site by the astronauts. A 25 kg central station supplies power and communications.", "ar": "ALSEP مجموعة أجهزة علمية وضعها الروّاد في موقع الهبوط. وتزوّدها محطة مركزية وزنها 25 كغ بالطاقة والاتصالات." },
+    "whyCreated": { "en": "It let scientists keep measuring the Moon after the astronauts went home.", "ar": "تتيح للعلماء مواصلة قياس القمر بعد عودة الروّاد إلى الأرض." },
+    "goal": { "en": "To measure things like moonquakes, magnetic fields, charged particles and dust.", "ar": "قياس أمور مثل الزلازل القمرية والمجالات المغناطيسية والجسيمات المشحونة والغبار." },
+    "whereGoing": { "en": "Oceanus Procellarum on the Moon, at 3.0094° S, 23.4246° W.", "ar": "محيط العواصف على القمر، عند 3.0094° جنوباً و23.4246° غرباً." },
+    "assetId": "core-moon"
+  },
+  "units": [
+    { "id": "alsep-12-station", "name": { "en": "Apollo 12 ALSEP", "ar": "حزمة ALSEP في أبولو 12" }, "parentFlight": "Apollo 12 (NSSDCA 1969-099C)", "restingPlace": { "en": "Deployed and left on the lunar surface at 3.0094° S, 23.4246° W", "ar": "نُصبت وتُركت على سطح القمر عند 3.0094° جنوباً و23.4246° غرباً" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-landing", "dateLabel": "19 Nov 1969", "label": { "en": "Apollo 12 lunar module lands (06:54 UT)", "ar": "هبوط المركبة القمرية لأبولو 12 (06:54 بالتوقيت العالمي)" }, "sourceId": "masv-src-a12", "basis": "nasa-page" },
+    { "id": "t-on", "dateLabel": "19 Nov 1969", "label": { "en": "ALSEP central station turned on (14:21 UT)", "ar": "تشغيل المحطة المركزية لـ ALSEP (14:21 بالتوقيت العالمي)" }, "sourceId": "masv-src-a12", "basis": "nasa-page" },
+    { "id": "t-quake", "dateLabel": "Nov 1969", "label": { "en": "The lunar module's ascent stage is crashed into the Moon about 60 km away, making the first recorded artificial moonquake", "ar": "تُصطدم المرحلة الصاعدة من المركبة القمرية بالقمر على بعد نحو 60 كم، فتُسجَّل أول هزة قمرية صناعية" }, "sourceId": "masv-src-a12", "basis": "nasa-page" },
+    { "id": "t-off", "dateLabel": "30 Sep 1977", "label": { "en": "ALSEP stations shut down", "ar": "إيقاف محطات ALSEP" }, "sourceId": "masv-src-a12", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "alsep12-1", "kind": "origin",
+      "title": { "en": "A Science Station for the Moon", "ar": "محطة علمية للقمر" },
+      "basicText": { "en": "ALSEP was a set of scientific instruments placed on the Moon by astronauts. A small central station supplied power and communications to the instruments.", "ar": "ALSEP مجموعة أجهزة علمية وضعها الروّاد على القمر. وكانت محطة مركزية صغيرة تمدّ الأجهزة بالطاقة وبالاتصالات." },
+      "exploreMoreText": { "en": "The Apollo 12 package included a passive seismometer, a suprathermal ion detector, a cold cathode ion gauge, a lunar dust detector, a lunar surface magnetometer and a solar wind spectrometer.", "ar": "ضمّت حزمة أبولو 12 مقياس زلازل سلبياً وكاشف أيونات فوق حرارية ومقياس أيونات بالمهبط البارد وكاشف غبار قمرياً ومقياس مغناطيسية سطحياً ومطياف رياح شمسية." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "ALSEP is described as a set of scientific instruments emplaced at the landing site by the astronauts.", "ar": "يُوصف ALSEP بأنه مجموعة أجهزة علمية نصبها الروّاد في موقع الهبوط." }, "sourceId": "masv-src-a12", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-a12"]
+    },
+    {
+      "id": "alsep12-2", "kind": "landing", "dateLabel": "19 Nov 1969 (UT)",
+      "title": { "en": "Landing Near Surveyor 3", "ar": "الهبوط قرب سيرفيور 3" },
+      "basicText": { "en": "The Apollo 12 lunar module landed in Oceanus Procellarum on 19 November 1969 (UT), within about 180 metres of the Surveyor 3 spacecraft.", "ar": "هبطت المركبة القمرية لأبولو 12 في محيط العواصف في 19 نوفمبر 1969 (بالتوقيت العالمي)، على بعد نحو 180 متراً من المركبة سيرفيور 3." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Landing: 19 Nov 1969, 06:54:35 UT, at 3.0128° S, 23.4219° W.", "ar": "الهبوط: 19 نوفمبر 1969 الساعة 06:54:35 بالتوقيت العالمي عند 3.0128° جنوباً و23.4219° غرباً." }, "sourceId": "masv-src-a12", "basis": "disputed", "note": { "en": "Another NASA page gives 18 Nov for the landing date; we use the NSSDCA UT date.", "ar": "تذكر صفحة أخرى لناسا 18 نوفمبر؛ ونستخدم تاريخ NSSDCA بالتوقيت العالمي." } }
+      ],
+      "sourceIds": ["masv-src-a12"]
+    },
+    {
+      "id": "alsep12-3", "kind": "deployment", "dateLabel": "19 Nov 1969 (UT)",
+      "title": { "en": "Switched On", "ar": "التشغيل" },
+      "basicText": { "en": "The Apollo 12 ALSEP central station was turned on at 14:21 UT on 19 November 1969, at 3.0094° S, 23.4246° W.", "ar": "شُغّلت المحطة المركزية لـ ALSEP في أبولو 12 الساعة 14:21 بالتوقيت العالمي في 19 نوفمبر 1969، عند 3.0094° جنوباً و23.4246° غرباً." },
+      "animationPreset": "deployment",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "It was deployed and left on the lunar surface.", "ar": "نُصبت وتُركت على سطح القمر." }, "sourceId": "masv-src-a12", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-a12", "masv-src-sites"]
+    },
+    {
+      "id": "alsep12-4", "kind": "operations",
+      "title": { "en": "Powered by SNAP-27", "ar": "تعمل بمولّد SNAP-27" },
+      "basicText": { "en": "A SNAP-27 radioisotope generator powered the station. It made about 70 watts at launch and 63.5 watts after one year.", "ar": "زوّد مولّد النظائر المشعة SNAP-27 المحطة بالطاقة، وأنتج نحو 70 واط عند الإطلاق و63.5 واط بعد سنة." },
+      "exploreMoreText": { "en": "The generator's fuel capsule held about 4 kg of plutonium-238, and the generator had a mass of 17 kg.", "ar": "احتوت أسطوانة الوقود على نحو 4 كغ من البلوتونيوم-238، وبلغت كتلة المولّد 17 كغ." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "SNAP-27: about 70 W at launch, 63.5 W after one year.", "ar": "SNAP-27: نحو 70 واط عند الإطلاق و63.5 واط بعد سنة." }, "sourceId": "masv-src-a12", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "What powered the ALSEP station?", "ar": "ما الذي زوّد محطة ALSEP بالطاقة؟" },
+        "options": [
+          { "label": { "en": "A SNAP-27 radioisotope generator", "ar": "مولّد النظائر المشعة SNAP-27" }, "isCorrect": true },
+          { "label": { "en": "A wind turbine", "ar": "توربين رياح" }, "isCorrect": false },
+          { "label": { "en": "A battery charged by astronauts each day", "ar": "بطارية يشحنها الروّاد كل يوم" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says a SNAP-27 radioisotope generator powered the station.", "ar": "تقول ناسا إن مولّد النظائر المشعة SNAP-27 زوّد المحطة بالطاقة." }
+      },
+      "sourceIds": ["masv-src-a12"]
+    },
+    {
+      "id": "alsep12-5", "kind": "discovery",
+      "title": { "en": "The First Artificial Moonquake", "ar": "أول هزة قمرية صناعية" },
+      "basicText": { "en": "The lunar module's ascent stage was intentionally crashed into the Moon about 60 km from the seismic station. NASA says this made the first recorded artificial moonquake.", "ar": "اصطدمت المرحلة الصاعدة من المركبة القمرية عمداً بالقمر على بعد نحو 60 كم من محطة قياس الزلازل. وتقول ناسا إن ذلك أحدث أول هزة قمرية صناعية مسجّلة." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Ascent stage intentionally crashed about 60 km from the seismic station, creating the first recorded artificial moonquake.", "ar": "تحطمت المرحلة الصاعدة عمداً على بعد نحو 60 كم من محطة الزلازل مسبّبةً أول هزة قمرية صناعية مسجّلة." }, "sourceId": "masv-src-a12", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-a12"]
+    },
+    {
+      "id": "alsep12-6", "kind": "ending", "dateLabel": "30 Sep 1977",
+      "title": { "en": "Switched Off", "ar": "الإيقاف" },
+      "basicText": { "en": "On 30 September 1977 the Apollo 12 station was shut down along with the other ALSEP stations. The pages we read do not say why.", "ar": "في 30 سبتمبر 1977 أُوقفت محطة أبولو 12 مع بقية محطات ALSEP. ولا تذكر الصفحات التي قرأناها السبب." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Shut down along with the other ALSEP stations on 30 September 1977.", "ar": "أُوقفت مع بقية محطات ALSEP في 30 سبتمبر 1977." }, "sourceId": "masv-src-a12", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-a12"]
+    },
+    {
+      "id": "alsep12-7", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "The station was not forgotten gear. It was a science station that did its job from 1969 until it was switched off in 1977, and it recorded the first artificial moonquake.", "ar": "لم تكن المحطة معدات منسية، بل محطة علمية أدّت عملها من 1969 حتى إيقافها في 1977، وسجّلت أول هزة قمرية صناعية." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["masv-src-a12"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "First artificial moonquake", "ar": "أول هزة قمرية صناعية" }, "summary": { "en": "The crash of the ascent stage about 60 km away created the first recorded artificial moonquake.", "ar": "أحدث اصطدام المرحلة الصاعدة على بعد نحو 60 كم أول هزة قمرية صناعية مسجّلة." }, "sourceId": "masv-src-a12" }
+  ],
+  "ending": {
+    "endCause": "switched-off",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "The ALSEP was deployed and left on the lunar surface. NASA's archive says all ALSEP stations were shut down on 30 September 1977.", "ar": "نُصبت حزمة ALSEP وتُركت على سطح القمر. وتقول أرشيفات ناسا إن جميع محطات ALSEP أُوقفت في 30 سبتمبر 1977." },
+    "legacyText": { "en": "The station made measurements on the Moon for years and recorded the first artificial moonquake.", "ar": "أجرت المحطة قياسات على القمر لسنوات وسجّلت أول هزة قمرية صناعية." },
+    "notStated": [
+      { "en": "The pages we read do not state why the stations were shut down in 1977.", "ar": "لا تذكر الصفحات التي قرأناها سبب إيقاف المحطات في 1977." },
+      { "en": "The pages we read do not say whether any retroreflector is still used today.", "ar": "لا تذكر الصفحات التي قرأناها إن كان أي عاكس ليزري ما زال يُستخدم اليوم." }
+    ]
+  },
+  "badge": { "name": { "en": "Moon Station Keeper", "ar": "حارس محطة القمر" }, "iconAssetId": "core-moon" }
+}

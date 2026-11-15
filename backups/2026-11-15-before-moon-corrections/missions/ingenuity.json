@@ -1,0 +1,136 @@
+{
+  "id": "ingenuity",
+  "destinationId": "mars",
+  "name": { "en": "Ingenuity Helicopter", "ar": "المروحية إنجينيويتي" },
+  "missionType": "helicopter",
+  "card": {
+    "tagline": { "en": "The small helicopter planned for 5 flights that flew 72 times on Mars.", "ar": "المروحية الصغيرة التي خُطّط لها 5 رحلات فحلّقت 72 مرة على المريخ." },
+    "assetId": "ingenuity-img-a", "group": "rover", "order": 8
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "Ingenuity is a helicopter that flew on Mars. It traveled there carried under the Perseverance rover.", "ar": "إنجينيويتي مروحية حلّقت على المريخ. سافرت إليه محمولة أسفل المركبة الجوّالة برسيفيرنس." },
+    "whyCreated": { "en": "NASA built it to demonstrate the first powered flight on Mars, as a technology demonstration.", "ar": "بنتها ناسا لإثبات أول طيران بمحرك على المريخ، كتجربة تقنية." },
+    "goal": { "en": "It was designed for up to five test flights in 30 days.", "ar": "صُمّمت لما يصل إلى خمس رحلات تجريبية خلال 30 يوماً." },
+    "whereGoing": { "en": "Jezero Crater on Mars.", "ar": "فوهة جيزيرو على المريخ." },
+    "assetId": "ingenuity-img-a"
+  },
+  "units": [
+    { "id": "ingenuity-helicopter", "name": { "en": "Ingenuity Mars Helicopter", "ar": "مروحية إنجينيويتي على المريخ" }, "restingPlace": { "en": "Mars (remains upright, per NASA, January 2024)", "ar": "المريخ (تبقى منتصبة بحسب ناسا، يناير 2024)" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "2020-07-30", "label": { "en": "Launched with Perseverance from Cape Canaveral", "ar": "الإطلاق مع برسيفيرنس من كيب كانافيرال" }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" },
+    { "id": "t-landing", "dateLabel": "2021-02-18", "label": { "en": "Landed in Jezero Crater, carried under Perseverance", "ar": "الهبوط في فوهة جيزيرو محمولة أسفل برسيفيرنس" }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" },
+    { "id": "t-first", "dateLabel": "2021-04-19", "label": { "en": "First powered flight on another planet", "ar": "أول طيران بمحرك على كوكب آخر" }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" },
+    { "id": "t-final", "dateLabel": "2024-01-18", "label": { "en": "Final flight, flight 72", "ar": "الرحلة الأخيرة، الرحلة 72" }, "sourceId": "ingenuity-src-b", "basis": "nasa-page" },
+    { "id": "t-end", "dateLabel": "2024-01-25", "label": { "en": "Mission completed", "ar": "اكتمال المهمة" }, "sourceId": "ingenuity-src-b", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "ing-1", "kind": "origin",
+      "title": { "en": "Meet Ingenuity", "ar": "تعرّف على إنجينيويتي" },
+      "basicText": { "en": "Ingenuity was a small helicopter. NASA built it to show that powered flight is possible on Mars, with up to five test flights in 30 days.", "ar": "كانت إنجينيويتي مروحية صغيرة. بنتها ناسا لتُظهر أن الطيران بمحرك ممكن على المريخ، بما يصل إلى خمس رحلات تجريبية في 30 يوماً." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "ingenuity-img-a", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Ingenuity was a technology demonstration of up to five test flights in 30 days.", "ar": "كانت إنجينيويتي تجربة تقنية لما يصل إلى خمس رحلات تجريبية في 30 يوماً." }, "sourceId": "ingenuity-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["ingenuity-src-a", "ingenuity-src-b"]
+    },
+    {
+      "id": "ing-2", "kind": "launch", "dateLabel": "30 Jul 2020",
+      "title": { "en": "A Ride with Perseverance", "ar": "رحلة مع برسيفيرنس" },
+      "basicText": { "en": "Ingenuity launched on 30 July 2020 from Cape Canaveral, riding to Mars with the Perseverance rover.", "ar": "أُطلقت إنجينيويتي في 30 يوليو 2020 من كيب كانافيرال، وسافرت إلى المريخ مع المركبة الجوّالة برسيفيرنس." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch date: 30 Jul 2020.", "ar": "تاريخ الإطلاق: 30 يوليو 2020." }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["ingenuity-src-a"]
+    },
+    {
+      "id": "ing-3", "kind": "landing", "dateLabel": "18 Feb 2021",
+      "title": { "en": "Arrival at Jezero", "ar": "الوصول إلى جيزيرو" },
+      "basicText": { "en": "Ingenuity landed in Jezero Crater on 18 February 2021, carried under Perseverance.", "ar": "هبطت إنجينيويتي في فوهة جيزيرو في 18 فبراير 2021 محمولة أسفل برسيفيرنس." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Ingenuity landed on 18 Feb 2021 in Jezero Crater.", "ar": "هبطت إنجينيويتي في 18 فبراير 2021 في فوهة جيزيرو." }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["ingenuity-src-a"]
+    },
+    {
+      "id": "ing-4", "kind": "operations", "dateLabel": "19 Apr 2021",
+      "title": { "en": "First Flight", "ar": "الرحلة الأولى" },
+      "basicText": { "en": "On 19 April 2021 Ingenuity made the first powered flight on another planet.", "ar": "في 19 أبريل 2021 نفّذت إنجينيويتي أول طيران بمحرك على كوكب آخر." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "ingenuity-img-b", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "First flight on 19 Apr 2021, the first powered flight on another planet.", "ar": "الرحلة الأولى في 19 أبريل 2021، أول طيران بمحرك على كوكب آخر." }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["ingenuity-src-a", "ingenuity-src-b"]
+    },
+    {
+      "id": "ing-5", "kind": "operations",
+      "title": { "en": "72 Flights Instead of 5", "ar": "72 رحلة بدل 5" },
+      "basicText": { "en": "Ingenuity flew 72 times, not 5. It flew 128.8 minutes in total and about 17 km. Its highest flight reached 24 m.", "ar": "حلّقت إنجينيويتي 72 مرة لا 5. وبلغ مجموع زمن طيرانها 128.8 دقيقة وقطعت نحو 17 كم، وبلغ أعلى ارتفاع 24 م." },
+      "exploreMoreText": { "en": "NASA says the mission lasted more than 33 times longer than planned. Top speed was 10 m/s (22.4 mph). It used 48 airfields and made three emergency landings.", "ar": "تقول ناسا إن المهمة دامت أكثر من 33 ضعف المخطط. وبلغت أقصى سرعة 10 م/ث (22.4 ميل/ساعة)، واستخدمت 48 مهبطاً ونفّذت ثلاث هبطات اضطرارية." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "ingenuity-img-b", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "72 flights, 128.8 flying minutes, about 17 km, highest altitude 24 m (78.7 ft).", "ar": "72 رحلة، و128.8 دقيقة طيران، ونحو 17 كم، وأعلى ارتفاع 24 م (78.7 قدم)." }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Distance is given as 10.5 miles (17.0 km) by NASA; alt text says 11 miles.", "ar": "تذكر ناسا المسافة 10.5 ميل (17.0 كم)، بينما يذكر النص البديل 11 ميلاً." }, "sourceId": "ingenuity-src-a", "basis": "disputed", "note": { "en": "NASA wording differs slightly, so we say about 17 km.", "ar": "تختلف صياغة ناسا قليلاً، لذلك نقول نحو 17 كم." } }
+      ],
+      "quiz": {
+        "prompt": { "en": "How many flights did Ingenuity make?", "ar": "كم رحلة نفّذت إنجينيويتي؟" },
+        "options": [
+          { "label": { "en": "72", "ar": "72" }, "isCorrect": true },
+          { "label": { "en": "5", "ar": "5" }, "isCorrect": false },
+          { "label": { "en": "12", "ar": "12" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA planned 5 flights. Ingenuity made 72.", "ar": "خطّطت ناسا لـ 5 رحلات، ونفّذت إنجينيويتي 72." }
+      },
+      "sourceIds": ["ingenuity-src-a", "ingenuity-src-b"]
+    },
+    {
+      "id": "ing-6", "kind": "ending", "dateLabel": "18 – 25 Jan 2024",
+      "title": { "en": "The Last Flight", "ar": "الرحلة الأخيرة" },
+      "basicText": { "en": "On 18 January 2024 Ingenuity rose to 12 m and hovered 4.5 seconds. Contact was lost near the ground, then regained. Images showed rotor damage. NASA completed the mission on 25 January.", "ar": "في 18 يناير 2024 ارتفعت إنجينيويتي إلى 12 م وحامت 4.5 ثانية. انقطع الاتصال قرب الأرض ثم عاد. وأظهرت الصور ضرراً في الريش. وأنهت ناسا المهمة في 25 يناير." },
+      "exploreMoreText": { "en": "NASA says contact was lost about 1 m above the surface and regained the next day. It remains upright and in communication, but is no longer capable of flight.", "ar": "تقول ناسا إن الاتصال انقطع على ارتفاع نحو 1 م عن السطح وعاد في اليوم التالي. وهي لا تزال منتصبة وعلى اتصال، لكنها لم تعد قادرة على الطيران." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Ingenuity remains upright and in communication with ground controllers but is no longer capable of flight.", "ar": "لا تزال إنجينيويتي منتصبة وعلى اتصال بالمراقبين الأرضيين لكنها لم تعد قادرة على الطيران." }, "sourceId": "ingenuity-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["ingenuity-src-a", "ingenuity-src-b"]
+    },
+    {
+      "id": "ing-7", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "Ingenuity paved the way for future aerial explorers at Mars and, potentially, other worlds.", "ar": "مهّدت إنجينيويتي الطريق لمستكشفين جويين في المستقبل على المريخ وربما على عوالم أخرى." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "NASA says Ingenuity paved the way for future aerial explorers.", "ar": "تقول ناسا إن إنجينيويتي مهّدت الطريق لمستكشفين جويين مستقبلاً." }, "sourceId": "ingenuity-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["ingenuity-src-a"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "Powered flight on Mars", "ar": "الطيران بمحرك على المريخ" }, "summary": { "en": "Ingenuity made the first powered flight on another planet on 19 April 2021.", "ar": "نفّذت إنجينيويتي أول طيران بمحرك على كوكب آخر في 19 أبريل 2021." }, "sourceId": "ingenuity-src-a" },
+    { "id": "d2", "title": { "en": "Flight records", "ar": "أرقام قياسية في الطيران" }, "summary": { "en": "Distance record on 8 Apr 2022, altitude record on 5 Oct 2023 and speed record on 12 Oct 2023.", "ar": "رقم قياسي للمسافة في 8 أبريل 2022 وللارتفاع في 5 أكتوبر 2023 وللسرعة في 12 أكتوبر 2023." }, "sourceId": "ingenuity-src-a" }
+  ],
+  "ending": {
+    "endCause": "stopped-operating",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "On its final flight on 18 January 2024, Ingenuity rose to 12 m, hovered for 4.5 seconds and descended. Contact was lost about 1 m above the surface and regained the next day. Images days later showed rotor damage. NASA completed the mission on 25 January 2024. Ingenuity remains upright but can no longer fly.", "ar": "في رحلتها الأخيرة في 18 يناير 2024 ارتفعت إنجينيويتي إلى 12 م وحامت 4.5 ثانية ثم هبطت. انقطع الاتصال على ارتفاع نحو 1 م عن السطح وعاد في اليوم التالي. وأظهرت صور بعد أيام ضرراً في الريش. وأكملت ناسا المهمة في 25 يناير 2024. وتبقى إنجينيويتي منتصبة لكنها لا تستطيع الطيران." },
+    "legacyText": { "en": "Ingenuity flew 72 times against 5 planned and paved the way for future aerial explorers.", "ar": "حلّقت إنجينيويتي 72 مرة مقابل 5 مخططة ومهّدت الطريق لمستكشفين جويين مستقبلاً." },
+    "notStated": [
+      { "en": "The cause of the communication dropout on the final flight was still being investigated when NASA wrote its release.", "ar": "كان سبب انقطاع الاتصال في الرحلة الأخيرة قيد التحقيق عندما كتبت ناسا بيانها." }
+    ]
+  },
+  "badge": { "name": { "en": "Ingenuity Pilot", "ar": "طيّار إنجينيويتي" }, "iconAssetId": "ingenuity-img-a" }
+}

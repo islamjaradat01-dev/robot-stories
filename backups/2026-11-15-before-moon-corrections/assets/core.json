@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bg-placeholder", "type": "image", "path": "/images/backgrounds/placeholder.svg",
+    "altText": { "en": "Plain dark starfield used when a photo is not available.", "ar": "خلفية نجوم داكنة تُستخدم عند عدم توفر صورة." },
+    "credit": "Placeholder (not a NASA image)", "sourceUrl": "https://images.nasa.gov/", "authenticity": "reconstruction"
+  },
+  {
+    "id": "core-earth", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg", "nasaId": "PIA18033",
+    "altText": { "en": "Earth seen from space (Blue Marble).", "ar": "كوكب الأرض كما يُرى من الفضاء." },
+    "credit": "NASA", "sourceUrl": "https://images.nasa.gov/details/PIA18033", "authenticity": "real"
+  },
+  {
+    "id": "core-mars", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA02992/PIA02992~medium.jpg", "nasaId": "PIA02992",
+    "altText": { "en": "Mars, a digital image mosaic.", "ar": "كوكب المريخ، صورة مركّبة رقمياً." },
+    "credit": "NASA/JPL/USGS", "sourceUrl": "https://images.nasa.gov/details/PIA02992", "authenticity": "real"
+  },
+  {
+    "id": "core-moon", "type": "image", "path": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000868/GSFC_20171208_Archive_e000868~medium.jpg", "nasaId": "GSFC_20171208_Archive_e000868",
+    "altText": { "en": "The full Moon, built from Lunar Reconnaissance Orbiter data.", "ar": "القمر المكتمل، مبني من بيانات مسبار استطلاع القمر." },
+    "credit": "NASA/GSFC (credit field not stated by the library)", "sourceUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000868", "authenticity": "reconstruction"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "opp-img-selfie-2014", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA17759/PIA17759~medium.jpg", "nasaId": "PIA17759",
+    "altText": { "en": "Opportunity's self-portrait on Mars in January 2014.", "ar": "صورة ذاتية لمركبة أبورتيونيتي على المريخ في يناير 2014." },
+    "credit": "NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.", "sourceUrl": "https://images.nasa.gov/details/PIA17759", "authenticity": "real"
+  },
+  {
+    "id": "opp-img-selfie-sol5000", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA22222/PIA22222~medium.jpg", "nasaId": "PIA22222",
+    "altText": { "en": "Opportunity's selfie at Perseverance Valley, marking its 5,000th Martian day.", "ar": "صورة ذاتية لأبورتيونيتي في وادي بيرسيفيرنس بمناسبة يومها الخمسة آلاف على المريخ." },
+    "credit": "NASA/JPL-Caltech", "sourceUrl": "https://images.nasa.gov/details/PIA22222", "authenticity": "real"
+  },
+  {
+    "id": "opp-img-endurance", "type": "image", "path": "https://images-assets.nasa.gov/image/PIA06739/PIA06739~small.jpg", "nasaId": "PIA06739",
+    "altText": { "en": "Opportunity's shadow inside Endurance Crater.", "ar": "ظل أبورتيونيتي داخل فوهة إنديورانس." },
+    "credit": "NASA/JPL", "sourceUrl": "https://images.nasa.gov/details/PIA06739", "authenticity": "real"
+  }
+]

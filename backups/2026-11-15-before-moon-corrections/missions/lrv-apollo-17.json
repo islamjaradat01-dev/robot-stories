@@ -1,0 +1,123 @@
+{
+  "id": "lrv-apollo-17",
+  "destinationId": "moon",
+  "name": { "en": "Apollo 17 Lunar Roving Vehicle", "ar": "المركبة الجوالة القمرية في أبولو 17" },
+  "missionType": "surface-vehicle",
+  "card": {
+    "tagline": { "en": "The moon buggy that drove 35.9 km, the longest of the three. NASA pages do not say where it ended up.", "ar": "العربة القمرية التي قطعت 35.9 كم، وهي الأطول بين الثلاث. ولا تذكر صفحات ناسا أين انتهى بها المطاف." },
+    "assetId": "moon-lm-lrv-img-as17-cernan-drives", "group": "lrv", "order": 4
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "The Lunar Roving Vehicle (LRV) was an electric vehicle designed to operate in the low-gravity vacuum of the Moon. This one belonged to Apollo 17.", "ar": "المركبة الجوالة القمرية (LRV) مركبة كهربائية صُمّمت للعمل في فراغ القمر وجاذبيته الضعيفة. وهذه المركبة كانت في أبولو 17." },
+    "whyCreated": { "en": "It let astronauts Cernan and Schmitt travel far from the Lunar Module.", "ar": "أتاحت للرائدين سيرنان وشميت الابتعاد كثيراً عن المركبة القمرية." },
+    "goal": { "en": "To carry two astronauts and their tools across the Moon's surface.", "ar": "أن تنقل رائدين وأدواتهما عبر سطح القمر." },
+    "whereGoing": { "en": "The Apollo 17 landing area on the southeastern rim of Mare Serenitatis, south of Littrow crater.", "ar": "منطقة هبوط أبولو 17 عند الحافة الجنوبية الشرقية لبحر الصفاء، جنوب فوهة ليترو." },
+    "assetId": "moon-lm-lrv-img-as17-cernan-drives"
+  },
+  "units": [
+    { "id": "lrv-apollo-17-rover", "name": { "en": "Apollo 17 Lunar Roving Vehicle", "ar": "المركبة الجوالة القمرية في أبولو 17" }, "parentFlight": "Apollo 17", "restingPlace": { "en": "Not stated on NASA pages we read", "ar": "غير مذكور في صفحات ناسا التي قرأناها" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-landing", "dateLabel": "1972-12-11", "label": { "en": "Challenger, which carried the folded rover, lands (19:54:57 UT)", "ar": "هبوط تشالنجر التي حملت المركبة الجوالة مطويّة (19:54:57 بالتوقيت العالمي)" }, "sourceId": "moon-lm-lrv-src-lm17", "basis": "nasa-page" },
+    { "id": "t-alsep", "dateLabel": "1972-12-12", "label": { "en": "The Apollo 17 science station (ALSEP) is turned on (02:53 UT)", "ar": "تشغيل محطة العلوم في أبولو 17 (ALSEP) (02:53 بالتوقيت العالمي)" }, "sourceId": "moon-lm-lrv-src-lm17", "basis": "nasa-page" },
+    { "id": "t-jettison", "dateLabel": "1972-12-15", "label": { "en": "Challenger's ascent stage is jettisoned (04:51:31 UT)", "ar": "التخلص من مرحلة صعود تشالنجر (04:51:31 بالتوقيت العالمي)" }, "sourceId": "moon-lm-lrv-src-lm17", "basis": "nasa-page" },
+    { "id": "t-claim", "dateLabel": "2026", "label": { "en": "The Space Apps challenge page says LRVs were \"parked permanently on the Moon\"", "ar": "تقول صفحة التحدي إن المركبات الجوالة «أُوقفت بصورة دائمة على القمر»" }, "sourceId": "moon-lm-lrv-src-challenge", "basis": "challenge-page" }
+  ],
+  "stages": [
+    {
+      "id": "lrv17-1", "kind": "origin",
+      "title": { "en": "A Car for the Moon", "ar": "سيارة للقمر" },
+      "basicText": { "en": "The Lunar Roving Vehicle was an electric vehicle built to work in the Moon's low gravity and airless vacuum. It was developed in only 17 months.", "ar": "المركبة الجوالة القمرية مركبة كهربائية صُنعت لتعمل في جاذبية القمر الضعيفة وفراغه الخالي من الهواء. وطُوّرت في 17 شهراً فقط." },
+      "exploreMoreText": { "en": "Boeing built it, with Delco as a major subcontractor. The contract was $19 million and the final cost was $38 million.", "ar": "صنعتها شركة بوينغ، وكانت دلكو مقاولاً فرعياً رئيسياً. بلغ العقد 19 مليون دولار وبلغت التكلفة النهائية 38 مليوناً." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-moon", "role": "background" }, { "assetId": "moon-lm-lrv-img-as17-lrv-closeup", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Developed in only 17 months; contract $19 million, final cost $38 million.", "ar": "طُوّرت في 17 شهراً فقط؛ العقد 19 مليون دولار والتكلفة النهائية 38 مليوناً." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    },
+    {
+      "id": "lrv17-2", "kind": "build",
+      "title": { "en": "How It Was Built", "ar": "كيف صُنعت" },
+      "basicText": { "en": "The rover weighed 210 kg and could carry another 490 kg. It ran on two 36-volt silver-zinc batteries that could not be recharged.", "ar": "وزنت المركبة 210 كغ وكان بإمكانها حمل 490 كغ إضافية. وعملت ببطاريتين من الفضة والزنك بجهد 36 فولت لا يمكن إعادة شحنهما." },
+      "exploreMoreText": { "en": "The batteries stored 121 amp-hours. Each wheel motor was 0.25 horsepower.", "ar": "خزّنت البطاريتان 121 أمبير ساعة، وكانت قدرة كل محرك عجلة 0.25 حصان." },
+      "animationPreset": "build",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Rover mass 210 kg, designed to carry an additional 490 kg.", "ar": "كتلة المركبة 210 كغ ومصممة لحمل 490 كغ إضافية." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Power: two 36-volt silver-zinc non-rechargeable batteries (121 amp-hr).", "ar": "الطاقة: بطاريتان من الفضة والزنك بجهد 36 فولت غير قابلتين للشحن (121 أمبير ساعة)." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    },
+    {
+      "id": "lrv17-3", "kind": "deployment", "dateLabel": "11 Dec 1972",
+      "title": { "en": "Folded Inside Challenger", "ar": "مطويّة داخل تشالنجر" },
+      "basicText": { "en": "The rover travelled to the Moon folded up in quad 1 of the Lunar Module's descent stage. The Lunar Module landed on 11 December 1972.", "ar": "سافرت المركبة الجوالة إلى القمر مطويّة في الربع 1 من مرحلة هبوط المركبة القمرية. وهبطت المركبة القمرية في 11 ديسمبر 1972." },
+      "animationPreset": "deployment",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "The LRV was folded and carried in quad 1 of the LM descent stage.", "ar": "طُويت المركبة الجوالة وحُملت في الربع 1 من مرحلة هبوط المركبة القمرية." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "The Apollo 17 Lunar Module landed on 11 Dec 1972, 19:54:57 UT.", "ar": "هبطت المركبة القمرية في أبولو 17 في 11 ديسمبر 1972، 19:54:57 بالتوقيت العالمي." }, "sourceId": "moon-lm-lrv-src-lm17", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv", "moon-lm-lrv-src-lm17"]
+    },
+    {
+      "id": "lrv17-4", "kind": "operations",
+      "title": { "en": "The Longest Drives", "ar": "أطول الرحلات" },
+      "basicText": { "en": "Eugene Cernan and Harrison Schmitt drove this rover 35.9 km in 4 hours 26 minutes. Their longest single trip was 20.1 km and their greatest range from the Lunar Module was 7.6 km.", "ar": "قاد يوجين سيرنان وهاريسون شميت هذه المركبة 35.9 كم في 4 ساعات و26 دقيقة. وكانت أطول رحلة لهما 20.1 كم، وأبعد مسافة عن المركبة القمرية 7.6 كم." },
+      "exploreMoreText": { "en": "Of the three rovers driven, Apollo 17's covered the most distance: Apollo 15 drove 27.8 km and Apollo 16 drove 26.7 km.", "ar": "من بين المركبات الثلاث التي قيدت، قطعت مركبة أبولو 17 أكبر مسافة: فأبولو 15 قطعت 27.8 كم وأبولو 16 قطعت 26.7 كم." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-moon", "role": "background" }, { "assetId": "moon-lm-lrv-img-as17-cernan-drives", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Apollo 17 (Cernan, Schmitt): 35.9 km in 4 h 26 min; longest traverse 20.1 km; greatest range 7.6 km.", "ar": "أبولو 17 (سيرنان، شميت): 35.9 كم في 4 س و26 د؛ أطول مسار 20.1 كم؛ أبعد مدى 7.6 كم." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "How far did the Apollo 17 rover drive in total?", "ar": "كم قطعت مركبة أبولو 17 الجوالة في المجموع؟" },
+        "options": [
+          { "label": { "en": "35.9 km", "ar": "35.9 كم" }, "isCorrect": true },
+          { "label": { "en": "3.59 km", "ar": "3.59 كم" }, "isCorrect": false },
+          { "label": { "en": "359 km", "ar": "359 كم" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA gives 35.9 km in 4 hours 26 minutes of driving.", "ar": "تذكر ناسا 35.9 كم في 4 ساعات و26 دقيقة من القيادة." }
+      },
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    },
+    {
+      "id": "lrv17-5", "kind": "ending",
+      "title": { "en": "Where Did It End Up?", "ar": "أين انتهى بها المطاف؟" },
+      "basicText": { "en": "NASA pages we read do not say where this rover ended up, or that it was left on the Moon. The challenge page says rovers were \"parked permanently\". That is only the challenge page's claim.", "ar": "لا تذكر صفحات ناسا التي قرأناها أين انتهى بها المطاف ولا أنها تُركت على القمر. وتقول صفحة التحدي إن المركبات «أُوقفت بصورة دائمة»، وهذا ادعاء صفحة التحدي وحدها." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Challenge page: \"Parked permanently on the Moon.\"", "ar": "صفحة التحدي: «أُوقفت بصورة دائمة على القمر»." }, "sourceId": "moon-lm-lrv-src-challenge", "basis": "challenge-page" },
+        { "id": "f2", "text": { "en": "NASA pages read state three LRVs were driven on the Moon; they do not state where this one ended up.", "ar": "تذكر صفحات ناسا التي قرأناها أن ثلاث مركبات قيدت على القمر، ولا تذكر أين انتهت هذه المركبة." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "not-stated" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv", "moon-lm-lrv-src-challenge"]
+    },
+    {
+      "id": "lrv17-6", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "This rover made the longest drives of the three. We tell what NASA records show and say clearly what they do not.", "ar": "قامت هذه المركبة بأطول الرحلات بين الثلاث. ونروي ما تسجله ناسا، ونقول بوضوح ما لا تذكره." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    }
+  ],
+  "discoveries": [],
+  "ending": {
+    "endCause": "intentionally-left",
+    "currentLocation": "not-stated",
+    "stillOperating": false,
+    "endingBasis": "challenge-page",
+    "finalChapterText": { "en": "The challenge page says the Lunar Roving Vehicles were \"parked permanently on the Moon\". NASA pages we read do not state the rover's final location, or that it was left on the Moon. We therefore cannot say where it is.", "ar": "تقول صفحة التحدي إن المركبات الجوالة القمرية «أُوقفت بصورة دائمة على القمر». ولا تذكر صفحات ناسا التي قرأناها موقع المركبة النهائي ولا أنها تُركت على القمر. لذلك لا نستطيع القول أين هي." },
+    "legacyText": { "en": "Three Lunar Roving Vehicles were driven on the Moon. This one made the longest drives: 35.9 km.", "ar": "قيدت ثلاث مركبات جوالة قمرية على القمر. وهذه قامت بأطول الرحلات: 35.9 كم." },
+    "notStated": [
+      { "en": "NASA pages we read do not state that this rover was left on the Moon.", "ar": "لا تذكر صفحات ناسا التي قرأناها أن هذه المركبة تُركت على القمر." },
+      { "en": "NASA pages we read do not state where the rover ended up.", "ar": "لا تذكر صفحات ناسا التي قرأناها أين انتهى بها المطاف." },
+      { "en": "The rover's serial number is not stated.", "ar": "الرقم التسلسلي للمركبة غير مذكور." }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "surveyor-6",
+  "destinationId": "moon",
+  "name": { "en": "Surveyor 6", "ar": "سيرفيور 6" },
+  "missionType": "lander",
+  "card": {
+    "tagline": { "en": "The first spacecraft to be launched from the Moon's surface.", "ar": "أول مركبة فضائية تنطلق من سطح القمر." },
+    "assetId": "core-moon", "group": "surveyor", "order": 8
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "Surveyor 6 was a robot lander that sent back 29,952 images of the Moon's surface.", "ar": "سيرفيور 6 مركبة هبوط آلية أرسلت 29,952 صورة لسطح القمر." },
+    "whyCreated": { "en": "The Surveyor program aimed to get close-up images of the lunar surface and to find out if the terrain was safe for crewed landings.", "ar": "هدف برنامج سيرفيور إلى التقاط صور قريبة لسطح القمر ومعرفة إن كانت الأرض آمنة لهبوط الروّاد." },
+    "goal": { "en": "To land softly and photograph the lunar surface.", "ar": "الهبوط بلطف وتصوير سطح القمر." },
+    "whereGoing": { "en": "Sinus Medii on the Moon, at 0.46° N, 1.37° W.", "ar": "خليج الوسط على القمر، عند 0.46° شمالاً و1.37° غرباً." },
+    "assetId": "core-moon"
+  },
+  "units": [
+    { "id": "surveyor-6-lander", "name": { "en": "Surveyor 6 lander", "ar": "مركبة الهبوط سيرفيور 6" }, "restingPlace": { "en": "Sinus Medii (landing site), 0.46° N, 1.37° W", "ar": "خليج الوسط (موقع الهبوط)، 0.46° شمالاً و1.37° غرباً" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "7 Nov 1967", "label": { "en": "Launched toward the Moon", "ar": "الإطلاق نحو القمر" }, "sourceId": "masv-src-surv", "basis": "nasa-page" },
+    { "id": "t-landing", "dateLabel": "10 Nov 1967", "label": { "en": "Lands in Sinus Medii", "ar": "الهبوط في خليج الوسط" }, "sourceId": "masv-src-surv", "basis": "nasa-page" },
+    { "id": "t-hop", "dateLabel": "17 Nov 1967", "label": { "en": "Becomes the first spacecraft launched from the Moon's surface", "ar": "تصبح أول مركبة تنطلق من سطح القمر" }, "sourceId": "masv-src-s6", "basis": "nasa-page" },
+    { "id": "t-hib", "dateLabel": "26 Nov 1967", "label": { "en": "Enters hibernation", "ar": "تدخل في السبات" }, "sourceId": "masv-src-s6", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "surv6-1", "kind": "origin",
+      "title": { "en": "A Scout for Astronauts", "ar": "مستكشف قبل الروّاد" },
+      "basicText": { "en": "The Surveyor spacecraft were sent to take close-up pictures of the Moon and to check if the ground was safe for crewed landings.", "ar": "أُرسلت مركبات سيرفيور لالتقاط صور قريبة للقمر والتحقق من أمان الأرض لهبوط الروّاد." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Program goal: close-up images of the lunar surface and to determine if the terrain was safe for manned landings.", "ar": "هدف البرنامج: صور قريبة لسطح القمر ومعرفة إن كانت الأرض آمنة لهبوط الروّاد." }, "sourceId": "masv-src-surv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-surv"]
+    },
+    {
+      "id": "surv6-2", "kind": "launch", "dateLabel": "7 Nov 1967",
+      "title": { "en": "Launch", "ar": "الإطلاق" },
+      "basicText": { "en": "Surveyor 6 was launched on 7 November 1967.", "ar": "أُطلقت سيرفيور 6 في 7 نوفمبر 1967." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch: 7 Nov 1967, 07:39:01.", "ar": "الإطلاق: 7 نوفمبر 1967 الساعة 07:39:01." }, "sourceId": "masv-src-surv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-surv", "masv-src-s6"]
+    },
+    {
+      "id": "surv6-3", "kind": "landing", "dateLabel": "10 Nov 1967",
+      "title": { "en": "Landing in Sinus Medii", "ar": "الهبوط في خليج الوسط" },
+      "basicText": { "en": "Surveyor 6 landed on 10 November 1967 in Sinus Medii, at 0.46° N, 1.37° W.", "ar": "هبطت سيرفيور 6 في 10 نوفمبر 1967 في خليج الوسط، عند 0.46° شمالاً و1.37° غرباً." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Landing: 10 Nov 1967, 01:01:04.", "ar": "الهبوط: 10 نوفمبر 1967 الساعة 01:01:04." }, "sourceId": "masv-src-surv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-surv", "masv-src-s6"]
+    },
+    {
+      "id": "surv6-4", "kind": "operations",
+      "title": { "en": "29,952 Images", "ar": "29,952 صورة" },
+      "basicText": { "en": "Surveyor 6 returned 29,952 images of the lunar surface.", "ar": "أعادت سيرفيور 6 إلى الأرض 29,952 صورة لسطح القمر." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "29,952 images were returned.", "ar": "أُعيدت 29,952 صورة." }, "sourceId": "masv-src-surv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-surv", "masv-src-s6"]
+    },
+    {
+      "id": "surv6-5", "kind": "discovery", "dateLabel": "17 Nov 1967",
+      "title": { "en": "A Hop on the Moon", "ar": "قفزة على القمر" },
+      "basicText": { "en": "On 17 November 1967 Surveyor 6 became the first spacecraft to be launched from the Moon's surface.", "ar": "في 17 نوفمبر 1967 أصبحت سيرفيور 6 أول مركبة فضائية تنطلق من سطح القمر." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "On 17 Nov 1967 it was the first spacecraft to be launched from the Moon's surface.", "ar": "في 17 نوفمبر 1967 كانت أول مركبة تنطلق من سطح القمر." }, "sourceId": "masv-src-s6", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "What was special about Surveyor 6 on 17 November 1967?", "ar": "ما الذي ميّز سيرفيور 6 في 17 نوفمبر 1967؟" },
+        "options": [
+          { "label": { "en": "It was the first spacecraft launched from the Moon's surface", "ar": "كانت أول مركبة تنطلق من سطح القمر" }, "isCorrect": true },
+          { "label": { "en": "It was the first to land on Mars", "ar": "كانت أول مركبة تهبط على المريخ" }, "isCorrect": false },
+          { "label": { "en": "It brought astronauts home", "ar": "أعادت الروّاد إلى الأرض" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says it was the first spacecraft to be launched from the Moon's surface.", "ar": "تقول ناسا إنها أول مركبة فضائية تنطلق من سطح القمر." }
+      },
+      "sourceIds": ["masv-src-s6"]
+    },
+    {
+      "id": "surv6-6", "kind": "ending", "dateLabel": "26 Nov 1967",
+      "title": { "en": "Hibernation", "ar": "السبات" },
+      "basicText": { "en": "On 26 November 1967 Surveyor 6 went into hibernation. The pages we read do not say when or whether contact ended after that.", "ar": "في 26 نوفمبر 1967 دخلت سيرفيور 6 في السبات. ولا تذكر الصفحات التي قرأناها متى أو هل انتهى الاتصال بعد ذلك." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Hibernation: 26 Nov 1967.", "ar": "السبات: 26 نوفمبر 1967." }, "sourceId": "masv-src-s6", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["masv-src-s6"]
+    },
+    {
+      "id": "surv6-7", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "Surveyor 6 sent back almost 30,000 images and made the first launch from the Moon's surface.", "ar": "أرسلت سيرفيور 6 نحو 30,000 صورة وقامت بأول انطلاق من سطح القمر." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["masv-src-s6", "masv-src-surv"]
+    }
+  ],
+  "discoveries": [],
+  "ending": {
+    "endCause": "stopped-operating",
+    "currentLocation": "not-stated",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "NASA says Surveyor 6 entered hibernation on 26 November 1967.", "ar": "تقول ناسا إن سيرفيور 6 دخلت في السبات في 26 نوفمبر 1967." },
+    "legacyText": { "en": "Surveyor 6 returned 29,952 images and was the first spacecraft to be launched from the Moon's surface.", "ar": "أعادت سيرفيور 6 صوراً عددها 29,952 وكانت أول مركبة تنطلق من سطح القمر." },
+    "notStated": [
+      { "en": "The pages we read do not state the date or reason of the last contact.", "ar": "لا تذكر الصفحات التي قرأناها تاريخ آخر اتصال أو سببه." },
+      { "en": "The pages we read do not state where the lander is today.", "ar": "لا تذكر الصفحات التي قرأناها مكان المركبة اليوم." }
+    ]
+  },
+  "badge": { "name": { "en": "Moon Hopper", "ar": "قافز القمر" }, "iconAssetId": "core-moon" }
+}

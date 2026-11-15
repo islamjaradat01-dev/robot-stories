@@ -1,0 +1,6 @@
+[
+  { "id": "opp-src-a", "title": "Mars Exploration Rovers: Spirit and Opportunity", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/", "accessedOn": "2026-11-15" },
+  { "id": "opp-src-b", "title": "Mars Exploration Rover B (Opportunity)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A", "accessedOn": "2026-11-15" },
+  { "id": "opp-src-c", "title": "Opportunity (MER-B) mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mer-opportunity/", "accessedOn": "2026-11-15" },
+  { "id": "opp-src-d", "title": "Mars Exploration Rovers: science highlights", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/", "accessedOn": "2026-11-15" }
+]

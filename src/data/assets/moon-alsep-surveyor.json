@@ -1,0 +1,67 @@
+[
+  {
+    "id": "masv-img-as12-48-7134",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/AS12-48-7134/AS12-48-7134~medium.jpg",
+    "nasaId": "AS12-48-7134",
+    "altText": {
+      "en": "Apollo 12 photograph from the second moonwalk: the unmanned Surveyor 3 in the foreground with an astronaut examining its TV camera, and the Apollo 12 Lunar Module in the background.",
+      "ar": "صورة من أبولو 12 التُقطت خلال السير الثاني على القمر: المركبة الآلية سيرفيور 3 في المقدمة وأحد الرائدين يفحص كاميرتها التلفزيونية، والمركبة القمرية لأبولو 12 في الخلفية."
+    },
+    "credit": "NASA",
+    "sourceUrl": "https://images.nasa.gov/details/AS12-48-7134",
+    "authenticity": "real"
+  },
+  {
+    "id": "masv-img-as12-48-7133",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/AS12-48-7133/AS12-48-7133~medium.jpg",
+    "nasaId": "AS12-48-7133",
+    "altText": {
+      "en": "Apollo 12 photograph from the second moonwalk: the unmanned Surveyor 3 in the foreground with an astronaut examining its TV camera, and the Apollo 12 Lunar Module in the background.",
+      "ar": "صورة من أبولو 12 التُقطت خلال السير الثاني على القمر: المركبة الآلية سيرفيور 3 في المقدمة وأحد الرائدين يفحص كاميرتها التلفزيونية، والمركبة القمرية لأبولو 12 في الخلفية."
+    },
+    "credit": "NASA",
+    "sourceUrl": "https://images.nasa.gov/details/AS12-48-7133",
+    "authenticity": "real"
+  },
+  {
+    "id": "masv-img-as12-47-6919",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as12-47-6919/as12-47-6919~medium.jpg",
+    "nasaId": "as12-47-6919",
+    "altText": {
+      "en": "Astronaut Alan Bean deploys components of the Apollo Lunar Surface Experiments Package (ALSEP) on the Moon during the first Apollo 12 moonwalk. NASA says Charles Conrad took the photo.",
+      "ar": "رائد الفضاء آلان بين ينصب مكوّنات حزمة التجارب السطحية القمرية (ALSEP) على القمر خلال السير الأول في أبولو 12. وتقول ناسا إن تشارلز كونراد التقط الصورة."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as12-47-6919",
+    "authenticity": "real"
+  },
+  {
+    "id": "masv-img-s69-59547",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/S69-59547/S69-59547~medium.jpg",
+    "nasaId": "S69-59547",
+    "altText": {
+      "en": "A black-and-white strip chart dated 20 November 1969: the seismometer reading from the impact of the Apollo 12 Lunar Module ascent stage on the Moon. NASA says the Passive Seismic Experiment Package deployed by the Apollo 12 astronauts registered the impact.",
+      "ar": "شريط رسم بياني بالأبيض والأسود مؤرّخ في 20 نوفمبر 1969: قراءة مقياس الزلازل لاصطدام مرحلة الصعود من المركبة القمرية في أبولو 12 بالقمر. وتقول ناسا إن حزمة التجربة السيزمية السلبية التي نصبها روّاد أبولو 12 سجّلت الاصطدام."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/S69-59547",
+    "authenticity": "real"
+  },
+  {
+    "id": "masv-img-pia12978",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/PIA12978/PIA12978~small.jpg",
+    "nasaId": "PIA12978",
+    "altText": {
+      "en": "View from orbit by NASA's Lunar Reconnaissance Orbiter of the Surveyor 6 lander on the plains of Sinus Medii. The lander is a tiny bright spot with a long thin shadow (enlarged in the inset; the scale bar is 50 m). NASA says the lander casts an 18-meter shadow with the Sun just 8 degrees above the horizon.",
+      "ar": "منظر من المدار التقطه مسبار استطلاع القمر التابع لناسا للمركبة الهابطة سيرفيور 6 على سهول خليج الوسط. تبدو المركبة بقعة صغيرة لامعة يمتد منها ظل طويل رفيع (مكبّرة في الإطار الصغير، وشريط المقياس 50 م). وتقول ناسا إن المركبة تُلقي ظلاً طوله 18 متراً والشمس على ارتفاع 8 درجات فقط فوق الأفق."
+    },
+    "credit": "NASA/GSFC/Arizona State University",
+    "sourceUrl": "https://images.nasa.gov/details/PIA12978",
+    "authenticity": "real"
+  }
+]

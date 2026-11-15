@@ -1,0 +1,10 @@
+[
+  { "id": "masv-src-a12", "title": "Apollo 12 Lunar Module / ALSEP (1969-099C)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-a15", "title": "Apollo 15 Lunar Module / ALSEP (1971-063C)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-sites", "title": "Lunar landing sites", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-surv", "title": "Surveyor program", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/surveyor.html", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-s3", "title": "Surveyor 3", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/surveyor-3/", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-s6", "title": "Surveyor 6", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/surveyor-6/", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-img-7134", "title": "NASA Image and Video Library: AS12-48-7134", "publisher": "NASA", "url": "https://images.nasa.gov/details/AS12-48-7134", "accessedOn": "2026-11-15" },
+  { "id": "masv-src-img-7133", "title": "NASA Image and Video Library: AS12-48-7133", "publisher": "NASA", "url": "https://images.nasa.gov/details/AS12-48-7133", "accessedOn": "2026-11-15" }
+]

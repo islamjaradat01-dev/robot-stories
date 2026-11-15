@@ -1,0 +1,543 @@
+{
+  "id": "apollo-11-eagle",
+  "destinationId": "moon",
+  "name": {
+    "en": "Apollo 11 Lunar Module Eagle",
+    "ar": "المركبة القمرية إيغل في أبولو 11"
+  },
+  "missionType": "crewed-lander-stage",
+  "card": {
+    "tagline": {
+      "en": "The first crewed vehicle to land on the Moon. Its descent stage was left behind there.",
+      "ar": "أول مركبة مأهولة تهبط على القمر. وقد تُركت مرحلة هبوطها هناك."
+    },
+    "assetId": "moon-lm-lrv-img-as11-aldrin-lm",
+    "group": "apollo-lm",
+    "order": 1
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": {
+      "en": "Eagle was the Apollo 11 Lunar Module, the first crewed vehicle to land on the Moon. It had two stages: a descent stage and an ascent stage.",
+      "ar": "إيغل هي المركبة القمرية في أبولو 11، وهي أول مركبة مأهولة تهبط على القمر. كانت من مرحلتين: مرحلة هبوط ومرحلة صعود."
+    },
+    "whyCreated": {
+      "en": "It carried astronauts Neil Armstrong and Buzz Aldrin down to the Moon and back up to the orbiting command module.",
+      "ar": "حملت رائدَي الفضاء نيل أرمسترونغ وباز ألدرين إلى القمر ثم أعادتهما إلى المركبة الأم التي كانت تدور حول القمر."
+    },
+    "goal": {
+      "en": "To land two astronauts on the Moon, let them walk on it, and bring them back up to lunar orbit.",
+      "ar": "أن تُنزل رائدين على القمر ليمشيا عليه، ثم تعيدهما إلى مدار القمر."
+    },
+    "whereGoing": {
+      "en": "Mare Tranquillitatis (the Sea of Tranquility) on the Moon, at a place called Tranquility Base.",
+      "ar": "بحر الهدوء (ماري ترانكويليتاتيس) على القمر، في موقع يُسمى قاعدة الهدوء."
+    },
+    "assetId": "moon-lm-lrv-img-as11-aldrin-lm"
+  },
+  "units": [
+    {
+      "id": "eagle-descent-stage",
+      "name": {
+        "en": "Apollo 11 Eagle descent stage",
+        "ar": "مرحلة هبوط إيغل في أبولو 11"
+      },
+      "nssdcaId": "1969-059C",
+      "parentFlight": "Apollo 11",
+      "restingPlace": {
+        "en": "Tranquility Base, Mare Tranquillitatis, Moon (landing site)",
+        "ar": "قاعدة الهدوء، بحر الهدوء على القمر (موقع الهبوط)"
+      },
+      "featured": true
+    },
+    {
+      "id": "eagle-ascent-stage",
+      "name": {
+        "en": "Apollo 11 Eagle ascent stage",
+        "ar": "مرحلة صعود إيغل في أبولو 11"
+      },
+      "nssdcaId": "1969-059C",
+      "parentFlight": "Apollo 11",
+      "restingPlace": {
+        "en": "Fate not known (NASA)",
+        "ar": "مصيرها غير معروف (بحسب ناسا)"
+      },
+      "featured": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t-launch",
+      "dateLabel": "1969-07-16",
+      "label": {
+        "en": "Apollo 11 launches from Pad 39A, Kennedy Space Center (13:32 UT)",
+        "ar": "إقلاع أبولو 11 من المنصة 39A في مركز كينيدي للفضاء (13:32 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-csm11",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-landing",
+      "dateLabel": "1969-07-20",
+      "label": {
+        "en": "Eagle lands at Tranquility Base (20:17:40 UT)",
+        "ar": "إيغل تهبط في قاعدة الهدوء (20:17:40 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm11",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-step",
+      "dateLabel": "1969-07-21",
+      "label": {
+        "en": "First step on the Moon (02:56:15 UT)",
+        "ar": "أول خطوة على القمر (02:56:15 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm11",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-liftoff",
+      "dateLabel": "1969-07-21",
+      "label": {
+        "en": "The ascent stage lifts off from the Moon (17:54:01 UT)",
+        "ar": "مرحلة الصعود تقلع من القمر (17:54:01 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm11",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-jettison",
+      "dateLabel": "1969-07-21/22",
+      "label": {
+        "en": "Ascent stage jettisoned into lunar orbit: 21 Jul 23:41 UT or 22 Jul 00:01:01 UT (NASA pages differ)",
+        "ar": "التخلص من مرحلة الصعود في مدار القمر: 21 يوليو 23:41 أو 22 يوليو 00:01:01 بالتوقيت العالمي (صفحات ناسا تختلف)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm11",
+      "basis": "disputed"
+    },
+    {
+      "id": "t-splash",
+      "dateLabel": "1969-07-24",
+      "label": {
+        "en": "Apollo 11 splashes down (16:50:35 UT)",
+        "ar": "هبوط أبولو 11 في المحيط (16:50:35 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-csm11",
+      "basis": "nasa-page"
+    }
+  ],
+  "stages": [
+    {
+      "id": "eagle-1",
+      "kind": "origin",
+      "title": {
+        "en": "Meet Eagle",
+        "ar": "تعرّف على إيغل"
+      },
+      "basicText": {
+        "en": "Eagle was a two-part spacecraft. The lower part, the descent stage, took the astronauts down. The upper part, the ascent stage, carried them back up.",
+        "ar": "كانت إيغل مركبة من جزأين. الجزء السفلي، مرحلة الهبوط، أنزل الرائدين. والجزء العلوي، مرحلة الصعود، أعادهما إلى الأعلى."
+      },
+      "exploreMoreText": {
+        "en": "The descent stage was an octagonal prism 4.2 m across and 1.7 m thick. The ascent stage was about 2.8 m high. Both stages with propellant weighed 15,103 kg.",
+        "ar": "كانت مرحلة الهبوط منشوراً ثمانياً عرضه 4.2 م وسمكه 1.7 م. وكان ارتفاع مرحلة الصعود نحو 2.8 م. ووزن المرحلتين مع الوقود 15,103 كغ."
+      },
+      "animationPreset": "origin",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        },
+        {
+          "assetId": "moon-lm-lrv-img-as11-aldrin-lm",
+          "role": "foreground"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Eagle was the first crewed vehicle to land on the Moon.",
+            "ar": "كانت إيغل أول مركبة مأهولة تهبط على القمر."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "Both stages together with propellant: 15,103 kg.",
+            "ar": "المرحلتان معاً مع الوقود: 15,103 كغ."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11"
+      ]
+    },
+    {
+      "id": "eagle-2",
+      "kind": "launch",
+      "dateLabel": "16 Jul 1969",
+      "title": {
+        "en": "Off to the Moon",
+        "ar": "الانطلاق نحو القمر"
+      },
+      "basicText": {
+        "en": "Apollo 11 launched on 16 July 1969 from Pad 39A at Kennedy Space Center. Armstrong and Aldrin were to land. Michael Collins stayed in orbit in the command module.",
+        "ar": "انطلقت أبولو 11 في 16 يوليو 1969 من المنصة 39A في مركز كينيدي. كان أرمسترونغ وألدرين سيهبطان، وبقي مايكل كولينز في المدار داخل المركبة الأم."
+      },
+      "animationPreset": "launch",
+      "assets": [
+        {
+          "assetId": "core-earth",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Launch: 16 Jul 1969, 13:32 UT, Pad 39A, Kennedy Space Center.",
+            "ar": "الإطلاق: 16 يوليو 1969، 13:32 بالتوقيت العالمي، المنصة 39A، مركز كينيدي للفضاء."
+          },
+          "sourceId": "moon-lm-lrv-src-csm11",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11",
+        "moon-lm-lrv-src-a11",
+        "moon-lm-lrv-src-csm11"
+      ]
+    },
+    {
+      "id": "eagle-3",
+      "kind": "landing",
+      "dateLabel": "20 Jul 1969 (UT)",
+      "title": {
+        "en": "Touchdown at Tranquility Base",
+        "ar": "الهبوط في قاعدة الهدوء"
+      },
+      "basicText": {
+        "en": "On 20 July 1969, at 20:17:40 UT, Eagle landed in the Sea of Tranquility. NASA records the call: \"Houston, Tranquility Base here — the Eagle has landed.\"",
+        "ar": "في 20 يوليو 1969، الساعة 20:17:40 بالتوقيت العالمي، هبطت إيغل في بحر الهدوء. وتسجّل ناسا العبارة: «هيوستن، هنا قاعدة الهدوء — لقد هبط النسر»."
+      },
+      "exploreMoreText": {
+        "en": "The landing site is at 0.67416° N, 23.47314° E, determined from Lunar Reconnaissance Orbiter images (NSSDCA). NASA's mission overview gives an older position, about 0.69° N, 23.43° E.",
+        "ar": "موقع الهبوط عند 0.67416° شمالاً و23.47314° شرقاً، حُدّد من صور مسبار استطلاع القمر (NSSDCA). وتذكر النظرة العامة لمهمة أبولو 11 لدى ناسا موقعاً أقدم، نحو 0.69° شمالاً و23.43° شرقاً."
+      },
+      "animationPreset": "landing",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        },
+        {
+          "assetId": "moon-lm-lrv-img-as11-telecast",
+          "role": "gallery"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Landing: 20 Jul 1969, 20:17:40 UT, Mare Tranquillitatis.",
+            "ar": "الهبوط: 20 يوليو 1969، 20:17:40 بالتوقيت العالمي، بحر الهدوء."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "Landing position: 0.67416° N, 23.47314° E from Lunar Reconnaissance Orbiter images (NSSDCA); NASA's mission overview gives 0° 41' 15\" N, 23° 26' E.",
+            "ar": "موقع الهبوط: 0.67416° شمالاً و23.47314° شرقاً من صور مسبار استطلاع القمر (NSSDCA)؛ وتذكر النظرة العامة لمهمة أبولو 11 لدى ناسا 0° 41′ 15″ شمالاً و23° 26′ شرقاً."
+          },
+          "sourceId": "moon-lm-lrv-src-a11o",
+          "basis": "disputed",
+          "note": {
+            "en": "The overview position is older; the two NASA values differ by about 0.05 degrees.",
+            "ar": "موقع النظرة العامة أقدم؛ وتختلف القيمتان بنحو 0.05 درجة."
+          }
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11",
+        "moon-lm-lrv-src-a11o"
+      ]
+    },
+    {
+      "id": "eagle-4",
+      "kind": "operations",
+      "dateLabel": "20–21 Jul 1969",
+      "title": {
+        "en": "21 Hours on the Moon",
+        "ar": "21 ساعة على القمر"
+      },
+      "basicText": {
+        "en": "The first step on the Moon came on 21 July 1969 at 02:56:15 UT. The crew spent 21 hours 36 minutes on the surface and brought back 21.55 kg of samples.",
+        "ar": "كانت أول خطوة على القمر في 21 يوليو 1969 الساعة 02:56:15 بالتوقيت العالمي. قضى الرائدان 21 ساعة و36 دقيقة على السطح وعادا بـ 21.55 كغ من العينات."
+      },
+      "exploreMoreText": {
+        "en": "NASA's mission overview says 21 hours 36 minutes. One NASA photo caption says \"22-hour stay\". The moonwalk ended at 05:11:13 UT.",
+        "ar": "تذكر النظرة العامة لمهمة أبولو 11 لدى ناسا 21 ساعة و36 دقيقة، بينما يذكر تعليق على إحدى صور ناسا «إقامة 22 ساعة». وانتهى السير على القمر عند 05:11:13 بالتوقيت العالمي."
+      },
+      "animationPreset": "operations",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        },
+        {
+          "assetId": "moon-lm-lrv-img-as11-bootprint",
+          "role": "gallery"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Time on the Moon's surface: 21 hours, 36 minutes.",
+            "ar": "المدة على سطح القمر: 21 ساعة و36 دقيقة."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "disputed",
+          "note": {
+            "en": "One NASA photo caption says \"22-hour stay\"; we use the mission overview figure.",
+            "ar": "يذكر تعليق صورة لناسا «22 ساعة»؛ ونستخدم رقم النظرة العامة للمهمة."
+          }
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "Samples returned to Earth: 21.55 kg.",
+            "ar": "العينات التي عادت إلى الأرض: 21.55 كغ."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        }
+      ],
+      "quiz": {
+        "prompt": {
+          "en": "What was the descent stage used for after landing?",
+          "ar": "ما الذي استُخدمت له مرحلة الهبوط بعد الهبوط؟"
+        },
+        "options": [
+          {
+            "label": {
+              "en": "A platform for launching the ascent stage",
+              "ar": "منصة لإطلاق مرحلة الصعود"
+            },
+            "isCorrect": true
+          },
+          {
+            "label": {
+              "en": "A space station",
+              "ar": "محطة فضائية"
+            },
+            "isCorrect": false
+          },
+          {
+            "label": {
+              "en": "A rover to drive around",
+              "ar": "مركبة للتجوال"
+            },
+            "isCorrect": false
+          }
+        ],
+        "explanation": {
+          "en": "NASA says the descent stage served as a platform for launching the ascent stage.",
+          "ar": "تقول ناسا إن مرحلة الهبوط كانت منصة لإطلاق مرحلة الصعود."
+        }
+      },
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11",
+        "moon-lm-lrv-src-a11",
+        "moon-lm-lrv-src-a11o"
+      ]
+    },
+    {
+      "id": "eagle-5",
+      "kind": "deployment",
+      "title": {
+        "en": "Things Left Behind",
+        "ar": "أشياء تُركت على القمر"
+      },
+      "basicText": {
+        "en": "The crew left the descent stage, a small science package (EASEP) and a laser reflector. They put up an American flag, and a plaque was attached to the descent stage.",
+        "ar": "ترك الرائدان مرحلة الهبوط وحزمة علمية صغيرة (EASEP) وعاكساً لليزر. ونصبا علماً أمريكياً، وكانت لوحة مثبّتة على مرحلة الهبوط."
+      },
+      "exploreMoreText": {
+        "en": "The plaque reads: \"Here men from the planet Earth first set foot on the Moon July 1969, A.D. We came in peace for all mankind.\" EASEP included a passive seismometer and a lunar dust detector. The laser-ranging retroreflector was placed about 5 m north-northwest of EASEP. On 27 August 1969 EASEP no longer accepted commands from Earth and the experiment was terminated.",
+        "ar": "نص اللوحة: «هنا وطئ رجال من كوكب الأرض القمر لأول مرة، يوليو 1969 ميلادية. جئنا بسلام من أجل البشرية جمعاء». ضمّت EASEP مقياس زلازل سلبياً وكاشفاً للغبار القمري، ووُضع عاكس الليزر على بعد نحو 5 م شمال شمال غرب EASEP. وفي 27 أغسطس 1969 لم تعد EASEP تقبل الأوامر من محطات الأرض وانتهت التجربة."
+      },
+      "animationPreset": "deployment",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Left on the Moon: the descent stage, EASEP and a laser-ranging retroreflector. NASA says the astronauts \"put up an American flag\".",
+            "ar": "تُركت على القمر: مرحلة الهبوط وEASEP وعاكس ليزر. وتقول ناسا إن الرائدين «نصبا علماً أمريكياً»."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "NASA's mission overview: \"Attached to the descent stage was a commemorative plaque signed by President Richard M. Nixon and the three astronauts.\"",
+            "ar": "تقول النظرة العامة لمهمة أبولو 11 لدى ناسا: «كانت لوحة تذكارية موقّعة من الرئيس ريتشارد نيكسون والرواد الثلاثة مثبّتة على مرحلة الهبوط». (الترجمة العربية من إعدادنا.)"
+          },
+          "sourceId": "moon-lm-lrv-src-a11o",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f3",
+          "text": {
+            "en": "EASEP stopped accepting commands from Earth stations on 27 August 1969, and the experiment was terminated.",
+            "ar": "توقفت EASEP عن قبول الأوامر من محطات الأرض في 27 أغسطس 1969، وانتهت التجربة."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11",
+        "moon-lm-lrv-src-a11o"
+      ]
+    },
+    {
+      "id": "eagle-6",
+      "kind": "ending",
+      "dateLabel": "21–22 Jul 1969",
+      "title": {
+        "en": "Two Different Endings",
+        "ar": "نهايتان مختلفتان"
+      },
+      "basicText": {
+        "en": "The descent stage was left behind on the Moon. The ascent stage lifted off on 21 July, then was jettisoned in lunar orbit at 23:41 UT that day or 00:01 UT on 22 July: NASA pages differ. Its fate is not known.",
+        "ar": "تُركت مرحلة هبوط إيغل على القمر. وأقلعت مرحلة الصعود في 21 يوليو، ثم جرى التخلص منها في مدار القمر الساعة 23:41 بالتوقيت العالمي في ذلك اليوم أو 00:01 في 22 يوليو: صفحات ناسا تختلف. ومصيرها غير معروف."
+      },
+      "exploreMoreText": {
+        "en": "NASA's record says it is assumed the ascent stage crashed into the lunar surface sometime within the following 1 to 4 months. This is an assumption, not a confirmed fact.",
+        "ar": "تذكر ناسا أنه يُفترض أن مرحلة الصعود اصطدمت بسطح القمر خلال شهر إلى أربعة أشهر بعد ذلك. وهذا افتراض وليس حقيقة مؤكدة."
+      },
+      "animationPreset": "ending",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "The descent stage \"was left behind on the Moon\".",
+            "ar": "«تُركت مرحلة الهبوط على القمر»."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "The fate of the ascent stage is not known, but it is assumed to have crashed within 1 to 4 months.",
+            "ar": "مصير مرحلة الصعود غير معروف، لكن يُفترض أنها اصطدمت بالقمر خلال شهر إلى أربعة أشهر."
+          },
+          "sourceId": "moon-lm-lrv-src-lm11",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f3",
+          "text": {
+            "en": "Jettison time: 00:01:01 UT on 22 July (NSSDCA Lunar Module page) or 23:41 UT on 21 July (NSSDCA \"Where are they now?\" page).",
+            "ar": "وقت التخلص من مرحلة الصعود: 00:01:01 بالتوقيت العالمي في 22 يوليو (صفحة المركبة القمرية لدى NSSDCA) أو 23:41 في 21 يوليو (صفحة «أين هي الآن؟» لدى NSSDCA)."
+          },
+          "sourceId": "moon-lm-lrv-src-where",
+          "basis": "disputed",
+          "note": {
+            "en": "The two NASA pages differ by about 20 minutes and by the date.",
+            "ar": "تختلف الصفحتان بنحو 20 دقيقة وبالتاريخ."
+          }
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11",
+        "moon-lm-lrv-src-where"
+      ]
+    },
+    {
+      "id": "eagle-7",
+      "kind": "legacy",
+      "title": {
+        "en": "Why We Remember Eagle",
+        "ar": "لماذا نتذكر إيغل"
+      },
+      "basicText": {
+        "en": "The descent stage was left on purpose as the launch platform. It is not abandoned junk: it is part of the place where people first set foot on the Moon.",
+        "ar": "تُركت مرحلة الهبوط عن قصد بوصفها منصة الإطلاق. وهي ليست نفايات مهجورة، بل جزء من المكان الذي وطئ فيه البشر القمر لأول مرة."
+      },
+      "animationPreset": "legacy",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm11"
+      ]
+    }
+  ],
+  "discoveries": [
+    {
+      "id": "d1",
+      "title": {
+        "en": "Moon samples",
+        "ar": "عينات من القمر"
+      },
+      "summary": {
+        "en": "The crew returned 21.55 kg of lunar samples to Earth.",
+        "ar": "أعاد الرائدان 21.55 كغ من عينات القمر إلى الأرض."
+      },
+      "sourceId": "moon-lm-lrv-src-lm11"
+    }
+  ],
+  "ending": {
+    "endCause": "intentionally-left",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": {
+      "en": "NASA says the descent stage served as a platform for launching the ascent stage and was left behind on the Moon. NASA's landing-site table lists the Lunar Module at 0.67416° N, 23.47314° E, determined from Lunar Reconnaissance Orbiter images. The ascent stage was jettisoned into lunar orbit at 23:41 UT on 21 July or 00:01 UT on 22 July 1969 (NASA pages differ). Its fate is not known, but it is assumed to have crashed within the following 1 to 4 months.",
+      "ar": "تقول ناسا إن مرحلة الهبوط كانت منصة لإطلاق مرحلة الصعود وتُركت على القمر. ويُدرج جدول مواقع الهبوط لدى ناسا المركبة القمرية عند 0.67416° شمالاً و23.47314° شرقاً، حُدّد من صور مسبار استطلاع القمر. أما مرحلة الصعود فجرى التخلص منها في مدار القمر الساعة 23:41 بالتوقيت العالمي في 21 يوليو أو 00:01 في 22 يوليو 1969 (صفحات ناسا تختلف). ومصيرها غير معروف، لكن يُفترض أنها اصطدمت بالقمر خلال شهر إلى أربعة أشهر."
+    },
+    "legacyText": {
+      "en": "Eagle was the first crewed vehicle to land on the Moon. Its descent stage, with the plaque attached to it and the instruments the crew left, marks Tranquility Base.",
+      "ar": "كانت إيغل أول مركبة مأهولة تهبط على القمر. وتُعلّم مرحلة هبوطها، ومعها اللوحة المثبّتة عليها والأجهزة التي تركها الرائدان، قاعدة الهدوء."
+    },
+    "notStated": [
+      {
+        "en": "NASA pages we read do not describe the present condition of the descent stage.",
+        "ar": "لا تذكر صفحات ناسا التي قرأناها الحالة الراهنة لمرحلة الهبوط."
+      },
+      {
+        "en": "NASA says the fate of the ascent stage is not known.",
+        "ar": "تقول ناسا إن مصير مرحلة الصعود غير معروف."
+      }
+    ]
+  }
+}

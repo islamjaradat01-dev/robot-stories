@@ -1,0 +1,145 @@
+{
+  "id": "opportunity",
+  "destinationId": "mars",
+  "name": { "en": "Opportunity Rover", "ar": "المركبة الجوّالة أبورتيونيتي" },
+  "missionType": "rover",
+  "card": {
+    "tagline": { "en": "The rover meant to last 3 months that explored Mars for almost 15 years.", "ar": "المركبة التي صُمّمت لثلاثة أشهر فاستكشفت المريخ قرابة 15 عاماً." },
+    "assetId": "opp-img-selfie-2014", "group": "rover", "order": 3
+  },
+  "unverified": true,
+  "relatedMissionIds": ["spirit"],
+  "intro": {
+    "whatItIs": { "en": "Opportunity is a Mars rover, one of two twin rovers with Spirit. It carried cameras, spectrometers, a microscope and a tool for grinding rock surfaces.", "ar": "أبورتيونيتي مركبة جوّالة على المريخ، وهي إحدى توأمين مع سبيريت. حملت كاميرات ومطيافات ومجهراً وأداة لكشط سطوح الصخور." },
+    "whyCreated": { "en": "NASA sent twin rovers to explore Mars on the ground. NASA says they confirmed that water was long standing on the surface of Mars in ancient times.", "ar": "أرسلت ناسا مركبتين توأمين لاستكشاف سطح المريخ. وتقول ناسا إنهما أكدتا أن الماء بقي طويلاً على سطح المريخ في العصور القديمة." },
+    "goal": { "en": "It was designed to work for 90 Martian days, about three Earth months.", "ar": "صُمّمت لتعمل 90 يوماً مريخياً، أي نحو ثلاثة أشهر أرضية." },
+    "whereGoing": { "en": "Meridiani Planum on Mars, inside a small crater called Eagle.", "ar": "سهل ميريديانــي على المريخ، داخل فوهة صغيرة تُدعى إيغل." },
+    "assetId": "opp-img-selfie-2014"
+  },
+  "units": [
+    { "id": "opportunity-rover", "name": { "en": "Opportunity (MER-B)", "ar": "أبورتيونيتي (MER-B)" }, "nssdcaId": "2003-032A", "restingPlace": { "en": "Perseverance Valley, Mars", "ar": "وادي بيرسيفيرنس على المريخ" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "2003-07-07", "label": { "en": "Launched from Cape Canaveral, Florida", "ar": "الإطلاق من كيب كانافيرال في فلوريدا" }, "sourceId": "opp-src-c", "basis": "nasa-page" },
+    { "id": "t-landing", "dateLabel": "2004-01-25", "label": { "en": "Landed in Eagle crater on Meridiani Planum (24 Jan Pacific time)", "ar": "الهبوط في فوهة إيغل على سهل ميريديانــي (24 يناير بتوقيت المحيط الهادئ)" }, "sourceId": "opp-src-c", "basis": "nasa-page" },
+    { "id": "t-storm", "dateLabel": "2018-06", "label": { "en": "A Mars-wide dust storm covers its location", "ar": "عاصفة غبار تعمّ المريخ وتغطي موقعها" }, "sourceId": "opp-src-c", "basis": "nasa-page" },
+    { "id": "t-last", "dateLabel": "2018-06-10", "label": { "en": "Last communication received from the rover", "ar": "آخر اتصال استُلم من المركبة" }, "sourceId": "opp-src-b", "basis": "nasa-page" },
+    { "id": "t-end", "dateLabel": "2019-02-13", "label": { "en": "NASA declares the end of the mission", "ar": "ناسا تعلن انتهاء المهمة" }, "sourceId": "opp-src-c", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "opp-1", "kind": "origin",
+      "title": { "en": "Meet Opportunity", "ar": "تعرّف على أبورتيونيتي" },
+      "basicText": { "en": "Opportunity is a robot geologist on wheels. It has a twin named Spirit. Together they were sent to explore the surface of Mars.", "ar": "أبورتيونيتي روبوت يشبه عالِم جيولوجيا على عجلات. لها توأم اسمه سبيريت، وقد أُرسلتا معاً لاستكشاف سطح المريخ." },
+      "exploreMoreText": { "en": "Its tools: Pancam, Navcam, Mini-TES, a Mössbauer spectrometer, APXS, magnets, a Microscopic Imager and a Rock Abrasion Tool.", "ar": "أدواتها: كاميرا بانكام وكاميرا نافكام والمطياف الحراري Mini-TES ومطياف موسباور وAPXS ومغناطيسات ومجهر وأداة لكشط الصخور." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "opp-img-selfie-2014", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Opportunity and Spirit were twin rovers.", "ar": "أبورتيونيتي وسبيريت مركبتان توأمان." }, "sourceId": "opp-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["opp-src-a", "opp-src-c"]
+    },
+    {
+      "id": "opp-2", "kind": "launch", "dateLabel": "7 Jul 2003",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "On 7 July 2003 a Delta II rocket lifted Opportunity off from Cape Canaveral, Florida, and started the long trip to Mars.", "ar": "في 7 يوليو 2003 رفع صاروخ دلتا 2 المركبة أبورتيونيتي من كيب كانافيرال في فلوريدا لتبدأ رحلتها الطويلة إلى المريخ." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch vehicle: Delta 7925H, from launch complex SLC-17B.", "ar": "الصاروخ: دلتا 7925H من منصة الإطلاق SLC-17B." }, "sourceId": "opp-src-c", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["opp-src-c", "opp-src-b"]
+    },
+    {
+      "id": "opp-3", "kind": "cruise",
+      "title": { "en": "Seven Months in Space", "ar": "رحلة عبر الفضاء" },
+      "basicText": { "en": "Opportunity traveled through space, folded safely inside its spacecraft, until it reached Mars in January 2004.", "ar": "سافرت أبورتيونيتي عبر الفضاء داخل مركبتها حتى وصلت إلى المريخ في يناير 2004." },
+      "animationPreset": "cruise",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["opp-src-c"]
+    },
+    {
+      "id": "opp-4", "kind": "landing", "dateLabel": "25 Jan 2004 (UT)",
+      "title": { "en": "Landing in a Crater", "ar": "الهبوط في فوهة" },
+      "basicText": { "en": "Opportunity landed at Meridiani Planum, inside a small crater named Eagle. Its landing site was nicknamed the Hematite Site.", "ar": "هبطت أبورتيونيتي في سهل ميريديانــي داخل فوهة صغيرة اسمها إيغل. وأُطلق على موقع هبوطها اسم موقع الهيماتيت." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "It landed on 24 Jan 2004 Pacific time, which is 25 Jan 2004 in UT.", "ar": "هبطت في 24 يناير 2004 بتوقيت المحيط الهادئ، وهو 25 يناير 2004 بالتوقيت العالمي." }, "sourceId": "opp-src-b", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["opp-src-c", "opp-src-b"]
+    },
+    {
+      "id": "opp-5", "kind": "operations",
+      "title": { "en": "Far Beyond the Plan", "ar": "أبعد بكثير من الخطة" },
+      "basicText": { "en": "The plan was 90 Martian days. Opportunity kept working for almost 15 years, about 60 times longer, and drove 28.06 miles (45.16 km).", "ar": "كانت الخطة 90 يوماً مريخياً، لكن أبورتيونيتي واصلت العمل قرابة 15 عاماً، أي نحو 60 ضعفاً، وقطعت 45.16 كم (28.06 ميل)." },
+      "exploreMoreText": { "en": "NASA pages say almost 15 years (mission page) and over 14 years (NSSDCA). Both are given here.", "ar": "تذكر صفحة ناسا قرابة 15 عاماً، وتذكر صفحة NSSDCA أكثر من 14 عاماً. ونعرض الرقمين هنا." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "opp-img-endurance", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Opportunity lasted about 60 times longer than the life expectancy it was built for.", "ar": "عملت أبورتيونيتي نحو 60 ضعف العمر المتوقع لها." }, "sourceId": "opp-src-c", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Length of the mission: almost 15 years (mission page) or over 14 years (NSSDCA).", "ar": "مدة المهمة: قرابة 15 عاماً (صفحة المهمة) أو أكثر من 14 عاماً (NSSDCA)." }, "sourceId": "opp-src-c", "basis": "disputed", "note": { "en": "NASA pages word the length differently.", "ar": "تختلف صياغة صفحات ناسا لمدة المهمة." } }
+      ],
+      "quiz": {
+        "prompt": { "en": "How long was Opportunity designed to work?", "ar": "كم كانت المدة التي صُمّمت أبورتيونيتي لتعمل فيها؟" },
+        "options": [
+          { "label": { "en": "About 3 months (90 Martian days)", "ar": "نحو 3 أشهر (90 يوماً مريخياً)" }, "isCorrect": true },
+          { "label": { "en": "About 15 years", "ar": "نحو 15 عاماً" }, "isCorrect": false },
+          { "label": { "en": "About 1 week", "ar": "نحو أسبوع" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA designed it for 90 Martian days. It worked about 60 times longer.", "ar": "صمّمتها ناسا لتعمل 90 يوماً مريخياً، لكنها عملت نحو 60 ضعف ذلك." }
+      },
+      "sourceIds": ["opp-src-c", "opp-src-a"]
+    },
+    {
+      "id": "opp-6", "kind": "discovery",
+      "title": { "en": "Clues About Water", "ar": "أدلة على وجود الماء" },
+      "basicText": { "en": "Opportunity found small round balls of hematite, nicknamed blueberries. NASA says hematite typically forms in water. It also found gypsum veins and clay minerals.", "ar": "وجدت أبورتيونيتي كرات صغيرة من الهيماتيت لُقّبت بالتوت الأزرق. وتقول ناسا إن الهيماتيت يتكوّن عادة في الماء. ووجدت أيضاً عروق جبس ومعادن طينية." },
+      "exploreMoreText": { "en": "The clay minerals formed in neutral-pH water, and the bright gypsum veins were near Endeavour Crater.", "ar": "تكوّنت المعادن الطينية في ماء متعادل الحموضة، وكانت عروق الجبس اللامعة قرب فوهة إنديفور." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Hematite 'blueberries' typically form in water.", "ar": "التوت الأزرق من الهيماتيت يتكوّن عادة في الماء." }, "sourceId": "opp-src-d", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["opp-src-d"]
+    },
+    {
+      "id": "opp-7", "kind": "ending", "dateLabel": "Jun 2018 – Feb 2019",
+      "title": { "en": "Silence in the Dust", "ar": "الصمت وسط الغبار" },
+      "basicText": { "en": "In June 2018 a dust storm covered Mars. Opportunity stopped communicating. Its last message arrived on 10 June 2018. NASA ended the mission on 13 February 2019.", "ar": "في يونيو 2018 غطّت عاصفة غبار المريخ فتوقفت أبورتيونيتي عن الاتصال. وصلت رسالتها الأخيرة في 10 يونيو 2018، وأعلنت ناسا انتهاء المهمة في 13 فبراير 2019." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-mars", "role": "background" }, { "assetId": "opp-img-selfie-sol5000", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Opportunity came to rest in Perseverance Valley.", "ar": "استقرّت أبورتيونيتي في وادي بيرسيفيرنس." }, "sourceId": "opp-src-c", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["opp-src-c", "opp-src-b"]
+    },
+    {
+      "id": "opp-8", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "Opportunity was not abandoned or broken. It kept working far beyond its plan and showed that water once shaped the surface of Mars.", "ar": "لم تُهجر أبورتيونيتي ولم تتعطل، بل واصلت العمل أبعد بكثير من الخطة، وأظهرت أن الماء شكّل سطح المريخ يوماً ما." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-mars", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["opp-src-a", "opp-src-d"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "Hematite blueberries", "ar": "توت الهيماتيت" }, "summary": { "en": "Small spherical deposits of hematite, a mineral that typically forms in water.", "ar": "رواسب كروية صغيرة من الهيماتيت، وهو معدن يتكوّن عادة في الماء." }, "sourceId": "opp-src-d" },
+    { "id": "d2", "title": { "en": "Gypsum veins", "ar": "عروق الجبس" }, "summary": { "en": "Bright-colored veins of gypsum near Endeavour Crater.", "ar": "عروق لامعة من الجبس قرب فوهة إنديفور." }, "sourceId": "opp-src-d" },
+    { "id": "d3", "title": { "en": "Clay minerals", "ar": "المعادن الطينية" }, "summary": { "en": "Clay minerals that formed in neutral-pH water.", "ar": "معادن طينية تكوّنت في ماء متعادل الحموضة." }, "sourceId": "opp-src-d" }
+  ],
+  "ending": {
+    "endCause": "communication-lost",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "A Mars-wide dust storm covered Opportunity's location in June 2018 and the rover stopped communicating. Its final communication was received on 10 June 2018. NASA declared the mission over on 13 February 2019. The rover rests in Perseverance Valley.", "ar": "غطّت عاصفة غبار عمّت المريخ موقع أبورتيونيتي في يونيو 2018 فتوقفت المركبة عن الاتصال. استُلم آخر اتصال منها في 10 يونيو 2018، وأعلنت ناسا انتهاء المهمة في 13 فبراير 2019. وتستقر المركبة في وادي بيرسيفيرنس." },
+    "legacyText": { "en": "Opportunity found evidence that water was long standing on ancient Mars. Its 45 km of driving was an off-world record for years.", "ar": "وجدت أبورتيونيتي أدلة على أن الماء بقي طويلاً على المريخ القديم، وكانت مسافة 45 كم التي قطعتها رقماً قياسياً خارج الأرض لسنوات." },
+    "notStated": [
+      { "en": "NASA pages we read do not give the rover's final message wording, so we do not quote one.", "ar": "لا تذكر صفحات ناسا التي قرأناها نص رسالتها الأخيرة، لذلك لا نقتبس أي رسالة." }
+    ]
+  },
+  "badge": { "name": { "en": "Opportunity Explorer", "ar": "مستكشف أبورتيونيتي" }, "iconAssetId": "opp-img-selfie-2014" }
+}

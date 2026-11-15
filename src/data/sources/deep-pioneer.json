@@ -1,0 +1,9 @@
+[
+  { "id": "dp-src-p10s", "title": "Pioneer 10 mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/pioneer-10/", "accessedOn": "2026-11-15" },
+  { "id": "dp-src-p10n", "title": "Pioneer 10 (1972-012A)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-012A", "accessedOn": "2026-11-15" },
+  { "id": "dp-src-p10p", "title": "Pioneer 10 press release 03-082 (25 Feb 2003)", "publisher": "NASA", "url": "https://nssdc.gsfc.nasa.gov/planetary/text/pion10_pr_20030225.txt", "accessedOn": "2026-11-15" },
+  { "id": "dp-src-p10h", "title": "50 Years Ago: Pioneer 10 Launches to Explore Jupiter", "publisher": "NASA History", "url": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter/", "accessedOn": "2026-11-15" },
+  { "id": "dp-src-p11s", "title": "Pioneer 11 mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/pioneer-11/", "accessedOn": "2026-11-15" },
+  { "id": "dp-src-p11n", "title": "Pioneer 11 (1973-019A)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-019A", "accessedOn": "2026-11-15" },
+  { "id": "dp-src-img", "title": "NASA Image and Video Library", "publisher": "NASA", "url": "https://images.nasa.gov/", "accessedOn": "2026-11-15" }
+]

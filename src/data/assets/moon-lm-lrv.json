@@ -1,0 +1,119 @@
+[
+  {
+    "id": "moon-lm-lrv-img-as11-aldrin-lm",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/KSC-as11-40-5927/KSC-as11-40-5927~medium.jpg",
+    "nasaId": "KSC-as11-40-5927",
+    "altText": {
+      "en": "Buzz Aldrin removes scientific experiment packages from a stowage area in the descent stage of the Apollo 11 Lunar Module Eagle on the Moon (NASA's caption).",
+      "ar": "باز ألدرين يُخرج حزم التجارب العلمية من منطقة التخزين في مرحلة هبوط المركبة القمرية إيغل في أبولو 11 على القمر (وصف ناسا)."
+    },
+    "credit": "NASA (KSC archive copy)",
+    "sourceUrl": "https://images.nasa.gov/details/KSC-as11-40-5927",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as11-telecast",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/S69-39563/S69-39563~medium.jpg",
+    "nasaId": "S69-39563",
+    "altText": {
+      "en": "Black-and-white frame from the Apollo 11 lunar surface television camera: astronauts Neil Armstrong (left) and Buzz Aldrin standing by the ladder of the Lunar Module Eagle.",
+      "ar": "لقطة بالأبيض والأسود من كاميرا التلفزيون على سطح القمر في أبولو 11: رائدا الفضاء نيل أرمسترونغ (على اليسار) وبَزّ ألدرين واقفان قرب سلّم وحدة الهبوط القمرية إيغل."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/S69-39563",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as11-bootprint",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as11-40-5878/as11-40-5878~medium.jpg",
+    "nasaId": "as11-40-5878",
+    "altText": {
+      "en": "An Apollo 11 bootprint in the lunar soil.",
+      "ar": "أثر حذاء من رحلة أبولو 11 في تربة القمر."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as11-40-5878",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as15-flag-lrv",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as15-88-11866/as15-88-11866~medium.jpg",
+    "nasaId": "as15-88-11866",
+    "altText": {
+      "en": "Apollo 15 astronaut James Irwin salutes beside the flag, with the Lunar Roving Vehicle at right.",
+      "ar": "رائد فضاء أبولو 15 جيمس إيروين يؤدي التحية بجانب العلم، وتظهر المركبة الجوالة القمرية على اليمين."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as15-88-11866",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as15-irwin-lrv",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as15-86-11603/as15-86-11603~medium.jpg",
+    "nasaId": "as15-86-11603",
+    "altText": {
+      "en": "Apollo 15 astronaut James Irwin works at the Lunar Roving Vehicle.",
+      "ar": "رائد فضاء أبولو 15 جيمس إيروين يعمل عند المركبة الجوالة القمرية."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as15-86-11603",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as17-lrv-closeup",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as17-137-20979/as17-137-20979~medium.jpg",
+    "nasaId": "as17-137-20979",
+    "altText": {
+      "en": "Close-up of the Apollo 17 Lunar Roving Vehicle, photographed by Cernan, with a makeshift repair on its right rear fender; Schmitt is seated in the rover. NASA says a hammer knocked part of the fender off during the first moonwalk and the crew repaired it early in the second, using lunar maps and clamps.",
+      "ar": "صورة قريبة للمركبة الجوالة القمرية في أبولو 17 التقطها سيرنان، وفيها إصلاح مؤقت للرفرف الخلفي الأيمن؛ ويجلس شميت في المركبة. وتقول ناسا إن مطرقة أطاحت بجزء من الرفرف خلال السير الأول، وأصلحه الرائدان في بداية السير الثاني باستخدام خرائط قمرية ومشابك."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as17-137-20979",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as17-cernan-drives",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as17-147-22526/as17-147-22526~medium.jpg",
+    "nasaId": "as17-147-22526",
+    "altText": {
+      "en": "Astronaut Eugene Cernan makes a short checkout of the \"stripped down\" Lunar Roving Vehicle early in the first Apollo 17 moonwalk, before it was loaded with equipment. (NASA's title says \"drives\"; NASA's description says \"short checkout\".)",
+      "ar": "رائد الفضاء يوجين سيرنان يجري فحصاً قصيراً للمركبة الجوالة القمرية «المجرّدة» في بداية السير الأول في أبولو 17، قبل تحميلها بالمعدات. (يقول عنوان ناسا «يقود»، أما وصفها فيقول «فحص قصير».)"
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as17-147-22526",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as15-falcon-lm",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as15-086-11600/as15-086-11600~medium.jpg",
+    "nasaId": "as15-086-11600",
+    "altText": {
+      "en": "The Apollo 15 Lunar Module Falcon at the Hadley-Apennine landing site early in the first moonwalk, before the surface equipment was deployed: gold foil on the descent stage, a United States flag decal, and a mountain behind.",
+      "ar": "المركبة القمرية فالكون في أبولو 15 في موقع هبوط هادلي-الأبنين في بداية السير الأول على القمر، قبل نصب المعدات: رقائق ذهبية على مرحلة الهبوط وشعار علم الولايات المتحدة، وجبل في الخلفية."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as15-086-11600",
+    "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as17-boulder-lrv",
+    "type": "image",
+    "path": "https://images-assets.nasa.gov/image/as17-146-22294/as17-146-22294~medium.jpg",
+    "nasaId": "as17-146-22294",
+    "altText": {
+      "en": "An Apollo 17 astronaut (NASA says Harrison Schmitt) works beside a huge boulder at Station 6, at the base of North Massif, during the third moonwalk. The front of the Lunar Roving Vehicle, with its dish antenna, is at left. NASA says Cernan took the picture.",
+      "ar": "أحد روّاد أبولو 17 (تقول ناسا إنه هاريسون شميت) يعمل بجانب صخرة ضخمة عند المحطة 6، عند سفح ماسيف الشمالي، خلال السير الثالث على القمر. ويظهر في اليسار مقدّمة المركبة الجوالة القمرية بهوائيها الطبقي. وتقول ناسا إن سيرنان التقط الصورة."
+    },
+    "credit": "NASA/JSC",
+    "sourceUrl": "https://images.nasa.gov/details/as17-146-22294",
+    "authenticity": "real"
+  }
+]

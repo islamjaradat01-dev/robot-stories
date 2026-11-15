@@ -1,0 +1,383 @@
+{
+  "id": "alsep-apollo-15",
+  "destinationId": "moon",
+  "name": {
+    "en": "Apollo 15 Science Station (ALSEP)",
+    "ar": "محطة علوم أبولو 15 (ALSEP)"
+  },
+  "missionType": "instrument-package",
+  "card": {
+    "tagline": {
+      "en": "Seven instruments, including a heat flow experiment, left at the foot of the Apennine mountains.",
+      "ar": "سبعة أجهزة، منها تجربة تدفّق الحرارة، تُركت عند سفح جبال الأبنين."
+    },
+    "assetId": "core-moon",
+    "group": "alsep",
+    "order": 6
+  },
+  "unverified": true,
+  "relatedMissionIds": [
+    "apollo-15-falcon",
+    "lrv-apollo-15"
+  ],
+  "intro": {
+    "whatItIs": {
+      "en": "The Apollo 15 ALSEP was a set of scientific instruments placed at the landing site by the astronauts, with a central station for power and communications.",
+      "ar": "حزمة ALSEP في أبولو 15 مجموعة أجهزة علمية وضعها الروّاد في موقع الهبوط، مع محطة مركزية للطاقة والاتصالات."
+    },
+    "whyCreated": {
+      "en": "It let scientists keep measuring the Moon after the astronauts left.",
+      "ar": "تتيح للعلماء مواصلة قياس القمر بعد مغادرة الروّاد."
+    },
+    "goal": {
+      "en": "To measure moonquakes, magnetic fields, charged particles, dust and heat flowing from inside the Moon.",
+      "ar": "قياس الزلازل القمرية والمجالات المغناطيسية والجسيمات المشحونة والغبار والحرارة المتدفقة من داخل القمر."
+    },
+    "whereGoing": {
+      "en": "The foot of the Apennine mountains, Mare Imbrium region, at about 26.134° N, 3.630° E.",
+      "ar": "سفح جبال الأبنين في منطقة بحر الأمطار، عند نحو 26.134° شمالاً و3.630° شرقاً."
+    },
+    "assetId": "core-moon"
+  },
+  "units": [
+    {
+      "id": "alsep-15-station",
+      "name": {
+        "en": "Apollo 15 ALSEP",
+        "ar": "حزمة ALSEP في أبولو 15"
+      },
+      "parentFlight": "Apollo 15 (NSSDCA 1971-063C)",
+      "restingPlace": {
+        "en": "Deployed and left on the lunar surface at about 26.134° N, 3.630° E",
+        "ar": "نُصبت وتُركت على سطح القمر عند نحو 26.134° شمالاً و3.630° شرقاً"
+      },
+      "featured": true
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t-landing",
+      "dateLabel": "30 Jul 1971",
+      "label": {
+        "en": "Apollo 15 lunar module Falcon lands (22:16 UT)",
+        "ar": "هبوط المركبة القمرية فالكون لأبولو 15 (22:16 بالتوقيت العالمي)"
+      },
+      "sourceId": "masv-src-a15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-on",
+      "dateLabel": "31 Jul 1971",
+      "label": {
+        "en": "ALSEP central station turned on (18:37 UT)",
+        "ar": "تشغيل المحطة المركزية لـ ALSEP (18:37 بالتوقيت العالمي)"
+      },
+      "sourceId": "masv-src-a15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-ascent",
+      "dateLabel": "3 Aug 1971",
+      "label": {
+        "en": "Ascent stage jettisoned (01:04 UT) and later impacts the Moon",
+        "ar": "التخلص من مرحلة الصعود (01:04 بالتوقيت العالمي) ثم اصطدامها بالقمر"
+      },
+      "sourceId": "masv-src-a15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-off",
+      "dateLabel": "30 Sep 1977",
+      "label": {
+        "en": "ALSEP stations shut down",
+        "ar": "إيقاف محطات ALSEP"
+      },
+      "sourceId": "masv-src-a15",
+      "basis": "nasa-page"
+    }
+  ],
+  "stages": [
+    {
+      "id": "alsep15-1",
+      "kind": "origin",
+      "title": {
+        "en": "Seven Instruments",
+        "ar": "سبعة أجهزة"
+      },
+      "basicText": {
+        "en": "The Apollo 15 ALSEP carried seven experiments, including a heat flow experiment, to study the Moon from its surface.",
+        "ar": "حملت حزمة ALSEP في أبولو 15 سبع تجارب، منها تجربة تدفّق الحرارة، لدراسة القمر من سطحه."
+      },
+      "exploreMoreText": {
+        "en": "The seven: passive seismometer, lunar surface magnetometer, solar wind spectrometer, suprathermal ion detector, cold cathode ion gauge, lunar dust detector and heat flow experiment.",
+        "ar": "الأجهزة السبعة: مقياس زلازل سلبي ومقياس مغناطيسية سطحي ومطياف رياح شمسية وكاشف أيونات فوق حرارية ومقياس أيونات بالمهبط البارد وكاشف غبار قمري وتجربة تدفّق الحرارة."
+      },
+      "animationPreset": "origin",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "The package included a heat flow experiment.",
+            "ar": "ضمّت الحزمة تجربة تدفّق الحرارة."
+          },
+          "sourceId": "masv-src-a15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "masv-src-a15"
+      ]
+    },
+    {
+      "id": "alsep15-2",
+      "kind": "landing",
+      "dateLabel": "30 Jul 1971 (UT)",
+      "title": {
+        "en": "Landing at the Apennines",
+        "ar": "الهبوط عند الأبنين"
+      },
+      "basicText": {
+        "en": "The Apollo 15 lunar module Falcon landed on 30 July 1971 (UT) at the foot of the Apennine mountains, in the Mare Imbrium region.",
+        "ar": "هبطت المركبة القمرية فالكون لأبولو 15 في 30 يوليو 1971 (بالتوقيت العالمي) عند سفح جبال الأبنين في منطقة بحر الأمطار."
+      },
+      "animationPreset": "landing",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Landing: 30 Jul 1971, 22:16:29 UT, at 26.13239° N, 3.63330° E.",
+            "ar": "الهبوط: 30 يوليو 1971 الساعة 22:16:29 بالتوقيت العالمي عند 26.13239° شمالاً و3.63330° شرقاً."
+          },
+          "sourceId": "masv-src-a15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "masv-src-a15"
+      ]
+    },
+    {
+      "id": "alsep15-3",
+      "kind": "deployment",
+      "dateLabel": "31 Jul 1971 (UT)",
+      "title": {
+        "en": "Switched On",
+        "ar": "التشغيل"
+      },
+      "basicText": {
+        "en": "The central station was turned on at 18:37 UT on 31 July 1971, at about 26.134° N, 3.630° E.",
+        "ar": "شُغّلت المحطة المركزية الساعة 18:37 بالتوقيت العالمي في 31 يوليو 1971، عند نحو 26.134° شمالاً و3.630° شرقاً."
+      },
+      "animationPreset": "deployment",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "It was deployed and left on the lunar surface.",
+            "ar": "نُصبت وتُركت على سطح القمر."
+          },
+          "sourceId": "masv-src-a15",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "NSSDCA's Lunar Module page gives the central station at 26.1341° N, 3.6298° E; its landing-site table gives 26.13406° N, 3.62991° E.",
+            "ar": "تذكر صفحة المركبة القمرية لدى NSSDCA أن المحطة المركزية عند 26.1341° شمالاً و3.6298° شرقاً، بينما يذكر جدول مواقع الهبوط لديها 26.13406° شمالاً و3.62991° شرقاً."
+          },
+          "sourceId": "masv-src-a15",
+          "basis": "disputed",
+          "note": {
+            "en": "The two NASA pages differ in the fourth decimal; we say \"about\".",
+            "ar": "تختلف الصفحتان في الخانة العشرية الرابعة؛ ولذلك نقول «نحو»."
+          }
+        }
+      ],
+      "sourceIds": [
+        "masv-src-a15",
+        "masv-src-sites"
+      ],
+      "exploreMoreText": {
+        "en": "NASA says the ALSEP was deployed at the end of the first moonwalk traverse, on 31 July 1971. The crew made three moonwalks, on 31 July, 1 August and 2 August 1971.",
+        "ar": "تقول ناسا إن ALSEP نُصبت في نهاية رحلة السير الأول على القمر، في 31 يوليو 1971. وقام الرائدان بثلاث رحلات سير على القمر، في 31 يوليو و1 أغسطس و2 أغسطس 1971."
+      }
+    },
+    {
+      "id": "alsep15-4",
+      "kind": "operations",
+      "title": {
+        "en": "Powered by SNAP-27",
+        "ar": "تعمل بمولّد SNAP-27"
+      },
+      "basicText": {
+        "en": "ALSEP stations used a SNAP-27 radioisotope generator. NASA says it produced approximately 70 watts, and 63.5 watts after one year.",
+        "ar": "استخدمت محطات ALSEP مولّد النظائر المشعة SNAP-27. وتقول ناسا إنه أنتج نحو 70 واط، و63.5 واط بعد سنة."
+      },
+      "exploreMoreText": {
+        "en": "The fuel was an approximately 4 kg capsule containing plutonium-238. The whole generator had a mass of 17 kg and the central station about 25 kg.",
+        "ar": "كان الوقود أسطوانة تزن نحو 4 كغ تحتوي على البلوتونيوم-238. وبلغت كتلة المولّد كله 17 كغ وكتلة المحطة المركزية نحو 25 كغ."
+      },
+      "animationPreset": "operations",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "SNAP-27: approximately 70 W DC at 16 V; 63.5 W after one year.",
+            "ar": "SNAP-27: نحو 70 واط تيار مستمر بجهد 16 فولت؛ و63.5 واط بعد سنة."
+          },
+          "sourceId": "masv-src-a15",
+          "basis": "nasa-page"
+        }
+      ],
+      "quiz": {
+        "prompt": {
+          "en": "Which experiment was part of the Apollo 15 ALSEP?",
+          "ar": "أي تجربة كانت ضمن حزمة ALSEP في أبولو 15؟"
+        },
+        "options": [
+          {
+            "label": {
+              "en": "A heat flow experiment",
+              "ar": "تجربة تدفّق الحرارة"
+            },
+            "isCorrect": true
+          },
+          {
+            "label": {
+              "en": "A rock-drilling robot arm",
+              "ar": "ذراع روبوتية لحفر الصخور"
+            },
+            "isCorrect": false
+          },
+          {
+            "label": {
+              "en": "A weather balloon",
+              "ar": "منطاد طقس"
+            },
+            "isCorrect": false
+          }
+        ],
+        "explanation": {
+          "en": "NASA lists a heat flow experiment among the Apollo 15 ALSEP instruments.",
+          "ar": "تذكر ناسا تجربة تدفّق الحرارة ضمن أجهزة ALSEP في أبولو 15."
+        }
+      },
+      "sourceIds": [
+        "masv-src-a15"
+      ]
+    },
+    {
+      "id": "alsep15-5",
+      "kind": "ending",
+      "dateLabel": "30 Sep 1977",
+      "title": {
+        "en": "Switched Off",
+        "ar": "الإيقاف"
+      },
+      "basicText": {
+        "en": "On 30 September 1977 the Apollo 15 station was shut down along with the other ALSEP stations. The pages we read do not say why.",
+        "ar": "في 30 سبتمبر 1977 أُوقفت محطة أبولو 15 مع بقية محطات ALSEP. ولا تذكر الصفحات التي قرأناها السبب."
+      },
+      "animationPreset": "ending",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Shut down along with the other ALSEP stations on 30 September 1977.",
+            "ar": "أُوقفت مع بقية محطات ALSEP في 30 سبتمبر 1977."
+          },
+          "sourceId": "masv-src-a15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "masv-src-a15"
+      ]
+    },
+    {
+      "id": "alsep15-6",
+      "kind": "legacy",
+      "title": {
+        "en": "Why We Remember It",
+        "ar": "لماذا نتذكرها"
+      },
+      "basicText": {
+        "en": "This station was a working science station, not forgotten gear. It was set up in 1971 and shut down with the other ALSEP stations in 1977.",
+        "ar": "كانت هذه المحطة محطة علمية عاملة لا معدات منسية. نُصبت في 1971 وأُوقفت مع بقية محطات ALSEP في 1977."
+      },
+      "animationPreset": "legacy",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [],
+      "sourceIds": [
+        "masv-src-a15"
+      ]
+    }
+  ],
+  "discoveries": [],
+  "ending": {
+    "endCause": "switched-off",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": {
+      "en": "The ALSEP was deployed and left on the lunar surface. NASA's archive says all ALSEP stations were shut down on 30 September 1977.",
+      "ar": "نُصبت حزمة ALSEP وتُركت على سطح القمر. وتقول أرشيفات ناسا إن جميع محطات ALSEP أُوقفت في 30 سبتمبر 1977."
+    },
+    "legacyText": {
+      "en": "The station carried instruments that measured the Moon from its surface, including heat flow. It was switched on in 1971 and shut down in 1977.",
+      "ar": "حملت المحطة أجهزة تقيس القمر من سطحه، منها تدفّق الحرارة. شُغّلت في 1971 وأُوقفت في 1977."
+    },
+    "notStated": [
+      {
+        "en": "The pages we read do not state why the stations were shut down in 1977.",
+        "ar": "لا تذكر الصفحات التي قرأناها سبب إيقاف المحطات في 1977."
+      },
+      {
+        "en": "The pages we read do not list the heat flow results.",
+        "ar": "لا تذكر الصفحات التي قرأناها نتائج تجربة تدفّق الحرارة."
+      }
+    ]
+  },
+  "badge": {
+    "name": {
+      "en": "Apennine Station Keeper",
+      "ar": "حارس محطة الأبنين"
+    },
+    "iconAssetId": "core-moon"
+  }
+}

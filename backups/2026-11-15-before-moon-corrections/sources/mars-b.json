@@ -1,0 +1,11 @@
+[
+  { "id": "phoenix-src-a", "title": "Phoenix mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/phoenix/", "accessedOn": "2026-11-15" },
+  { "id": "phoenix-src-b", "title": "PIA22223: HiRISE views of the Phoenix landing site from 2008 and 2017", "publisher": "NASA Image and Video Library", "url": "https://images.nasa.gov/details/PIA22223", "accessedOn": "2026-11-15" },
+  { "id": "phoenix-src-c", "title": "NASA's Phoenix Lander on Mars, Nearly a Decade Later (PIA22223, figures 1 and 2)", "publisher": "NASA Science Photojournal", "url": "https://science.nasa.gov/photojournal/nasas-phoenix-lander-on-mars-nearly-a-decade-later/", "accessedOn": "2026-11-15" },
+  { "id": "insight-src-a", "title": "InSight mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/insight/", "accessedOn": "2026-11-15" },
+  { "id": "insight-src-b", "title": "InSight science instruments", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/insight/science-instruments/", "accessedOn": "2026-11-15" },
+  { "id": "insight-src-c", "title": "InSight science highlights", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/insight/science-highlights/", "accessedOn": "2026-11-15" },
+  { "id": "insight-src-d", "title": "PIA25287: InSight's Final Selfie", "publisher": "NASA Image and Video Library", "url": "https://images.nasa.gov/details/PIA25287", "accessedOn": "2026-11-15" },
+  { "id": "ingenuity-src-a", "title": "Ingenuity Mars Helicopter", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/", "accessedOn": "2026-11-15" },
+  { "id": "ingenuity-src-b", "title": "After Three Years on Mars, NASA's Ingenuity Helicopter Mission Ends", "publisher": "NASA", "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/", "accessedOn": "2026-11-15" }
+]

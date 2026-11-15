@@ -1,0 +1,146 @@
+{
+  "id": "near-shoemaker",
+  "destinationId": "deep-space",
+  "name": { "en": "NEAR Shoemaker", "ar": "نير شوميكر" },
+  "missionType": "orbiter",
+  "card": {
+    "tagline": { "en": "The first spacecraft to orbit and land on an asteroid, though it was not built as a lander.", "ar": "أول مركبة تدور حول كويكب وتهبط عليه، رغم أنها لم تُصمَّم للهبوط." },
+    "assetId": "near-img-eros-1", "group": "orbiter", "order": 2
+  },
+  "unverified": true,
+  "relatedMissionIds": [],
+  "intro": {
+    "whatItIs": { "en": "NEAR Shoemaker is a spacecraft sent to study the asteroid Eros. It was renamed on 14 March 2000 for Eugene M. Shoemaker (1928 to 1997).", "ar": "نير شوميكر مركبة أُرسلت لدراسة الكويكب إيروس. وأُعيدت تسميتها في 14 مارس 2000 تكريماً ليوجين م. شوميكر (1928 إلى 1997)." },
+    "whyCreated": { "en": "NASA wanted to study an asteroid up close by orbiting it.", "ar": "أرادت ناسا دراسة كويكب عن قرب بالدوران حوله." },
+    "goal": { "en": "To orbit the asteroid Eros and study it.", "ar": "الدوران حول الكويكب إيروس ودراسته." },
+    "whereGoing": { "en": "The asteroid 433 Eros.", "ar": "الكويكب 433 إيروس." },
+    "assetId": "near-img-eros-1"
+  },
+  "units": [
+    { "id": "near-spacecraft", "name": { "en": "NEAR Shoemaker", "ar": "نير شوميكر" }, "nssdcaId": "1996-008A", "restingPlace": { "en": "On the asteroid Eros", "ar": "على سطح الكويكب إيروس" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "1996-02-17", "label": { "en": "Launched on a Delta II from Cape Canaveral", "ar": "الإطلاق بصاروخ دلتا 2 من كيب كانافيرال" }, "sourceId": "near-src-a", "basis": "nasa-page" },
+    { "id": "t-mathilde", "dateLabel": "1997-06-27", "label": { "en": "Flies past the asteroid Mathilde", "ar": "المرور قرب الكويكب ماتيلد" }, "sourceId": "near-src-a", "basis": "nasa-page" },
+    { "id": "t-orbit", "dateLabel": "2000-02-14", "label": { "en": "Goes into orbit around Eros", "ar": "الدخول في مدار حول إيروس" }, "sourceId": "near-src-a", "basis": "nasa-page" },
+    { "id": "t-land", "dateLabel": "2001-02-12", "label": { "en": "Lands on Eros", "ar": "الهبوط على إيروس" }, "sourceId": "near-src-a", "basis": "nasa-page" },
+    { "id": "t-last", "dateLabel": "2001-02-28", "label": { "en": "Last contact", "ar": "آخر اتصال" }, "sourceId": "near-src-a", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "near-1", "kind": "origin",
+      "title": { "en": "Meet NEAR Shoemaker", "ar": "تعرّف على نير شوميكر" },
+      "basicText": { "en": "NEAR was sent to visit the asteroid Eros. After it began orbiting, it was renamed in honor of scientist Eugene Shoemaker.", "ar": "أُرسلت نير لزيارة الكويكب إيروس. وبعد أن بدأت تدور حوله أُعيدت تسميتها تكريماً للعالِم يوجين شوميكر." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }, { "assetId": "near-img-eros-1", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Renamed on 14 March 2000 for Eugene M. Shoemaker (1928 to 1997).", "ar": "أُعيدت تسميتها في 14 مارس 2000 تكريماً ليوجين م. شوميكر (1928 إلى 1997)." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["near-src-a", "near-src-b"]
+    },
+    {
+      "id": "near-2", "kind": "launch", "dateLabel": "17 Feb 1996",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "On 17 February 1996 a Delta II rocket launched NEAR from Cape Canaveral, Florida.", "ar": "في 17 فبراير 1996 أطلق صاروخ دلتا 2 مركبة نير من كيب كانافيرال في فلوريدا." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch vehicle: Delta II 7925-8, from LC-17B.", "ar": "الصاروخ: دلتا 2 7925-8 من منصة LC-17B." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["near-src-a"]
+    },
+    {
+      "id": "near-3", "kind": "flyby", "dateLabel": "27 Jun 1997",
+      "title": { "en": "Passing Mathilde", "ar": "المرور قرب ماتيلد" },
+      "basicText": { "en": "On 27 June 1997 NEAR flew past the asteroid Mathilde at about 1,200 km. NASA says Mathilde is less dense than people had believed.", "ar": "في 27 يونيو 1997 مرّت نير قرب الكويكب ماتيلد على بعد نحو 1,200 كم. وتقول ناسا إن كثافة ماتيلد أقل مما كان يُعتقد." },
+      "exploreMoreText": { "en": "Mathilde measures 66 by 48 by 46 km and has a density of 1.34 g/cm3.", "ar": "أبعاد ماتيلد 66 × 48 × 46 كم وكثافته 1.34 غ/سم3." },
+      "animationPreset": "flyby",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Mathilde flyby on 27 June 1997 at about 1,200 km.", "ar": "المرور قرب ماتيلد في 27 يونيو 1997 على بعد نحو 1,200 كم." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["near-src-a", "near-src-b"]
+    },
+    {
+      "id": "near-4", "kind": "orbit-insertion", "dateLabel": "14 Feb 2000",
+      "title": { "en": "Orbiting an Asteroid", "ar": "الدوران حول كويكب" },
+      "basicText": { "en": "On 14 February 2000 NEAR Shoemaker entered orbit around Eros. NASA says it was the first human-made object to orbit an asteroid.", "ar": "في 14 فبراير 2000 دخلت نير شوميكر في مدار حول إيروس. وتقول ناسا إنها أول جسم من صنع البشر يدور حول كويكب." },
+      "animationPreset": "orbit-insertion",
+      "assets": [{ "assetId": "near-img-eros-2", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "First human-made object to orbit an asteroid.", "ar": "أول جسم من صنع البشر يدور حول كويكب." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["near-src-a", "near-src-b"]
+    },
+    {
+      "id": "near-5", "kind": "discovery",
+      "title": { "en": "Mapping Eros", "ar": "رسم خريطة إيروس" },
+      "basicText": { "en": "NEAR mapped more than 70 percent of Eros and took about 160,000 images. It found that Eros has no magnetic field.", "ar": "رسمت نير أكثر من 70 بالمئة من سطح إيروس والتقطت نحو 160,000 صورة. ووجدت أن إيروس بلا مجال مغناطيسي." },
+      "exploreMoreText": { "en": "NASA says it returned about 10 times more data than originally planned.", "ar": "تقول ناسا إنها أرسلت بيانات تفوق المخطط بنحو 10 أضعاف." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "near-img-eros-2", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "No magnetic field on Eros; more than 70% of the surface mapped; about 160,000 images.", "ar": "لا مجال مغناطيسياً على إيروس؛ رُسم أكثر من 70% من سطحه؛ نحو 160,000 صورة." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["near-src-a"]
+    },
+    {
+      "id": "near-6", "kind": "landing", "dateLabel": "12 Feb 2001",
+      "title": { "en": "A Landing Nobody Planned", "ar": "هبوط لم يكن مخططاً" },
+      "basicText": { "en": "On 12 February 2001 NEAR Shoemaker landed on Eros. NASA says it was not designed as a lander, yet it survived the touchdown. It was the first spacecraft to land on an asteroid.", "ar": "في 12 فبراير 2001 هبطت نير شوميكر على إيروس. وتقول ناسا إنها لم تُصمَّم كمركبة هبوط، لكنها نجت من الهبوط. وكانت أول مركبة تهبط على كويكب." },
+      "exploreMoreText": { "en": "NASA pages give two different times for the landing, so we give only the date.", "ar": "تذكر صفحات ناسا وقتين مختلفين للهبوط، لذلك نذكر التاريخ فقط." },
+      "animationPreset": "landing",
+      "assets": [{ "assetId": "near-img-eros-1", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Landed on Eros on 12 February 2001, although not designed as a lander.", "ar": "هبطت على إيروس في 12 فبراير 2001 رغم أنها لم تُصمَّم للهبوط." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "What was special about NEAR Shoemaker's landing on Eros?", "ar": "ما الأمر الخاص في هبوط نير شوميكر على إيروس؟" },
+        "options": [
+          { "label": { "en": "It was not designed as a lander but survived touchdown", "ar": "لم تُصمَّم للهبوط لكنها نجت منه" }, "isCorrect": true },
+          { "label": { "en": "It landed on Mars", "ar": "هبطت على المريخ" }, "isCorrect": false },
+          { "label": { "en": "It carried astronauts", "ar": "حملت رواد فضاء" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says it was not designed as a lander, yet it survived touchdown on the asteroid.", "ar": "تقول ناسا إنها لم تُصمَّم كمركبة هبوط، لكنها نجت من الهبوط على الكويكب." }
+      },
+      "sourceIds": ["near-src-a", "near-src-b"]
+    },
+    {
+      "id": "near-7", "kind": "ending", "dateLabel": "28 Feb 2001",
+      "title": { "en": "Silenced by the Cold", "ar": "أسكتها البرد" },
+      "basicText": { "en": "NEAR Shoemaker's last contact was on 28 February 2001. NASA says it succumbed to the extreme cold, about minus 173 degrees Celsius. It rests on Eros.", "ar": "كان آخر اتصال بنير شوميكر في 28 فبراير 2001. وتقول ناسا إنها استسلمت للبرد الشديد، نحو 173 درجة مئوية تحت الصفر. وهي تستقر على إيروس." },
+      "exploreMoreText": { "en": "A contact attempt on 10 December 2002 failed.", "ar": "وفشلت محاولة اتصال في 10 ديسمبر 2002." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "near-img-eros-2", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Last contact 28 February 2001; it succumbed to the extreme cold (-173 C).", "ar": "آخر اتصال في 28 فبراير 2001؛ استسلمت للبرد الشديد (-173 م)." }, "sourceId": "near-src-a", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["near-src-a"]
+    },
+    {
+      "id": "near-8", "kind": "legacy",
+      "title": { "en": "Why We Remember NEAR", "ar": "لماذا نتذكر نير" },
+      "basicText": { "en": "NEAR Shoemaker was the first to orbit and land on an asteroid. It sent back about 10 times more data than planned, and it still rests on Eros.", "ar": "كانت نير شوميكر أول مركبة تدور حول كويكب وتهبط عليه. وأرسلت بيانات تفوق المخطط بنحو 10 أضعاف، وما زالت على إيروس." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "near-img-eros-1", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["near-src-a"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "Mathilde is less dense", "ar": "ماتيلد أقل كثافة" }, "summary": { "en": "Mathilde is less dense than previously believed (1.34 g/cm3).", "ar": "ماتيلد أقل كثافة مما كان يُعتقد (1.34 غ/سم3)." }, "sourceId": "near-src-a" },
+    { "id": "d2", "title": { "en": "No magnetic field on Eros", "ar": "لا مجال مغناطيسياً على إيروس" }, "summary": { "en": "NEAR found that Eros has no magnetic field.", "ar": "وجدت نير أن إيروس بلا مجال مغناطيسي." }, "sourceId": "near-src-a" },
+    { "id": "d3", "title": { "en": "A map of Eros", "ar": "خريطة إيروس" }, "summary": { "en": "More than 70 percent of the surface mapped, with about 160,000 images.", "ar": "رُسم أكثر من 70 بالمئة من السطح بنحو 160,000 صورة." }, "sourceId": "near-src-a" }
+  ],
+  "ending": {
+    "endCause": "stopped-operating",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "NEAR Shoemaker landed on Eros on 12 February 2001. Its last contact was on 28 February 2001. NASA says it succumbed to the extreme cold. A contact attempt on 10 December 2002 failed.", "ar": "هبطت نير شوميكر على إيروس في 12 فبراير 2001. وكان آخر اتصال بها في 28 فبراير 2001. وتقول ناسا إنها استسلمت للبرد الشديد. وفشلت محاولة اتصال في 10 ديسمبر 2002." },
+    "legacyText": { "en": "It was the first human-made object to orbit an asteroid and the first to land on one, and it returned about 10 times more data than originally planned.", "ar": "كانت أول جسم من صنع البشر يدور حول كويكب وأول جسم يهبط على كويكب، وأرسلت بيانات تفوق المخطط بنحو 10 أضعاف." },
+    "notStated": [
+      { "en": "NASA pages give two different landing times, so we give only the date.", "ar": "تذكر صفحات ناسا وقتين مختلفين للهبوط، لذلك نذكر التاريخ فقط." }
+    ]
+  }
+}

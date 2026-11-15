@@ -1,0 +1,12 @@
+[
+  {
+    "id": "masv-img-as12-48-7134", "type": "image", "path": "https://images-assets.nasa.gov/image/AS12-48-7134/AS12-48-7134~medium.jpg", "nasaId": "AS12-48-7134",
+    "altText": { "en": "Apollo 12 photograph showing the lunar module and the Surveyor 3 spacecraft on the Moon.", "ar": "صورة من أبولو 12 تُظهر المركبة القمرية ومركبة سيرفيور 3 على سطح القمر." },
+    "credit": "NASA (JSC; credit field not stated by the library)", "sourceUrl": "https://images.nasa.gov/details/AS12-48-7134", "authenticity": "real"
+  },
+  {
+    "id": "masv-img-as12-48-7133", "type": "image", "path": "https://images-assets.nasa.gov/image/AS12-48-7133/AS12-48-7133~medium.jpg", "nasaId": "AS12-48-7133",
+    "altText": { "en": "Apollo 12 photograph showing the lunar module and the Surveyor 3 spacecraft on the Moon.", "ar": "صورة من أبولو 12 تُظهر المركبة القمرية ومركبة سيرفيور 3 على سطح القمر." },
+    "credit": "NASA (JSC; credit field not stated by the library)", "sourceUrl": "https://images.nasa.gov/details/AS12-48-7133", "authenticity": "real"
+  }
+]

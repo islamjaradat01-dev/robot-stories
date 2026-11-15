@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; min-height: 100vh; font-family: system-ui, 'Segoe UI', Tahoma, sans-serif; font-size: 18px; line-height: 1.55; background: #0b1026; color: #fff; }
+[dir='rtl'] body { font-family: 'Segoe UI', Tahoma, 'Noto Naskh Arabic', system-ui, sans-serif; }
+.btn { @apply inline-block rounded-full bg-cyan px-8 py-4 text-xl font-bold text-space transition hover:brightness-110 focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-white disabled:opacity-50; }
+.btn-ghost { @apply inline-block rounded-full border-2 border-cyan px-6 py-3 text-lg font-semibold text-cyan transition hover:bg-cyan/10 focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-white; }
+.card { @apply rounded-2xl bg-panel p-6; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

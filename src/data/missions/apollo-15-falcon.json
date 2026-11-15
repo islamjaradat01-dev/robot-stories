@@ -1,0 +1,431 @@
+{
+  "id": "apollo-15-falcon",
+  "destinationId": "moon",
+  "name": {
+    "en": "Apollo 15 Lunar Module Falcon",
+    "ar": "المركبة القمرية فالكون في أبولو 15"
+  },
+  "missionType": "crewed-lander-stage",
+  "card": {
+    "tagline": {
+      "en": "Falcon's descent stage stayed at the foot of the Apennine mountains. Its ascent stage hit the Moon on purpose.",
+      "ar": "بقيت مرحلة هبوط فالكون عند سفح جبال الأبنين. أما مرحلة صعودها فاصطدمت بالقمر عن قصد."
+    },
+    "assetId": "moon-lm-lrv-img-as15-falcon-lm",
+    "group": "apollo-lm",
+    "order": 2
+  },
+  "unverified": true,
+  "relatedMissionIds": [
+    "lrv-apollo-15",
+    "alsep-apollo-15"
+  ],
+  "intro": {
+    "whatItIs": {
+      "en": "Falcon was the Apollo 15 Lunar Module. Like every Lunar Module it had a descent stage and an ascent stage.",
+      "ar": "فالكون هي المركبة القمرية في أبولو 15. ومثل كل مركبة قمرية، كانت لها مرحلة هبوط ومرحلة صعود."
+    },
+    "whyCreated": {
+      "en": "It carried astronauts down to the Moon, and it also carried the Lunar Roving Vehicle folded in the descent stage.",
+      "ar": "حملت الرائدين إلى القمر، وحملت أيضاً المركبة الجوالة القمرية مطويّة في مرحلة الهبوط."
+    },
+    "goal": {
+      "en": "Falcon landed at the foot of the Apennine mountains, in the Mare Imbrium region, and carried the crew and their rover to the surface.",
+      "ar": "هبطت فالكون عند سفح جبال الأبنين في منطقة بحر الأمطار، وحملت الرائدين ومركبتهما الجوالة إلى السطح."
+    },
+    "whereGoing": {
+      "en": "The foot of the Apennine mountains, in the Mare Imbrium region of the Moon.",
+      "ar": "سفح جبال الأبنين في منطقة بحر الأمطار (ماري إمبريوم) على القمر."
+    },
+    "assetId": "moon-lm-lrv-img-as15-falcon-lm"
+  },
+  "units": [
+    {
+      "id": "falcon-descent-stage",
+      "name": {
+        "en": "Apollo 15 Falcon descent stage",
+        "ar": "مرحلة هبوط فالكون في أبولو 15"
+      },
+      "nssdcaId": "1971-063C",
+      "parentFlight": "Apollo 15",
+      "restingPlace": {
+        "en": "Foot of the Apennine mountains, Moon (landing site)",
+        "ar": "سفح جبال الأبنين على القمر (موقع الهبوط)"
+      },
+      "featured": true
+    },
+    {
+      "id": "falcon-ascent-stage",
+      "name": {
+        "en": "Apollo 15 Falcon ascent stage",
+        "ar": "مرحلة صعود فالكون في أبولو 15"
+      },
+      "nssdcaId": "1971-063C",
+      "parentFlight": "Apollo 15",
+      "restingPlace": {
+        "en": "Impact point 26.36° N, 0.25° E",
+        "ar": "نقطة الاصطدام 26.36° شمالاً، 0.25° شرقاً"
+      },
+      "featured": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t-landing",
+      "dateLabel": "1971-07-30",
+      "label": {
+        "en": "Falcon lands at the foot of the Apennine mountains (22:16:29 UT)",
+        "ar": "فالكون تهبط عند سفح جبال الأبنين (22:16:29 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-alsep",
+      "dateLabel": "1971-07-31",
+      "label": {
+        "en": "The Apollo 15 ALSEP science station is turned on (18:37 UT)",
+        "ar": "تشغيل محطة العلوم ALSEP في أبولو 15 (18:37 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-jettison",
+      "dateLabel": "1971-08-03",
+      "label": {
+        "en": "Ascent stage jettisoned (01:04:14 UT)",
+        "ar": "التخلص من مرحلة الصعود (01:04:14 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-impact",
+      "dateLabel": "1971-08-03",
+      "label": {
+        "en": "Ascent stage impacts the Moon (03:03:37 UT)",
+        "ar": "اصطدام مرحلة الصعود بالقمر (03:03:37 بالتوقيت العالمي)"
+      },
+      "sourceId": "moon-lm-lrv-src-lm15",
+      "basis": "nasa-page"
+    },
+    {
+      "id": "t-alsep-off",
+      "dateLabel": "1977-09-30",
+      "label": {
+        "en": "ALSEP stations, including Apollo 15's, are shut down",
+        "ar": "إيقاف محطات ALSEP ومنها محطة أبولو 15"
+      },
+      "sourceId": "moon-lm-lrv-src-lm15",
+      "basis": "nasa-page"
+    }
+  ],
+  "stages": [
+    {
+      "id": "falcon-1",
+      "kind": "origin",
+      "title": {
+        "en": "Meet Falcon",
+        "ar": "تعرّف على فالكون"
+      },
+      "basicText": {
+        "en": "Falcon was a Lunar Module with two parts. The descent stage landed on the Moon and was left there. The ascent stage was built to carry the astronauts back up.",
+        "ar": "كانت فالكون مركبة قمرية من جزأين. هبطت مرحلة الهبوط على القمر وتُركت هناك، وصُنعت مرحلة الصعود لتعيد الرائدين إلى الأعلى."
+      },
+      "exploreMoreText": {
+        "en": "NASA says each descent stage served as a platform for launching the ascent stage and was left behind on the Moon.",
+        "ar": "تقول ناسا إن مرحلة الهبوط كانت منصة لإطلاق مرحلة الصعود وتُركت على القمر."
+      },
+      "animationPreset": "origin",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "The descent stage was \"left behind on the Moon\".",
+            "ar": "«تُركت مرحلة الهبوط على القمر»."
+          },
+          "sourceId": "moon-lm-lrv-src-lm15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm15"
+      ]
+    },
+    {
+      "id": "falcon-2",
+      "kind": "landing",
+      "dateLabel": "30 Jul 1971 (UT)",
+      "title": {
+        "en": "Landing at the Mountains",
+        "ar": "الهبوط عند الجبال"
+      },
+      "basicText": {
+        "en": "Falcon landed on 30 July 1971 at 22:16:29 UT, at the foot of the Apennine mountains in the Mare Imbrium region.",
+        "ar": "هبطت فالكون في 30 يوليو 1971 الساعة 22:16:29 بالتوقيت العالمي عند سفح جبال الأبنين في منطقة بحر الأمطار."
+      },
+      "exploreMoreText": {
+        "en": "The landing site is at 26.13239° N, 3.63330° E.",
+        "ar": "موقع الهبوط عند 26.13239° شمالاً و3.63330° شرقاً."
+      },
+      "animationPreset": "landing",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        },
+        {
+          "assetId": "moon-lm-lrv-img-as15-falcon-lm",
+          "role": "gallery"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "Landing: 30 Jul 1971, 22:16:29 UT.",
+            "ar": "الهبوط: 30 يوليو 1971، 22:16:29 بالتوقيت العالمي."
+          },
+          "sourceId": "moon-lm-lrv-src-lm15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm15"
+      ]
+    },
+    {
+      "id": "falcon-3",
+      "kind": "deployment",
+      "title": {
+        "en": "Rover and Science Station",
+        "ar": "المركبة الجوالة ومحطة العلوم"
+      },
+      "basicText": {
+        "en": "A folded Lunar Roving Vehicle was carried in the descent stage. The crew also set up the Apollo 15 science station, ALSEP, which was turned on on 31 July 1971.",
+        "ar": "حملت مرحلة الهبوط مركبة جوالة قمرية مطويّة. ونصب الرائدان أيضاً محطة العلوم ALSEP في أبولو 15، وقد شُغّلت في 31 يوليو 1971."
+      },
+      "exploreMoreText": {
+        "en": "NASA says the rover was folded and carried in quad 1 of the descent stage. The ALSEP central station is at about 26.134° N, 3.630° E.",
+        "ar": "تذكر ناسا أن المركبة الجوالة طُويت وحُملت في الربع 1 من مرحلة الهبوط. وتقع المحطة المركزية لـ ALSEP عند نحو 26.134° شمالاً و3.630° شرقاً."
+      },
+      "animationPreset": "deployment",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        },
+        {
+          "assetId": "moon-lm-lrv-img-as15-flag-lrv",
+          "role": "gallery"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "The Lunar Roving Vehicle was folded and carried in quad 1 of the descent stage.",
+            "ar": "طُويت المركبة الجوالة وحُملت في الربع 1 من مرحلة الهبوط."
+          },
+          "sourceId": "moon-lm-lrv-src-lrv",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "The ALSEP was turned on on 31 Jul 1971 at 18:37 UT.",
+            "ar": "شُغّلت ALSEP في 31 يوليو 1971 الساعة 18:37 بالتوقيت العالمي."
+          },
+          "sourceId": "moon-lm-lrv-src-lm15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm15",
+        "moon-lm-lrv-src-lrv"
+      ]
+    },
+    {
+      "id": "falcon-4",
+      "kind": "operations",
+      "title": {
+        "en": "Science Keeps Going",
+        "ar": "العلم يستمر"
+      },
+      "basicText": {
+        "en": "The Apollo 15 ALSEP carried seven instruments, including a heat flow experiment and a passive seismometer. All ALSEP stations were shut down on 30 September 1977.",
+        "ar": "حملت ALSEP في أبولو 15 سبعة أجهزة، منها تجربة تدفق الحرارة ومقياس زلازل سلبي. وأُوقفت جميع محطات ALSEP في 30 سبتمبر 1977."
+      },
+      "exploreMoreText": {
+        "en": "The seven instruments: passive seismometer, lunar surface magnetometer, solar wind spectrometer, suprathermal ion detector, cold cathode ion gauge, lunar dust detector and heat flow experiment.",
+        "ar": "الأجهزة السبعة: مقياس زلازل سلبي، ومقياس مغناطيسية سطح القمر، ومطياف الرياح الشمسية، وكاشف الأيونات فوق الحرارية، ومقياس أيونات بالمهبط البارد، وكاشف غبار القمر، وتجربة تدفق الحرارة."
+      },
+      "animationPreset": "operations",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "All ALSEP stations were shut down on 30 September 1977.",
+            "ar": "أُوقفت جميع محطات ALSEP في 30 سبتمبر 1977."
+          },
+          "sourceId": "moon-lm-lrv-src-lm15",
+          "basis": "nasa-page"
+        }
+      ],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm15"
+      ]
+    },
+    {
+      "id": "falcon-5",
+      "kind": "ending",
+      "dateLabel": "3 Aug 1971",
+      "title": {
+        "en": "Two Different Endings",
+        "ar": "نهايتان مختلفتان"
+      },
+      "basicText": {
+        "en": "The descent stage was left on the Moon. The ascent stage was jettisoned on 3 August 1971 and hit the Moon at 26.36° N, 0.25° E at 03:03:37 UT.",
+        "ar": "تُركت مرحلة الهبوط على القمر. أما مرحلة الصعود فجرى التخلص منها في 3 أغسطس 1971 واصطدمت بالقمر عند 26.36° شمالاً و0.25° شرقاً الساعة 03:03:37 بالتوقيت العالمي."
+      },
+      "animationPreset": "ending",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": {
+            "en": "The ascent stage was jettisoned on 3 Aug 1971 at 01:04:14 UT and impacted the Moon at 03:03:37 UT.",
+            "ar": "جرى التخلص من مرحلة الصعود في 3 أغسطس 1971 الساعة 01:04:14 واصطدمت بالقمر الساعة 03:03:37 بالتوقيت العالمي."
+          },
+          "sourceId": "moon-lm-lrv-src-lm15",
+          "basis": "nasa-page"
+        },
+        {
+          "id": "f2",
+          "text": {
+            "en": "NSSDCA: \"The Apollo Lunar Modules were deliberately targeted to impact the Moon to provide artificial moonquake sources for seismic experiments.\"",
+            "ar": "تقول NSSDCA: «كانت المركبات القمرية لأبولو تُوجَّه عمداً لتصطدم بالقمر لتوفير مصادر لهزات قمرية صناعية للتجارب السيزمية». (الترجمة العربية من إعدادنا.)"
+          },
+          "sourceId": "moon-lm-lrv-src-where",
+          "basis": "nasa-page"
+        }
+      ],
+      "quiz": {
+        "prompt": {
+          "en": "What happened to Falcon's ascent stage?",
+          "ar": "ماذا حدث لمرحلة صعود فالكون؟"
+        },
+        "options": [
+          {
+            "label": {
+              "en": "It was jettisoned and impacted the Moon",
+              "ar": "جرى التخلص منها واصطدمت بالقمر"
+            },
+            "isCorrect": true
+          },
+          {
+            "label": {
+              "en": "It stayed beside the descent stage",
+              "ar": "بقيت بجانب مرحلة الهبوط"
+            },
+            "isCorrect": false
+          },
+          {
+            "label": {
+              "en": "It flew back to Earth",
+              "ar": "عادت إلى الأرض"
+            },
+            "isCorrect": false
+          }
+        ],
+        "explanation": {
+          "en": "NASA records that it was jettisoned on 3 August 1971 and impacted the Moon.",
+          "ar": "تسجّل ناسا أنه جرى التخلص منها في 3 أغسطس 1971 واصطدمت بالقمر."
+        }
+      },
+      "sourceIds": [
+        "moon-lm-lrv-src-lm15",
+        "moon-lm-lrv-src-where"
+      ],
+      "exploreMoreText": {
+        "en": "NASA's \"Where are they now?\" page lists Falcon as having impacted the Moon on 3 August 1971 at 03:03:37.0 UT, and says the Apollo Lunar Modules were deliberately targeted to impact the Moon.",
+        "ar": "تُدرج صفحة «أين هي الآن؟» لدى ناسا مركبة فالكون بأنها اصطدمت بالقمر في 3 أغسطس 1971 الساعة 03:03:37.0 بالتوقيت العالمي، وتقول إن المركبات القمرية لأبولو كانت تُوجَّه عمداً لتصطدم بالقمر."
+      }
+    },
+    {
+      "id": "falcon-6",
+      "kind": "legacy",
+      "title": {
+        "en": "Part of a Bigger Story",
+        "ar": "جزء من قصة أكبر"
+      },
+      "basicText": {
+        "en": "Falcon's story connects to the rover and the science station of Apollo 15. Its descent stage was left on purpose as the launch platform, not forgotten.",
+        "ar": "ترتبط قصة فالكون بالمركبة الجوالة ومحطة العلوم في أبولو 15. وتُركت مرحلة هبوطها عن قصد بوصفها منصة إطلاق، ولم تُنسَ."
+      },
+      "animationPreset": "legacy",
+      "assets": [
+        {
+          "assetId": "core-moon",
+          "role": "background"
+        }
+      ],
+      "facts": [],
+      "sourceIds": [
+        "moon-lm-lrv-src-lm15"
+      ]
+    }
+  ],
+  "discoveries": [
+    {
+      "id": "d1",
+      "title": {
+        "en": "A science station on the Moon",
+        "ar": "محطة علوم على القمر"
+      },
+      "summary": {
+        "en": "The Apollo 15 ALSEP carried seven instruments, including a heat flow experiment.",
+        "ar": "حملت ALSEP في أبولو 15 سبعة أجهزة منها تجربة تدفق الحرارة."
+      },
+      "sourceId": "moon-lm-lrv-src-lm15"
+    }
+  ],
+  "ending": {
+    "endCause": "intentionally-left",
+    "currentLocation": "planetary-surface",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": {
+      "en": "NASA says Falcon's descent stage was left behind on the Moon as the platform for launching the ascent stage. NASA's landing-site table lists the Lunar Module at 26.13239° N, 3.63330° E, determined from Lunar Reconnaissance Orbiter images. The ascent stage was jettisoned on 3 August 1971 and impacted the Moon at 26.36° N, 0.25° E.",
+      "ar": "تقول ناسا إن مرحلة هبوط فالكون تُركت على القمر بوصفها منصة لإطلاق مرحلة الصعود. ويُدرج جدول مواقع الهبوط لدى ناسا المركبة القمرية عند 26.13239° شمالاً و3.63330° شرقاً، حُدّد من صور مسبار استطلاع القمر. وجرى التخلص من مرحلة الصعود في 3 أغسطس 1971 واصطدمت بالقمر عند 26.36° شمالاً و0.25° شرقاً."
+    },
+    "legacyText": {
+      "en": "Falcon landed at the foot of the Apennine mountains and carried the rover that explored the area. Its descent stage was left at the landing site.",
+      "ar": "هبطت فالكون عند سفح جبال الأبنين وحملت المركبة الجوالة التي استكشفت المنطقة. وتُركت مرحلة هبوطها في موقع الهبوط."
+    },
+    "notStated": [
+      {
+        "en": "NASA pages we read do not describe the present condition of the descent stage.",
+        "ar": "لا تذكر صفحات ناسا التي قرأناها الحالة الراهنة لمرحلة الهبوط."
+      }
+    ]
+  }
+}

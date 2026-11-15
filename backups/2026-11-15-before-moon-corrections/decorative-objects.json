@@ -1,0 +1,5 @@
+[
+  { "id": "space-shuttle", "kind": "shuttle", "name": { "en": "Space Shuttle", "ar": "مكوك الفضاء" }, "tooltip": { "en": "Just for decoration in this scene. It is not one of our mission stories.", "ar": "للزينة فقط في هذا المشهد. ليست من قصص المهمات في موقعنا." } },
+  { "id": "iss", "kind": "iss", "name": { "en": "International Space Station", "ar": "محطة الفضاء الدولية" }, "tooltip": { "en": "Just for decoration in this scene. It is not one of our mission stories.", "ar": "للزينة فقط في هذا المشهد. ليست من قصص المهمات في موقعنا." } },
+  { "id": "rocket", "kind": "rocket", "name": { "en": "Rocket", "ar": "صاروخ" }, "tooltip": { "en": "Just for decoration in this scene.", "ar": "للزينة فقط في هذا المشهد." } }
+]

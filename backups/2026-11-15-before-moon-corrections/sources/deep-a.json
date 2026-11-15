@@ -1,0 +1,9 @@
+[
+  { "id": "dawn-src-a", "title": "Dawn mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/dawn/", "accessedOn": "2026-11-15" },
+  { "id": "dawn-src-b", "title": "Dawn (2007-043A)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A", "accessedOn": "2026-11-15" },
+  { "id": "dawn-src-c", "title": "Dawn mission status", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/dawn/mission-status/", "accessedOn": "2026-11-15" },
+  { "id": "near-src-a", "title": "NEAR Shoemaker mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/near-shoemaker/", "accessedOn": "2026-11-15" },
+  { "id": "near-src-b", "title": "NEAR (1996-008A)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-008A", "accessedOn": "2026-11-15" },
+  { "id": "kepler-src-a", "title": "Kepler mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/kepler/", "accessedOn": "2026-11-15" },
+  { "id": "kepler-src-b", "title": "Kepler (2009-011A)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-011A", "accessedOn": "2026-11-15" }
+]

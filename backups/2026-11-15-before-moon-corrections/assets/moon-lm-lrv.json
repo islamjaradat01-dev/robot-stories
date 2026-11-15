@@ -1,0 +1,37 @@
+[
+  {
+    "id": "moon-lm-lrv-img-as11-aldrin-lm", "type": "image", "path": "https://images-assets.nasa.gov/image/KSC-as11-40-5927/KSC-as11-40-5927~medium.jpg", "nasaId": "KSC-as11-40-5927",
+    "altText": { "en": "Buzz Aldrin beside the Apollo 11 Lunar Module Eagle on the Moon.", "ar": "باز ألدرين بجانب المركبة القمرية إيغل التابعة لأبولو 11 على سطح القمر." },
+    "credit": "NASA/KSC", "sourceUrl": "https://images.nasa.gov/details/KSC-as11-40-5927", "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as11-telecast", "type": "image", "path": "https://images-assets.nasa.gov/image/S69-39563/S69-39563~medium.jpg", "nasaId": "S69-39563",
+    "altText": { "en": "Black-and-white frame from the Apollo 11 lunar surface television camera: astronauts Neil Armstrong (left) and Buzz Aldrin standing by the ladder of the Lunar Module Eagle.", "ar": "لقطة بالأبيض والأسود من كاميرا التلفزيون على سطح القمر في أبولو 11: رائدا الفضاء نيل أرمسترونغ (على اليسار) وبَزّ ألدرين واقفان قرب سلّم وحدة الهبوط القمرية إيغل." },
+    "credit": "NASA/JSC", "sourceUrl": "https://images.nasa.gov/details/S69-39563", "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as11-bootprint", "type": "image", "path": "https://images-assets.nasa.gov/image/as11-40-5878/as11-40-5878~medium.jpg", "nasaId": "as11-40-5878",
+    "altText": { "en": "An Apollo 11 bootprint in the lunar soil.", "ar": "أثر حذاء من رحلة أبولو 11 في تربة القمر." },
+    "credit": "NASA/JSC", "sourceUrl": "https://images.nasa.gov/details/as11-40-5878", "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as15-flag-lrv", "type": "image", "path": "https://images-assets.nasa.gov/image/as15-88-11866/as15-88-11866~medium.jpg", "nasaId": "as15-88-11866",
+    "altText": { "en": "Apollo 15 astronaut James Irwin salutes beside the flag, with the Lunar Roving Vehicle at right.", "ar": "رائد فضاء أبولو 15 جيمس إيروين يؤدي التحية بجانب العلم، وتظهر المركبة الجوالة القمرية على اليمين." },
+    "credit": "NASA/JSC", "sourceUrl": "https://images.nasa.gov/details/as15-88-11866", "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as15-irwin-lrv", "type": "image", "path": "https://images-assets.nasa.gov/image/as15-86-11603/as15-86-11603~medium.jpg", "nasaId": "as15-86-11603",
+    "altText": { "en": "Apollo 15 astronaut James Irwin works at the Lunar Roving Vehicle.", "ar": "رائد فضاء أبولو 15 جيمس إيروين يعمل عند المركبة الجوالة القمرية." },
+    "credit": "NASA/JSC", "sourceUrl": "https://images.nasa.gov/details/as15-86-11603", "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as17-lrv-closeup", "type": "image", "path": "https://images-assets.nasa.gov/image/as17-137-20979/as17-137-20979~medium.jpg", "nasaId": "as17-137-20979",
+    "altText": { "en": "Close-up of the Apollo 17 Lunar Roving Vehicle.", "ar": "صورة قريبة للمركبة الجوالة القمرية في أبولو 17." },
+    "credit": "NASA/JSC", "sourceUrl": "https://images.nasa.gov/details/as17-137-20979", "authenticity": "real"
+  },
+  {
+    "id": "moon-lm-lrv-img-as17-cernan-drives", "type": "image", "path": "https://images-assets.nasa.gov/image/as17-147-22526/as17-147-22526~medium.jpg", "nasaId": "as17-147-22526",
+    "altText": { "en": "Apollo 17 astronaut Eugene Cernan drives the Lunar Roving Vehicle.", "ar": "رائد فضاء أبولو 17 يوجين سيرنان يقود المركبة الجوالة القمرية." },
+    "credit": "NASA/JSC", "sourceUrl": "https://images.nasa.gov/details/as17-147-22526", "authenticity": "real"
+  }
+]

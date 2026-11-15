@@ -1,0 +1,157 @@
+{
+  "id": "pioneer-10",
+  "destinationId": "deep-space",
+  "name": { "en": "Pioneer 10", "ar": "بايونير 10" },
+  "missionType": "flyby-probe",
+  "card": {
+    "tagline": { "en": "The first spacecraft to fly past Jupiter, now drifting out of the solar system.", "ar": "أول مركبة تحلّق قرب المشتري، وهي الآن تبتعد عن النظام الشمسي." },
+    "assetId": "dp-img-p10-9341", "group": "probe", "order": 3
+  },
+  "unverified": true,
+  "relatedMissionIds": ["pioneer-11"],
+  "intro": {
+    "whatItIs": { "en": "Pioneer 10 is a robotic spacecraft powered by nuclear generators (RTGs). It carried a set of scientific instruments and a metal plaque showing a man, a woman and the solar system.", "ar": "بايونير 10 مركبة آلية تعمل بمولدات نووية (RTG). حملت مجموعة من الأجهزة العلمية ولوحة معدنية عليها رجل وامرأة والنظام الشمسي." },
+    "whyCreated": { "en": "NASA built it to fly past Jupiter. It was first planned as a 21-month mission.", "ar": "بنتها ناسا لتحلّق قرب المشتري، وكانت مهمتها مخططة أصلاً لمدة 21 شهراً." },
+    "goal": { "en": "To make a flyby of Jupiter, the giant planet, and study its radiation and magnetic field.", "ar": "أن تحلّق قرب المشتري، الكوكب العملاق، وتدرس إشعاعه ومجاله المغناطيسي." },
+    "whereGoing": { "en": "Past Jupiter and then out of the solar system, generally toward the red star Aldebaran.", "ar": "تجاوزت المشتري ثم خرجت من النظام الشمسي، في اتجاه النجم الأحمر ألديبران عموماً." },
+    "assetId": "dp-img-p10-9341"
+  },
+  "units": [
+    { "id": "pioneer-10-probe", "name": { "en": "Pioneer 10 spacecraft", "ar": "المركبة بايونير 10" }, "nssdcaId": "1972-012A", "parentFlight": "Pioneer 10", "restingPlace": { "en": "Traveling out of the solar system", "ar": "تسافر خارج النظام الشمسي" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-launch", "dateLabel": "2 Mar 1972", "label": { "en": "Launched from Cape Canaveral, Florida", "ar": "الإطلاق من كيب كانافيرال في فلوريدا" }, "sourceId": "dp-src-p10s", "basis": "disputed" },
+    { "id": "t-belt", "dateLabel": "Jul 1972 - Feb 1973", "label": { "en": "Crosses the main asteroid belt", "ar": "عبور حزام الكويكبات الرئيسي" }, "sourceId": "dp-src-p10s", "basis": "nasa-page" },
+    { "id": "t-jupiter", "dateLabel": "4 Dec 1973", "label": { "en": "Closest approach to Jupiter", "ar": "أقرب اقتراب من المشتري" }, "sourceId": "dp-src-p10s", "basis": "disputed" },
+    { "id": "t-neptune", "dateLabel": "13 Jun 1983", "label": { "en": "Crosses the orbit of Neptune", "ar": "عبور مدار نبتون" }, "sourceId": "dp-src-p10s", "basis": "nasa-page" },
+    { "id": "t-routine-end", "dateLabel": "31 Mar 1997", "label": { "en": "Routine mission ends for budget reasons", "ar": "انتهاء المهمة الروتينية لأسباب تتعلق بالميزانية" }, "sourceId": "dp-src-p10s", "basis": "nasa-page" },
+    { "id": "t-last", "dateLabel": "23 Jan 2003", "label": { "en": "Last signal received", "ar": "استقبال آخر إشارة" }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+  ],
+  "stages": [
+    {
+      "id": "p10-1", "kind": "origin",
+      "title": { "en": "Meet Pioneer 10", "ar": "تعرّف على بايونير 10" },
+      "basicText": { "en": "Pioneer 10 was a pioneer in the true sense. NASA sent it to fly past Jupiter, a trip first planned to last 21 months.", "ar": "كانت بايونير 10 رائدة بحق. أرسلتها ناسا لتحلّق قرب المشتري في رحلة خُطط لها أصلاً أن تدوم 21 شهراً." },
+      "exploreMoreText": { "en": "Its instruments included an imaging photopolarimeter, a magnetometer, a plasma analyzer, an ultraviolet photometer, an infrared radiometer, charged-particle and cosmic-ray detectors and meteoroid detectors. It weighed 258 kg (569 lb). TRW Inc. built it.", "ar": "شملت أجهزتها مقياس استقطاب ضوئي مصوِّراً ومقياس مغناطيسية ومحلل بلازما ومقياس ضوء فوق بنفسجي ومقياس إشعاع تحت أحمر وكواشف للجسيمات المشحونة والأشعة الكونية وكواشف للنيازك الدقيقة. كانت كتلتها 258 كغ (569 رطلاً)، وصنعتها شركة TRW." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-earth", "role": "background" }, { "assetId": "dp-img-p10-9341", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "The mission was a Jupiter flyby, originally planned to last 21 months.", "ar": "كانت المهمة تحليقاً قرب المشتري، وخُطط لها أصلاً أن تدوم 21 شهراً." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Pioneer 10 carried a metal plaque with a man and a woman, the solar system, and the Sun's position relative to 14 pulsars.", "ar": "حملت بايونير 10 لوحة معدنية عليها رجل وامرأة والنظام الشمسي وموقع الشمس بالنسبة إلى 14 نجماً نابضاً." }, "sourceId": "dp-src-p10s", "basis": "disputed", "note": { "en": "NASA pages disagree on the plaque material (aluminum or gold), so we only say metal.", "ar": "تختلف صفحات ناسا في مادة اللوحة (ألمنيوم أو ذهب)، لذلك نقول معدنية فقط." } }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10n"]
+    },
+    {
+      "id": "p10-2", "kind": "launch", "dateLabel": "2 Mar 1972",
+      "title": { "en": "Blast Off!", "ar": "الإطلاق!" },
+      "basicText": { "en": "On 2 March 1972 an Atlas-Centaur rocket launched Pioneer 10 from Cape Canaveral, Florida, on its way to Jupiter.", "ar": "في 2 مارس 1972 أطلق صاروخ أطلس-سنتور المركبة بايونير 10 من كيب كانافيرال في فلوريدا في طريقها إلى المشتري." },
+      "exploreMoreText": { "en": "NASA's science page gives 2 March 1972 (01:49 UT). The NSSDCA archive page says 3 March, so the date is shown as disputed.", "ar": "تذكر صفحة ناسا العلمية 2 مارس 1972 (الساعة 01:49 بالتوقيت العالمي)، بينما تذكر صفحة أرشيف NSSDCA يوم 3 مارس، لذلك نعرض التاريخ على أنه محل خلاف." },
+      "animationPreset": "launch",
+      "assets": [{ "assetId": "core-earth", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Launch on 2 March 1972 (NASA science page and history page); the NSSDCA page says 3 March.", "ar": "الإطلاق في 2 مارس 1972 (صفحة ناسا العلمية وصفحة التاريخ)، وتذكر صفحة NSSDCA يوم 3 مارس." }, "sourceId": "dp-src-p10s", "basis": "disputed", "note": { "en": "Two NASA pages say 2 March; NSSDCA says 3 March.", "ar": "صفحتان لناسا تقولان 2 مارس، وNSSDCA تقول 3 مارس." } },
+        { "id": "f2", "text": { "en": "Launch vehicle: Atlas-Centaur, from Launch Complex 36A.", "ar": "الصاروخ: أطلس-سنتور من منصة الإطلاق 36A." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10n", "dp-src-p10h"]
+    },
+    {
+      "id": "p10-3", "kind": "cruise", "dateLabel": "Jul 1972 - Feb 1973",
+      "title": { "en": "Through the Asteroid Belt", "ar": "عبر حزام الكويكبات" },
+      "basicText": { "en": "Pioneer 10 was the first spacecraft to fly through the main asteroid belt. It entered in July 1972 and came out in February 1973. It met fewer asteroids than expected.", "ar": "كانت بايونير 10 أول مركبة تعبر حزام الكويكبات الرئيسي. دخلته في يوليو 1972 وخرجت منه في فبراير 1973، وصادفت كويكبات أقل مما كان متوقعاً." },
+      "exploreMoreText": { "en": "It travelled about 271 million miles (435 million km) through the belt.", "ar": "قطعت نحو 271 مليون ميل (435 مليون كم) عبر الحزام." },
+      "animationPreset": "cruise",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "It was the first spacecraft through the main asteroid belt.", "ar": "كانت أول مركبة تعبر حزام الكويكبات الرئيسي." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "There were fewer asteroid hits than expected.", "ar": "كانت اصطدامات الكويكبات أقل مما كان متوقعاً." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10p"]
+    },
+    {
+      "id": "p10-4", "kind": "flyby", "dateLabel": "4 Dec 1973",
+      "title": { "en": "Flying Past Jupiter", "ar": "التحليق قرب المشتري" },
+      "basicText": { "en": "On 4 December 1973 Pioneer 10 passed Jupiter at about 81,000 miles (130,000 km). It was the first spacecraft ever to fly past Jupiter.", "ar": "في 4 ديسمبر 1973 مرّت بايونير 10 قرب المشتري على بعد نحو 81,000 ميل (130,000 كم). وكانت أول مركبة تحلّق قرب المشتري." },
+      "exploreMoreText": { "en": "NASA's science page says 81,000 miles (130,354 km); another NASA page gives a slightly different distance. It took pictures of Callisto, Ganymede and Europa. Its imaging instrument was affected by radiation before it could image Io.", "ar": "تذكر صفحة ناسا العلمية 81,000 ميل (130,354 كم)، وتعطي صفحة أخرى لناسا رقماً مختلفاً قليلاً. التقطت صوراً لكاليستو وغانيميد وأوروبا. وتأثر جهاز التصوير بالإشعاع قبل أن يصوّر آيو." },
+      "animationPreset": "flyby",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }, { "assetId": "dp-img-p10-9341", "role": "gallery" }, { "assetId": "dp-img-p10-9253", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Closest approach to Jupiter: 4 December 1973, about 81,000 miles (130,000 km).", "ar": "أقرب اقتراب من المشتري: 4 ديسمبر 1973 على بعد نحو 81,000 ميل (130,000 كم)." }, "sourceId": "dp-src-p10s", "basis": "disputed", "note": { "en": "NASA pages give slightly different Jupiter distances and dates, so we say about.", "ar": "تعطي صفحات ناسا مسافات وتواريخ مختلفة قليلاً، لذلك نقول نحو." } },
+        { "id": "f2", "text": { "en": "It was the first spacecraft to fly past Jupiter.", "ar": "كانت أول مركبة تحلّق قرب المشتري." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "quiz": {
+        "prompt": { "en": "What was Pioneer 10 the first spacecraft to do?", "ar": "ما الذي كانت بايونير 10 أول مركبة تفعله؟" },
+        "options": [
+          { "label": { "en": "Fly past Jupiter", "ar": "التحليق قرب المشتري" }, "isCorrect": true },
+          { "label": { "en": "Land on Jupiter", "ar": "الهبوط على المشتري" }, "isCorrect": false },
+          { "label": { "en": "Land on Mars", "ar": "الهبوط على المريخ" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says Pioneer 10 was the first to fly past Jupiter, on 4 December 1973.", "ar": "تقول ناسا إن بايونير 10 كانت أول من حلّق قرب المشتري في 4 ديسمبر 1973." }
+      },
+      "sourceIds": ["dp-src-p10s", "dp-src-p10n", "dp-src-p10p"]
+    },
+    {
+      "id": "p10-5", "kind": "discovery",
+      "title": { "en": "Jupiter's Radiation", "ar": "إشعاع المشتري" },
+      "basicText": { "en": "Pioneer 10 charted Jupiter's intense radiation belts and found plasma in Jupiter's magnetic field. It entered the magnetic field on 26 November 1973.", "ar": "رسمت بايونير 10 خريطة لأحزمة الإشعاع الشديدة حول المشتري ووجدت بلازما في مجاله المغناطيسي. دخلت المجال المغناطيسي في 26 نوفمبر 1973." },
+      "animationPreset": "discovery",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "It charted Jupiter's intense radiation belts and identified plasma in its magnetic field.", "ar": "رسمت خريطة لأحزمة الإشعاع الشديدة حول المشتري وحدّدت وجود بلازما في مجاله المغناطيسي." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10p"]
+    },
+    {
+      "id": "p10-6", "kind": "cruise", "dateLabel": "13 Jun 1983",
+      "title": { "en": "Beyond the Planets", "ar": "ما وراء الكواكب" },
+      "basicText": { "en": "On 13 June 1983 Pioneer 10 crossed the orbit of Neptune. It was the first human-made object to do this, and it kept going out into deep space.", "ar": "في 13 يونيو 1983 عبرت بايونير 10 مدار نبتون. كانت أول جسم من صنع الإنسان يفعل ذلك، وواصلت طريقها إلى الفضاء العميق." },
+      "animationPreset": "cruise",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Crossed Neptune's orbit on 13 June 1983.", "ar": "عبرت مدار نبتون في 13 يونيو 1983." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10h"]
+    },
+    {
+      "id": "p10-7", "kind": "ending", "dateLabel": "1997 - 2003",
+      "title": { "en": "A Fading Voice", "ar": "صوت يخفت" },
+      "basicText": { "en": "The routine mission ended on 31 March 1997 because of budget limits. Pioneer 10 still sent a signal until 23 January 2003, when its power had faded too low to transmit.", "ar": "انتهت المهمة الروتينية في 31 مارس 1997 بسبب حدود الميزانية. وظلت بايونير 10 ترسل إشارة حتى 23 يناير 2003، حين ضعفت طاقتها كثيراً فلم تعد قادرة على الإرسال." },
+      "exploreMoreText": { "en": "Last signal: 23 January 2003, at 7.6 billion miles (12.23 billion km). It took 11 hours 20 minutes to reach Earth. Later attempts found no further signal.", "ar": "آخر إشارة: 23 يناير 2003 على بعد 7.6 مليار ميل (12.23 مليار كم)، واستغرقت 11 ساعة و20 دقيقة لتصل إلى الأرض. ولم تلتقط المحاولات اللاحقة أي إشارة أخرى." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "The routine mission ended 31 March 1997 for budget reasons.", "ar": "انتهت المهمة الروتينية في 31 مارس 1997 لأسباب تتعلق بالميزانية." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "The last signal was received on 23 January 2003; its nuclear power had decayed below what the transmitter needs.", "ar": "استُقبلت آخر إشارة في 23 يناير 2003، وكانت طاقتها النووية قد ضعفت دون ما يحتاجه جهاز الإرسال." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10n", "dp-src-p10p"]
+    },
+    {
+      "id": "p10-8", "kind": "legacy",
+      "title": { "en": "Still Traveling", "ar": "ما زالت تسافر" },
+      "basicText": { "en": "Pioneer 10 is not broken or forgotten. It is quiet, but it is still heading generally toward the red star Aldebaran, which it would reach in about two million years.", "ar": "بايونير 10 ليست معطّلة ولا منسية. إنها صامتة لكنها ما زالت متجهة عموماً نحو النجم الأحمر ألديبران، وستصل إليه بعد نحو مليوني عام." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "bg-placeholder", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "It is heading generally toward Aldebaran, about 68 light-years away, which would take about two million years.", "ar": "تتجه عموماً نحو ألديبران الذي يبعد نحو 68 سنة ضوئية، وهذا يستغرق نحو مليوني عام." }, "sourceId": "dp-src-p10s", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["dp-src-p10s", "dp-src-p10p"]
+    }
+  ],
+  "discoveries": [
+    { "id": "d1", "title": { "en": "First through the asteroid belt", "ar": "الأولى عبر حزام الكويكبات" }, "summary": { "en": "It crossed the main asteroid belt and met fewer asteroid hits than expected.", "ar": "عبرت حزام الكويكبات الرئيسي وكانت الاصطدامات أقل مما كان متوقعاً." }, "sourceId": "dp-src-p10s" },
+    { "id": "d2", "title": { "en": "Jupiter's radiation belts", "ar": "أحزمة إشعاع المشتري" }, "summary": { "en": "It charted Jupiter's intense radiation belts.", "ar": "رسمت خريطة لأحزمة الإشعاع الشديدة حول المشتري." }, "sourceId": "dp-src-p10s" },
+    { "id": "d3", "title": { "en": "Plasma in Jupiter's magnetic field", "ar": "البلازما في مجال المشتري المغناطيسي" }, "summary": { "en": "It identified plasma in Jupiter's magnetic field.", "ar": "حدّدت وجود بلازما في المجال المغناطيسي للمشتري." }, "sourceId": "dp-src-p10p" }
+  ],
+  "ending": {
+    "endCause": "communication-lost",
+    "currentLocation": "leaving-solar-system",
+    "stillOperating": false,
+    "endingBasis": "nasa-page",
+    "finalChapterText": { "en": "The routine mission ended on 31 March 1997 for budget reasons, though tracking continued now and then. The last signal arrived on 23 January 2003, when the power from its nuclear generators had decayed below what the transmitter needs. Pioneer 10 is heading generally toward Aldebaran.", "ar": "انتهت المهمة الروتينية في 31 مارس 1997 لأسباب تتعلق بالميزانية، مع استمرار التتبع من حين لآخر. وصلت آخر إشارة في 23 يناير 2003 بعدما ضعفت طاقة مولداتها النووية دون ما يحتاجه جهاز الإرسال. وتتجه بايونير 10 عموماً نحو ألديبران." },
+    "legacyText": { "en": "Pioneer 10 was the first to fly past Jupiter, the first through the main asteroid belt and the first human-made object to cross Neptune's orbit.", "ar": "كانت بايونير 10 أول مركبة تحلّق قرب المشتري وأول من عبر حزام الكويكبات الرئيسي وأول جسم من صنع الإنسان يعبر مدار نبتون." },
+    "notStated": [
+      { "en": "NASA pages we read do not name who designed the plaque.", "ar": "لا تذكر صفحات ناسا التي قرأناها من صمّم اللوحة." },
+      { "en": "We do not show a distance for today, because the pages we read do not give one.", "ar": "لا نعرض مسافة اليوم لأن الصفحات التي قرأناها لا تذكرها." }
+    ]
+  },
+  "badge": { "name": { "en": "Pioneer 10 Explorer", "ar": "مستكشف بايونير 10" }, "iconAssetId": "dp-img-p10-9341" }
+}

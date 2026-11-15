@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dp-img-p10-9341", "type": "image", "path": "https://images-assets.nasa.gov/image/ARC-1973-AC73-9341/ARC-1973-AC73-9341~medium.jpg", "nasaId": "ARC-1973-AC73-9341",
+    "altText": { "en": "A composite of Pioneer 10 pictures of Jupiter in two rows: some show nearly full discs of Jupiter in growing sizes, others show thin crescents. NASA's note says the discs came as Pioneer 10 plunged toward its closest approach, and the crescent shape appeared after it passed the planet.", "ar": "صورة مركّبة من صور التقطتها بايونير 10 لكوكب المشتري في صفّين: بعضها أقراص شبه كاملة تكبر تدريجياً، وبعضها أهلّة رفيعة. تقول ملاحظة ناسا إن الأقراص ظهرت وبايونير 10 تندفع نحو أقرب نقطة من الكوكب، وإن شكل الهلال ظهر بعد أن تجاوزته." },
+    "credit": "NASA (Ames Research Center)", "sourceUrl": "https://images.nasa.gov/details/ARC-1973-AC73-9341", "authenticity": "real"
+  },
+  {
+    "id": "dp-img-p10-9253", "type": "image", "path": "https://images-assets.nasa.gov/image/ARC-1973-AC73-9253/ARC-1973-AC73-9253~medium.jpg", "nasaId": "ARC-1973-AC73-9253",
+    "altText": { "en": "Pioneer 10's picture of Jupiter with striped brown and cream cloud bands, a small dark spot on the planet, and one moon visible at the upper right. NASA says it was taken from about 2.58 million km away.", "ar": "صورة التقطتها بايونير 10 لكوكب المشتري تظهر فيها أحزمة غيوم مخططة بالبني والكريمي، وبقعة صغيرة داكنة على الكوكب، وأحد أقماره في أعلى اليمين. تقول ناسا إنها التُقطت من مسافة نحو 2.58 مليون كم." },
+    "credit": "NASA (Ames Research Center)", "sourceUrl": "https://images.nasa.gov/details/ARC-1973-AC73-9253", "authenticity": "real"
+  },
+  {
+    "id": "dp-img-p11-painting", "type": "image", "path": "https://images-assets.nasa.gov/image/ARC-2000-80-HC-251/ARC-2000-80-HC-251~medium.jpg", "nasaId": "ARC-2000-80-HC-251",
+    "altText": { "en": "A painting of the Pioneer 11 spacecraft in front of Saturn and its rings, showing the spacecraft before its Saturn encounter. It is an artwork, not a photograph. NASA's record says it was painted by Wilson Hurley.", "ar": "لوحة مرسومة تُظهر المركبة بايونير 11 أمام كوكب زحل وحلقاته قبل لقائها به. هي عمل فني وليست صورة فوتوغرافية. يذكر سجل ناسا أن الرسام هو ويلسون هيرلي." },
+    "credit": "NASA Ames Research Center. NASA's image record names the painter as Wilson Hurley.", "sourceUrl": "https://images.nasa.gov/details/ARC-2000-80-HC-251", "authenticity": "reconstruction"
+  }
+]

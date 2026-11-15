@@ -1,0 +1,124 @@
+{
+  "id": "lrv-apollo-15",
+  "destinationId": "moon",
+  "name": { "en": "Apollo 15 Lunar Roving Vehicle", "ar": "المركبة الجوالة القمرية في أبولو 15" },
+  "missionType": "surface-vehicle",
+  "card": {
+    "tagline": { "en": "An electric moon buggy that drove 27.8 km. What NASA pages say about where it ended up: nothing.", "ar": "عربة قمرية كهربائية قطعت 27.8 كم. أما مكان نهايتها فلا تذكره صفحات ناسا." },
+    "assetId": "moon-lm-lrv-img-as15-flag-lrv", "group": "lrv", "order": 3
+  },
+  "unverified": true,
+  "relatedMissionIds": ["apollo-15-falcon", "alsep-apollo-15"],
+  "intro": {
+    "whatItIs": { "en": "The Lunar Roving Vehicle (LRV) was an electric vehicle designed to operate in the low-gravity vacuum of the Moon. This one belonged to Apollo 15.", "ar": "المركبة الجوالة القمرية (LRV) مركبة كهربائية صُمّمت للعمل في فراغ القمر وجاذبيته الضعيفة. وهذه المركبة كانت في أبولو 15." },
+    "whyCreated": { "en": "It let astronauts Scott and Irwin travel much farther from the Lunar Module than they could on foot.", "ar": "أتاحت للرائدين سكوت وإيروين الابتعاد عن المركبة القمرية مسافة أكبر بكثير مما يستطيعان سيراً على الأقدام." },
+    "goal": { "en": "To carry two astronauts and their tools across the Moon's surface.", "ar": "أن تنقل رائدين وأدواتهما عبر سطح القمر." },
+    "whereGoing": { "en": "The Apollo 15 landing area at the foot of the Apennine mountains.", "ar": "منطقة هبوط أبولو 15 عند سفح جبال الأبنين." },
+    "assetId": "moon-lm-lrv-img-as15-flag-lrv"
+  },
+  "units": [
+    { "id": "lrv-apollo-15-rover", "name": { "en": "Apollo 15 Lunar Roving Vehicle", "ar": "المركبة الجوالة القمرية في أبولو 15" }, "parentFlight": "Apollo 15", "restingPlace": { "en": "Not stated on NASA pages we read", "ar": "غير مذكور في صفحات ناسا التي قرأناها" }, "featured": true }
+  ],
+  "timeline": [
+    { "id": "t-landing", "dateLabel": "1971-07-30", "label": { "en": "Falcon, which carried the folded rover, lands (22:16:29 UT)", "ar": "هبوط فالكون التي حملت المركبة الجوالة مطويّة (22:16:29 بالتوقيت العالمي)" }, "sourceId": "moon-lm-lrv-src-lm15", "basis": "nasa-page" },
+    { "id": "t-alsep", "dateLabel": "1971-07-31", "label": { "en": "The Apollo 15 science station (ALSEP) is turned on (18:37 UT)", "ar": "تشغيل محطة العلوم في أبولو 15 (ALSEP) (18:37 بالتوقيت العالمي)" }, "sourceId": "moon-lm-lrv-src-lm15", "basis": "nasa-page" },
+    { "id": "t-jettison", "dateLabel": "1971-08-03", "label": { "en": "Falcon's ascent stage is jettisoned after the crew's return to orbit (01:04:14 UT)", "ar": "التخلص من مرحلة صعود فالكون بعد عودة الرائدين إلى المدار (01:04:14 بالتوقيت العالمي)" }, "sourceId": "moon-lm-lrv-src-lm15", "basis": "nasa-page" },
+    { "id": "t-claim", "dateLabel": "2026", "label": { "en": "The Space Apps challenge page says LRVs were \"parked permanently on the Moon\"", "ar": "تقول صفحة التحدي إن المركبات الجوالة «أُوقفت بصورة دائمة على القمر»" }, "sourceId": "moon-lm-lrv-src-challenge", "basis": "challenge-page" }
+  ],
+  "stages": [
+    {
+      "id": "lrv15-1", "kind": "origin",
+      "title": { "en": "A Car for the Moon", "ar": "سيارة للقمر" },
+      "basicText": { "en": "The Lunar Roving Vehicle was an electric vehicle built to work in the Moon's low gravity and airless vacuum. It was developed in only 17 months.", "ar": "المركبة الجوالة القمرية مركبة كهربائية صُنعت لتعمل في جاذبية القمر الضعيفة وفراغه الخالي من الهواء. وطُوّرت في 17 شهراً فقط." },
+      "exploreMoreText": { "en": "Boeing built it, with Delco as a major subcontractor. The contract was $19 million and the final cost was $38 million. Four were built: one each for Apollo 15, 16 and 17, and one used for spare parts.", "ar": "صنعتها شركة بوينغ، وكانت دلكو مقاولاً فرعياً رئيسياً. بلغ العقد 19 مليون دولار وبلغت التكلفة النهائية 38 مليوناً. صُنعت أربع مركبات: واحدة لكل من أبولو 15 و16 و17، وواحدة استُخدمت لقطع الغيار." },
+      "animationPreset": "origin",
+      "assets": [{ "assetId": "core-moon", "role": "background" }, { "assetId": "moon-lm-lrv-img-as15-irwin-lrv", "role": "foreground" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Developed in only 17 months; contract $19 million, final cost $38 million.", "ar": "طُوّرت في 17 شهراً فقط؛ العقد 19 مليون دولار والتكلفة النهائية 38 مليوناً." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    },
+    {
+      "id": "lrv15-2", "kind": "build",
+      "title": { "en": "How It Was Built", "ar": "كيف صُنعت" },
+      "basicText": { "en": "The rover weighed 210 kg and could carry another 490 kg. It ran on two 36-volt silver-zinc batteries that could not be recharged.", "ar": "وزنت المركبة 210 كغ وكان بإمكانها حمل 490 كغ إضافية. وعملت ببطاريتين من الفضة والزنك بجهد 36 فولت لا يمكن إعادة شحنهما." },
+      "exploreMoreText": { "en": "The batteries stored 121 amp-hours. Each wheel motor was 0.25 horsepower.", "ar": "خزّنت البطاريتان 121 أمبير ساعة، وكانت قدرة كل محرك عجلة 0.25 حصان." },
+      "animationPreset": "build",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Rover mass 210 kg, designed to carry an additional 490 kg.", "ar": "كتلة المركبة 210 كغ ومصممة لحمل 490 كغ إضافية." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Power: two 36-volt silver-zinc non-rechargeable batteries (121 amp-hr).", "ar": "الطاقة: بطاريتان من الفضة والزنك بجهد 36 فولت غير قابلتين للشحن (121 أمبير ساعة)." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    },
+    {
+      "id": "lrv15-3", "kind": "deployment", "dateLabel": "30 Jul 1971",
+      "title": { "en": "Folded Inside Falcon", "ar": "مطويّة داخل فالكون" },
+      "basicText": { "en": "The rover travelled to the Moon folded up in quad 1 of the Lunar Module Falcon's descent stage. Falcon landed on 30 July 1971.", "ar": "سافرت المركبة الجوالة إلى القمر مطويّة في الربع 1 من مرحلة هبوط المركبة القمرية فالكون. وهبطت فالكون في 30 يوليو 1971." },
+      "animationPreset": "deployment",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "The LRV was folded and carried in quad 1 of the LM descent stage.", "ar": "طُويت المركبة الجوالة وحُملت في الربع 1 من مرحلة هبوط المركبة القمرية." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "nasa-page" },
+        { "id": "f2", "text": { "en": "Falcon landed on 30 Jul 1971, 22:16:29 UT.", "ar": "هبطت فالكون في 30 يوليو 1971، 22:16:29 بالتوقيت العالمي." }, "sourceId": "moon-lm-lrv-src-lm15", "basis": "nasa-page" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv", "moon-lm-lrv-src-lm15"]
+    },
+    {
+      "id": "lrv15-4", "kind": "operations",
+      "title": { "en": "Driving on the Moon", "ar": "القيادة على القمر" },
+      "basicText": { "en": "Astronauts David Scott and James Irwin drove the rover 27.8 km in 3 hours 2 minutes. Their longest single trip was 12.5 km, and they went as far as 5.0 km from the Lunar Module.", "ar": "قاد رائدا الفضاء ديفيد سكوت وجيمس إيروين المركبة 27.8 كم في 3 ساعات ودقيقتين. وكانت أطول رحلة لهما 12.5 كم، وابتعدا حتى 5.0 كم عن المركبة القمرية." },
+      "exploreMoreText": { "en": "The Apollo 15 Lunar Module page gives the crew's total traverse as 27.9 km. We use the rover page figure, 27.8 km.", "ar": "تذكر صفحة المركبة القمرية في أبولو 15 أن مجموع مسار الرائدين 27.9 كم. ونستخدم رقم صفحة المركبة الجوالة وهو 27.8 كم." },
+      "animationPreset": "operations",
+      "assets": [{ "assetId": "core-moon", "role": "background" }, { "assetId": "moon-lm-lrv-img-as15-flag-lrv", "role": "gallery" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Apollo 15 (Scott, Irwin): 27.8 km in 3 h 2 min; longest traverse 12.5 km; farthest from the LM 5.0 km.", "ar": "أبولو 15 (سكوت، إيروين): 27.8 كم في 3 س و2 د؛ أطول مسار 12.5 كم؛ أبعد نقطة عن المركبة القمرية 5.0 كم." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "disputed", "note": { "en": "The LM/ALSEP page gives 27.9 km for the crew's total traverse.", "ar": "تذكر صفحة المركبة القمرية/ALSEP الرقم 27.9 كم لمجموع مسار الرائدين." } }
+      ],
+      "quiz": {
+        "prompt": { "en": "How many Lunar Roving Vehicles were driven on the Moon?", "ar": "كم مركبة جوالة قمرية قيدت على القمر؟" },
+        "options": [
+          { "label": { "en": "Three", "ar": "ثلاث" }, "isCorrect": true },
+          { "label": { "en": "One", "ar": "واحدة" }, "isCorrect": false },
+          { "label": { "en": "Six", "ar": "ست" }, "isCorrect": false }
+        ],
+        "explanation": { "en": "NASA says four were built: three were driven on the Moon (Apollo 15, 16, 17) and one was used for spare parts.", "ar": "تقول ناسا إن أربعاً صُنعت: ثلاث قيدت على القمر (أبولو 15 و16 و17) وواحدة استُخدمت لقطع الغيار." }
+      },
+      "sourceIds": ["moon-lm-lrv-src-lrv", "moon-lm-lrv-src-lm15"]
+    },
+    {
+      "id": "lrv15-5", "kind": "ending",
+      "title": { "en": "Where Did It End Up?", "ar": "أين انتهى بها المطاف؟" },
+      "basicText": { "en": "NASA pages we read do not say where this rover ended up, or that it was left on the Moon. The challenge page says rovers were \"parked permanently\". That is only the challenge page's claim.", "ar": "لا تذكر صفحات ناسا التي قرأناها أين انتهى بها المطاف ولا أنها تُركت على القمر. وتقول صفحة التحدي إن المركبات «أُوقفت بصورة دائمة»، وهذا ادعاء صفحة التحدي وحدها." },
+      "exploreMoreText": { "en": "We do not state a distance from the Lunar Module, because we could not verify one.", "ar": "لا نذكر مسافة عن المركبة القمرية لأننا لم نستطع التحقق منها." },
+      "animationPreset": "ending",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [
+        { "id": "f1", "text": { "en": "Challenge page: \"Parked permanently on the Moon.\"", "ar": "صفحة التحدي: «أُوقفت بصورة دائمة على القمر»." }, "sourceId": "moon-lm-lrv-src-challenge", "basis": "challenge-page" },
+        { "id": "f2", "text": { "en": "NASA pages read state three LRVs were driven on the Moon; they do not state where this one ended up.", "ar": "تذكر صفحات ناسا التي قرأناها أن ثلاث مركبات قيدت على القمر، ولا تذكر أين انتهت هذه المركبة." }, "sourceId": "moon-lm-lrv-src-lrv", "basis": "not-stated" }
+      ],
+      "sourceIds": ["moon-lm-lrv-src-lrv", "moon-lm-lrv-src-challenge"]
+    },
+    {
+      "id": "lrv15-6", "kind": "legacy",
+      "title": { "en": "Why We Remember It", "ar": "لماذا نتذكرها" },
+      "basicText": { "en": "The rover let the Apollo 15 crew explore far beyond walking distance. We tell what NASA records show and say clearly what they do not.", "ar": "مكّنت المركبة طاقم أبولو 15 من الاستكشاف أبعد بكثير من مسافة المشي. ونروي ما تسجله ناسا، ونقول بوضوح ما لا تذكره." },
+      "animationPreset": "legacy",
+      "assets": [{ "assetId": "core-moon", "role": "background" }],
+      "facts": [],
+      "sourceIds": ["moon-lm-lrv-src-lrv"]
+    }
+  ],
+  "discoveries": [],
+  "ending": {
+    "endCause": "intentionally-left",
+    "currentLocation": "not-stated",
+    "stillOperating": false,
+    "endingBasis": "challenge-page",
+    "finalChapterText": { "en": "The challenge page says the Lunar Roving Vehicles were \"parked permanently on the Moon\". NASA pages we read do not state the rover's final location, or that it was left on the Moon. We therefore cannot say where it is.", "ar": "تقول صفحة التحدي إن المركبات الجوالة القمرية «أُوقفت بصورة دائمة على القمر». ولا تذكر صفحات ناسا التي قرأناها موقع المركبة النهائي ولا أنها تُركت على القمر. لذلك لا نستطيع القول أين هي." },
+    "legacyText": { "en": "Three Lunar Roving Vehicles were driven on the Moon. This one carried Scott and Irwin 27.8 km.", "ar": "قيدت ثلاث مركبات جوالة قمرية على القمر. وهذه حملت سكوت وإيروين مسافة 27.8 كم." },
+    "notStated": [
+      { "en": "NASA pages we read do not state that this rover was left on the Moon.", "ar": "لا تذكر صفحات ناسا التي قرأناها أن هذه المركبة تُركت على القمر." },
+      { "en": "NASA pages we read do not state where the rover ended up.", "ar": "لا تذكر صفحات ناسا التي قرأناها أين انتهى بها المطاف." },
+      { "en": "The rover's serial number is not stated.", "ar": "الرقم التسلسلي للمركبة غير مذكور." }
+    ]
+  }
+}

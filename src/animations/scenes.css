@@ -1,0 +1,70 @@
+/* Stage scene animations: CSS keyframes so Pause (animation-play-state) and Replay (remount) are trivial. */
+.scene { --dur: 4s; position: relative; overflow: hidden; isolation: isolate; }
+.scene.is-paused *, .scene.is-paused { animation-play-state: paused !important; }
+
+.star-twinkle { animation: twinkle 3s ease-in-out infinite; }
+.star-drift { animation: drift 30s linear infinite; }
+@keyframes twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes drift { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.a-rise { animation: rise var(--dur) cubic-bezier(.5, 0, .9, .6) forwards; }
+@keyframes rise { from { transform: translateY(0); } to { transform: translateY(-140%); } }
+.a-flame { animation: flame 0.15s ease-in-out infinite alternate; transform-origin: top center; }
+@keyframes flame { from { transform: scaleY(0.7); opacity: 0.8; } to { transform: scaleY(1.2); opacity: 1; } }
+.a-smoke { animation: smoke var(--dur) ease-out forwards; }
+@keyframes smoke { from { transform: scale(0.3); opacity: 0.9; } to { transform: scale(2.4); opacity: 0; } }
+
+.a-cruise-x { animation: cruise-x var(--dur) linear forwards; }
+.a-cruise-y { animation: cruise-y var(--dur) ease-in-out forwards; }
+@keyframes cruise-x { from { transform: translateX(-35vw); } to { transform: translateX(25vw); } }
+@keyframes cruise-y { 0% { transform: translateY(20px); } 50% { transform: translateY(-40px); } 100% { transform: translateY(10px); } }
+[dir='rtl'] .a-cruise-x { animation-name: cruise-x-rtl; }
+@keyframes cruise-x-rtl { from { transform: translateX(35vw) scaleX(-1); } to { transform: translateX(-25vw) scaleX(-1); } }
+
+.a-flyby { animation: flyby var(--dur) ease-in-out forwards; }
+@keyframes flyby { from { transform: translate(-40vw, 30px) scale(0.6); } 50% { transform: translate(0, -20px) scale(1.1); } to { transform: translate(40vw, 30px) scale(0.5); } }
+[dir='rtl'] .a-flyby { animation-name: flyby-rtl; }
+@keyframes flyby-rtl { from { transform: translate(40vw, 30px) scale(0.6) scaleX(-1); } 50% { transform: translate(0, -20px) scale(1.1) scaleX(-1); } to { transform: translate(-40vw, 30px) scale(0.5) scaleX(-1); } }
+
+.a-orbit { animation: orbit calc(var(--dur) * 1.6) linear infinite; }
+@keyframes orbit { to { transform: rotate(360deg); } }
+.a-orbit-counter { animation: orbit calc(var(--dur) * 1.6) linear infinite reverse; }
+.a-descend { animation: descend var(--dur) cubic-bezier(.2, .6, .3, 1) forwards; }
+@keyframes descend { from { transform: translateY(-260%); } to { transform: translateY(0); } }
+.a-dust { animation: dust var(--dur) ease-out forwards; opacity: 0; }
+@keyframes dust { 0%, 70% { opacity: 0; transform: scale(0.3); } 80% { opacity: 0.7; } 100% { opacity: 0; transform: scale(2); } }
+.a-thrust { animation: flame 0.12s ease-in-out infinite alternate, thrust-off var(--dur) forwards; transform-origin: top center; }
+@keyframes thrust-off { 0%, 75% { opacity: 1; } 100% { opacity: 0; } }
+
+.a-ring { animation: ring 2.2s ease-out infinite; opacity: 0; }
+@keyframes ring { from { transform: scale(0.2); opacity: 0.9; } to { transform: scale(1.7); opacity: 0; } }
+
+.a-drive { animation: drive var(--dur) ease-in-out forwards; }
+@keyframes drive { from { transform: translateX(-26vw); } to { transform: translateX(26vw); } }
+[dir='rtl'] .a-drive { animation-name: drive-rtl; }
+@keyframes drive-rtl { from { transform: translateX(26vw); } to { transform: translateX(-26vw); } }
+.a-track { animation: track var(--dur) ease-in-out forwards; }
+@keyframes track { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.a-spark { animation: spark 1.6s ease-in-out infinite; }
+@keyframes spark { 0%, 100% { transform: scale(0.4) rotate(0deg); opacity: 0.3; } 50% { transform: scale(1.1) rotate(45deg); opacity: 1; } }
+
+.a-fade-out { animation: fade-out var(--dur) ease-in forwards; }
+@keyframes fade-out { from { opacity: 1; } to { opacity: 0.12; } }
+.a-dim { animation: dim var(--dur) ease-in forwards; }
+@keyframes dim { from { opacity: 0; } to { opacity: 0.55; } }
+.a-signal { animation: signal 1.8s ease-out infinite; opacity: 0; }
+@keyframes signal { from { transform: scale(0.4); opacity: 0.8; } to { transform: scale(1.5); opacity: 0; } }
+
+.a-rays { animation: orbit 40s linear infinite; }
+.a-glow { animation: glow 3s ease-in-out infinite; }
+@keyframes glow { 0%, 100% { opacity: 0.4; transform: scale(0.95); } 50% { opacity: 0.9; transform: scale(1.1); } }
+.a-float { animation: float 4s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(-4px); } 50% { transform: translateY(6px); } }
+.a-appear { animation: appear 1.2s ease-out both; }
+@keyframes appear { from { opacity: 0; transform: translateY(12px) scale(0.95); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .scene *, .scene { animation-duration: 0.001s !important; animation-iteration-count: 1 !important; animation-delay: 0s !important; animation-fill-mode: forwards !important; }
+  .star-twinkle, .star-drift { animation: none !important; }
+}

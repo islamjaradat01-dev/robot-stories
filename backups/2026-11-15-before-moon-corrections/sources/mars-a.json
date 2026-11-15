@@ -1,0 +1,10 @@
+[
+  { "id": "mars-a-src-pf", "title": "Mars Pathfinder mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mars-pathfinder/", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-pfn", "title": "Mars Pathfinder (NSSDCA record)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-sp", "title": "Spirit (MER-A) mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mer-spirit/", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-spn", "title": "Mars Exploration Rover A (Spirit) (NSSDCA record)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-v1", "title": "Viking 1 mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/viking-1/", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-v1n", "title": "Viking 1 Lander (NSSDCA record)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-v2", "title": "Viking 2 mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/viking-2/", "accessedOn": "2026-11-15" },
+  { "id": "mars-a-src-v2n", "title": "Viking 2 Lander (NSSDCA record)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C", "accessedOn": "2026-11-15" }
+]

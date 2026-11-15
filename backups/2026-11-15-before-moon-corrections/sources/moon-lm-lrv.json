@@ -1,0 +1,8 @@
+[
+  { "id": "moon-lm-lrv-src-lm11", "title": "Apollo 11 Lunar Module / EASEP (1969-059C)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C", "accessedOn": "2026-11-15" },
+  { "id": "moon-lm-lrv-src-a11", "title": "Apollo 11 mission", "publisher": "NASA", "url": "https://www.nasa.gov/mission/apollo-11/", "accessedOn": "2026-11-15" },
+  { "id": "moon-lm-lrv-src-lm15", "title": "Apollo 15 Lunar Module / ALSEP (1971-063C)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C", "accessedOn": "2026-11-15" },
+  { "id": "moon-lm-lrv-src-lm17", "title": "Apollo 17 Lunar Module / ALSEP (1972-096C)", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C", "accessedOn": "2026-11-15" },
+  { "id": "moon-lm-lrv-src-lrv", "title": "Apollo Lunar Roving Vehicle", "publisher": "NASA NSSDCA", "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html", "accessedOn": "2026-11-15" },
+  { "id": "moon-lm-lrv-src-challenge", "title": "NASA's Discarded Equipment Storytelling (challenge page)", "publisher": "NASA International Space Apps Challenge", "url": "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/", "accessedOn": "2026-11-15" }
+]
